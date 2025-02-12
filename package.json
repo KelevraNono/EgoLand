@@ -1,0 +1,11 @@
+{
+  "name": "egoland",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "prepare": "cd ./apps/nextjs-app && yarn && cd ../nextjs-pages && yarn && cd ../react-vite && yarn"
+  },
+  "author": "KelevraNono",
+  "license": "MIT"
+}

@@ -1,0 +1,5 @@
+# EgoLand
+
+## License
+
+[MIT](/LICENSE)
