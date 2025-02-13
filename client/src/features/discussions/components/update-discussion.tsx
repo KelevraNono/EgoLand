@@ -23,7 +23,7 @@ export const UpdateDiscussion = ({ discussionId }: UpdateDiscussionProps) => {
       onSuccess: () => {
         addNotification({
           type: 'success',
-          title: 'Discussion Updated',
+          title: 'Discussion éditée',
         });
       },
     },
@@ -37,10 +37,10 @@ export const UpdateDiscussion = ({ discussionId }: UpdateDiscussionProps) => {
         isDone={updateDiscussionMutation.isSuccess}
         triggerButton={
           <Button icon={<Pen className="size-4" />} size="sm">
-            Update Discussion
+            Éditer discussion
           </Button>
         }
-        title="Update Discussion"
+        title="Éditer discussion"
         submitButton={
           <Button
             form="update-discussion"
@@ -48,7 +48,7 @@ export const UpdateDiscussion = ({ discussionId }: UpdateDiscussionProps) => {
             size="sm"
             isLoading={updateDiscussionMutation.isPending}
           >
-            Submit
+            Enregistrer
           </Button>
         }
       >
@@ -71,12 +71,12 @@ export const UpdateDiscussion = ({ discussionId }: UpdateDiscussionProps) => {
           {({ register, formState }) => (
             <>
               <Input
-                label="Title"
+                label="Titre"
                 error={formState.errors['title']}
                 registration={register('title')}
               />
               <Textarea
-                label="Body"
+                label="Contenu"
                 error={formState.errors['body']}
                 registration={register('body')}
               />

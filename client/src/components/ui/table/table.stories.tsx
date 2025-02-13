@@ -43,19 +43,19 @@ export const Default: Story = {
     data,
     columns: [
       {
-        title: 'Name',
+        title: 'Nom',
         field: 'name',
       },
       {
-        title: 'Title',
+        title: 'Titre',
         field: 'title',
       },
       {
-        title: 'Role',
+        title: 'Rôle',
         field: 'role',
       },
       {
-        title: 'Email',
+        title: 'Adresse e-mail',
         field: 'email',
       },
     ],

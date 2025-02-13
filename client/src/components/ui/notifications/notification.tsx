@@ -40,7 +40,7 @@ export const Notification = ({
                   onDismiss(id);
                 }}
               >
-                <span className="sr-only">Close</span>
+                <span className="sr-only">Fermer</span>
                 <CircleX className="size-5" aria-hidden="true" />
               </button>
             </div>

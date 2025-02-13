@@ -58,7 +58,7 @@ export const FormDrawer = ({
         <DrawerFooter>
           <DrawerClose asChild>
             <Button variant="outline" type="submit">
-              Close
+              Fermer
             </Button>
           </DrawerClose>
           {submitButton}

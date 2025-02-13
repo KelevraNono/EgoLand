@@ -38,7 +38,7 @@ export const CommentsList = ({ discussionId }: CommentsListProps) => {
         className="flex h-40 flex-col items-center justify-center bg-white text-gray-500"
       >
         <ArchiveX className="size-10" />
-        <h4>No Comments Found</h4>
+        <h4>Pas de données</h4>
       </div>
     );
 
@@ -65,7 +65,7 @@ export const CommentsList = ({ discussionId }: CommentsListProps) => {
                   {comment.author && (
                     <span className="text-xs font-bold">
                       {' '}
-                      by {comment.author.firstName} {comment.author.lastName}
+                      par {comment.author.firstName} {comment.author.lastName}
                     </span>
                   )}
                 </div>
@@ -80,11 +80,7 @@ export const CommentsList = ({ discussionId }: CommentsListProps) => {
       {commentsQuery.hasNextPage && (
         <div className="flex items-center justify-center py-4">
           <Button onClick={() => commentsQuery.fetchNextPage()}>
-            {commentsQuery.isFetchingNextPage ? (
-              <Spinner />
-            ) : (
-              'Load More Comments'
-            )}
+            {commentsQuery.isFetchingNextPage ? <Spinner /> : 'Charger plus'}
           </Button>
         </div>
       )}

@@ -29,10 +29,10 @@ export const UpdateProfile = () => {
       isDone={updateProfileMutation.isSuccess}
       triggerButton={
         <Button icon={<Pen className="size-4" />} size="sm">
-          Update Profile
+          Éditer le profil
         </Button>
       }
-      title="Update Profile"
+      title="Éditer le profil"
       submitButton={
         <Button
           form="update-profile"
@@ -40,7 +40,7 @@ export const UpdateProfile = () => {
           size="sm"
           isLoading={updateProfileMutation.isPending}
         >
-          Submit
+          Enregistrer
         </Button>
       }
     >
@@ -62,17 +62,17 @@ export const UpdateProfile = () => {
         {({ register, formState }) => (
           <>
             <Input
-              label="First Name"
+              label="Prénom"
               error={formState.errors['firstName']}
               registration={register('firstName')}
             />
             <Input
-              label="Last Name"
+              label="Nom"
               error={formState.errors['lastName']}
               registration={register('lastName')}
             />
             <Input
-              label="Email Address"
+              label="Adresse e-mail"
               type="email"
               error={formState.errors['email']}
               registration={register('email')}

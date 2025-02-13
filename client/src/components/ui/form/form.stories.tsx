@@ -47,7 +47,7 @@ const MyForm = ({ hideSubmit = false }: { hideSubmit?: boolean }) => {
           {!hideSubmit && (
             <div>
               <Button type="submit" className="w-full">
-                Submit
+                Enregistrer
               </Button>
             </div>
           )}
@@ -72,12 +72,12 @@ export const Default: Story = {
 export const AsFormDrawer: Story = {
   render: () => (
     <FormDrawer
-      triggerButton={<Button>Open Form</Button>}
+      triggerButton={<Button>Ouvrir formulaire</Button>}
       isDone={true}
       title="My Form"
       submitButton={
         <Button form="my-form" type="submit">
-          Submit
+          Enregistrer
         </Button>
       }
     >

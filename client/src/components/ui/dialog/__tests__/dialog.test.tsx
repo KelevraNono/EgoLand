@@ -14,7 +14,7 @@ import { useDisclosure } from '@/hooks/use-disclosure';
 import { rtlRender, screen, userEvent, waitFor } from '@/testing/test-utils';
 
 const openButtonText = 'Open Modal';
-const cancelButtonText = 'Cancel';
+const cancelButtonText = 'Fermer';
 const titleText = 'Modal Title';
 
 const TestDialog = () => {
@@ -41,7 +41,7 @@ const TestDialog = () => {
         </DialogHeader>
 
         <DialogFooter>
-          <Button type="submit">Submit</Button>
+          <Button type="submit">Enregistrer</Button>
           <Button ref={cancelButtonRef} variant="outline" onClick={close}>
             {cancelButtonText}
           </Button>

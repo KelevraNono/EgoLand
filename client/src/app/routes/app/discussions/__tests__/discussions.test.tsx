@@ -1,5 +1,7 @@
 import type { Mock } from 'vitest';
 
+import { default as DiscussionsRoute } from '../discussions';
+
 import { createDiscussion } from '@/testing/data-generators';
 import {
   renderApp,
@@ -9,8 +11,6 @@ import {
   within,
 } from '@/testing/test-utils';
 import { formatDate } from '@/utils/format';
-
-import { default as DiscussionsRoute } from '../discussions';
 
 beforeAll(() => {
   vi.spyOn(console, 'error').mockImplementation(() => {});
@@ -31,11 +31,11 @@ test(
     expect(await screen.findByText(/no entries/i)).toBeInTheDocument();
 
     await userEvent.click(
-      screen.getByRole('button', { name: /create discussion/i }),
+      screen.getByRole('button', { name: /Créer discussion/i }),
     );
 
     const drawer = await screen.findByRole('dialog', {
-      name: /create discussion/i,
+      name: /Créer discussion/i,
     });
 
     const titleField = within(drawer).getByText(/title/i);

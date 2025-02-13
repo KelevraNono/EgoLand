@@ -39,25 +39,25 @@ export const RegisterForm = ({
           <>
             <Input
               type="text"
-              label="First Name"
+              label="Prénom"
               error={formState.errors['firstName']}
               registration={register('firstName')}
             />
             <Input
               type="text"
-              label="Last Name"
+              label="Nom"
               error={formState.errors['lastName']}
               registration={register('lastName')}
             />
             <Input
               type="email"
-              label="Email Address"
+              label="Adresse e-mail"
               error={formState.errors['email']}
               registration={register('email')}
             />
             <Input
               type="password"
-              label="Password"
+              label="Mot de passe"
               error={formState.errors['password']}
               registration={register('password')}
             />
@@ -71,12 +71,14 @@ export const RegisterForm = ({
                 } relative inline-flex h-6 w-11 items-center rounded-full transition-colors focus:outline-none focus:ring-2 focus:ring-slate-500 focus:ring-offset-2`}
                 id="choose-team"
               />
-              <Label htmlFor="airplane-mode">Join Existing Team</Label>
+              <Label htmlFor="airplane-mode">
+                Rejoindre une équipe existante
+              </Label>
             </div>
 
             {chooseTeam && teams ? (
               <Select
-                label="Team"
+                label="Équipe"
                 error={formState.errors['teamId']}
                 registration={register('teamId')}
                 options={teams?.map((team) => ({
@@ -87,7 +89,7 @@ export const RegisterForm = ({
             ) : (
               <Input
                 type="text"
-                label="Team Name"
+                label="Nom d'équipe"
                 error={formState.errors['teamName']}
                 registration={register('teamName')}
               />
@@ -98,7 +100,7 @@ export const RegisterForm = ({
                 type="submit"
                 className="w-full"
               >
-                Register
+                S'enregistrer
               </Button>
             </div>
           </>
@@ -110,7 +112,7 @@ export const RegisterForm = ({
             to={paths.auth.login.getHref(redirectTo)}
             className="font-medium text-blue-600 hover:text-blue-500"
           >
-            Log In
+            Se connecter
           </Link>
         </div>
       </div>

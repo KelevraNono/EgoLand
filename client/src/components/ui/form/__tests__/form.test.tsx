@@ -23,13 +23,13 @@ test('should render and submit a basic Form component', async () => {
       {({ register, formState }) => (
         <>
           <Input
-            label="Title"
+            label="Titre"
             error={formState.errors['title']}
             registration={register('title')}
           />
 
           <Button name="submit" type="submit" className="w-full">
-            Submit
+            Enregistrer
           </Button>
         </>
       )}
@@ -59,7 +59,7 @@ test('should fail submission if validation fails', async () => {
           />
 
           <Button name="submit" type="submit" className="w-full">
-            Submit
+            Enregistrer
           </Button>
         </>
       )}

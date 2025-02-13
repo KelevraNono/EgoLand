@@ -40,9 +40,9 @@ const DemoDialog = () => {
         <div className="grid gap-4 py-4">Lorem ipsum</div>
 
         <DialogFooter>
-          <Button type="submit">Save changes</Button>
+          <Button type="submit">Enregistrer</Button>
           <Button ref={cancelButtonRef} variant="outline" onClick={close}>
-            Cancel
+            Fermer
           </Button>
         </DialogFooter>
       </DialogContent>

@@ -9,26 +9,26 @@ test('smoke', async ({ page }) => {
   const comment = createComment();
 
   await page.goto('/');
-  await page.getByRole('button', { name: 'Get started' }).click();
+  await page.getByRole('button', { name: 'Se connecter' }).click();
   await page.waitForURL('/app');
 
-  // create discussion:
+  // Créer discussion:
   await page.getByRole('link', { name: 'Discussions' }).click();
   await page.waitForURL('/app/discussions');
 
-  await page.getByRole('button', { name: 'Create Discussion' }).click();
-  await page.getByLabel('Title').click();
-  await page.getByLabel('Title').fill(discussion.title);
-  await page.getByLabel('Body').click();
-  await page.getByLabel('Body').fill(discussion.body);
+  await page.getByRole('button', { name: 'Créer discussion' }).click();
+  await page.getByLabel('Titre').click();
+  await page.getByLabel('Titre').fill(discussion.title);
+  await page.getByLabel('Contenu').click();
+  await page.getByLabel('Contenu').fill(discussion.body);
   await page.getByRole('button', { name: 'Submit' }).click();
   await page
-    .getByLabel('Discussion Created')
-    .getByRole('button', { name: 'Close' })
+    .getByLabel('Discussion créée')
+    .getByRole('button', { name: 'Fermer' })
     .click();
 
   // visit discussion page:
-  await page.getByRole('link', { name: 'View' }).click();
+  await page.getByRole('link', { name: 'Voir' }).click();
 
   await expect(
     page.getByRole('heading', { name: discussion.title }),
@@ -36,60 +36,60 @@ test('smoke', async ({ page }) => {
   await expect(page.getByText(discussion.body)).toBeVisible();
 
   // update discussion:
-  await page.getByRole('button', { name: 'Update Discussion' }).click();
-  await page.getByLabel('Title').click();
-  await page.getByLabel('Title').fill(`${discussion.title} - updated`);
-  await page.getByLabel('Body').click();
-  await page.getByLabel('Body').fill(`${discussion.body} - updated`);
+  await page.getByRole('button', { name: 'Éditer la discussion' }).click();
+  await page.getByLabel('Titre').click();
+  await page.getByLabel('Titre').fill(`${discussion.title} - éditée`);
+  await page.getByLabel('Contenu').click();
+  await page.getByLabel('Contenu').fill(`${discussion.body} - éditée`);
   await page.getByRole('button', { name: 'Submit' }).click();
   await page
-    .getByLabel('Discussion Updated')
-    .getByRole('button', { name: 'Close' })
+    .getByLabel('Discussion éditée')
+    .getByRole('button', { name: 'Fermer' })
     .click();
 
   await expect(
-    page.getByRole('heading', { name: `${discussion.title} - updated` }),
+    page.getByRole('heading', { name: `${discussion.title} - éditée` }),
   ).toBeVisible();
-  await expect(page.getByText(`${discussion.body} - updated`)).toBeVisible();
+  await expect(page.getByText(`${discussion.body} - éditée`)).toBeVisible();
 
-  // create comment:
-  await page.getByRole('button', { name: 'Create Comment' }).click();
-  await page.getByLabel('Body').click();
-  await page.getByLabel('Body').fill(comment.body);
+  // créer un commentaire:
+  await page.getByRole('button', { name: 'Créer un commentaire' }).click();
+  await page.getByLabel('Contenu').click();
+  await page.getByLabel('Contenu').fill(comment.body);
   await page.getByRole('button', { name: 'Submit' }).click();
   await expect(page.getByText(comment.body)).toBeVisible();
   await page
-    .getByLabel('Comment Created')
-    .getByRole('button', { name: 'Close' })
+    .getByLabel('Commentaire créé')
+    .getByRole('button', { name: 'Fermer' })
     .click();
 
   // delete comment:
-  await page.getByRole('button', { name: 'Delete Comment' }).click();
+  await page.getByRole('button', { name: 'Supprimer commentaire' }).click();
   await expect(
     page.getByText('Are you sure you want to delete this comment?'),
   ).toBeVisible();
-  await page.getByRole('button', { name: 'Delete Comment' }).click();
+  await page.getByRole('button', { name: 'Supprimer commentaire' }).click();
   await page
     .getByLabel('Comment Deleted')
-    .getByRole('button', { name: 'Close' })
+    .getByRole('button', { name: 'Fermer' })
     .click();
   await expect(
-    page.getByRole('heading', { name: 'No Comments Found' }),
+    page.getByRole('heading', { name: 'Pas de données' }),
   ).toBeVisible();
   await expect(page.getByText(comment.body)).toBeHidden();
 
-  // go back to discussions:
+  // retour aux discussions:
   await page.getByRole('link', { name: 'Discussions' }).click();
   await page.waitForURL('/app/discussions');
 
-  // delete discussion:
-  await page.getByRole('button', { name: 'Delete Discussion' }).click();
-  await page.getByRole('button', { name: 'Delete Discussion' }).click();
+  // supprimer discussion:
+  await page.getByRole('button', { name: 'Supprimer iscussion' }).click();
+  await page.getByRole('button', { name: 'Supprimer iscussion' }).click();
   await page
-    .getByLabel('Discussion Deleted')
-    .getByRole('button', { name: 'Close' })
+    .getByLabel('Discussion supprimée')
+    .getByRole('button', { name: 'Fermer' })
     .click();
   await expect(
-    page.getByRole('heading', { name: 'No Entries Found' }),
+    page.getByRole('heading', { name: 'Pas de données' }),
   ).toBeVisible();
 });

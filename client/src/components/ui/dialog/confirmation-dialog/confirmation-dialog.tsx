@@ -29,7 +29,7 @@ export const ConfirmationDialog = ({
   confirmButton,
   title,
   body = '',
-  cancelButtonText = 'Cancel',
+  cancelButtonText = 'Fermer',
   icon = 'danger',
   isDone = false,
 }: ConfirmationDialogProps) => {

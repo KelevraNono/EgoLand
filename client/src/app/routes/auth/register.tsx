@@ -19,7 +19,7 @@ const RegisterRoute = () => {
   });
 
   return (
-    <AuthLayout title="Register your account">
+    <AuthLayout title="Enregistrer votre compte">
       <RegisterForm
         onSuccess={() => {
           navigate(

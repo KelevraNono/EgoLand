@@ -44,11 +44,11 @@ export const DiscussionsList = ({
       data={discussions}
       columns={[
         {
-          title: 'Title',
+          title: 'Titre',
           field: 'title',
         },
         {
-          title: 'Created At',
+          title: 'Créée le',
           field: 'createdAt',
           Cell({ entry: { createdAt } }) {
             return <span>{formatDate(createdAt)}</span>;
@@ -67,7 +67,7 @@ export const DiscussionsList = ({
                 }}
                 to={paths.app.discussion.getHref(id)}
               >
-                View
+                Voir
               </Link>
             );
           },

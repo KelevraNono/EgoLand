@@ -21,7 +21,7 @@ export const CreateComment = ({ discussionId }: CreateCommentProps) => {
       onSuccess: () => {
         addNotification({
           type: 'success',
-          title: 'Comment Created',
+          title: 'Commentaire créé',
         });
       },
     },
@@ -32,10 +32,10 @@ export const CreateComment = ({ discussionId }: CreateCommentProps) => {
       isDone={createCommentMutation.isSuccess}
       triggerButton={
         <Button size="sm" icon={<Plus className="size-4" />}>
-          Create Comment
+          Créer commentaire
         </Button>
       }
-      title="Create Comment"
+      title="Créer commentaire"
       submitButton={
         <Button
           isLoading={createCommentMutation.isPending}
@@ -44,7 +44,7 @@ export const CreateComment = ({ discussionId }: CreateCommentProps) => {
           size="sm"
           disabled={createCommentMutation.isPending}
         >
-          Submit
+          Enregistrer
         </Button>
       }
     >
@@ -65,7 +65,7 @@ export const CreateComment = ({ discussionId }: CreateCommentProps) => {
       >
         {({ register, formState }) => (
           <Textarea
-            label="Body"
+            label="Contenu"
             error={formState.errors['body']}
             registration={register('body')}
           />

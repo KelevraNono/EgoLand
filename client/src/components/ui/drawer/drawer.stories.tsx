@@ -37,7 +37,7 @@ const DemoDrawer = () => {
       }}
     >
       <DrawerTrigger asChild>
-        <Button variant="outline">Open</Button>
+        <Button variant="outline">Ouvrir</Button>
       </DrawerTrigger>
       <DrawerContent className="flex max-w-[800px] flex-col justify-between sm:max-w-[540px]">
         <div className="flex flex-col">
@@ -51,7 +51,7 @@ const DemoDrawer = () => {
         </div>
         <DrawerFooter>
           <DrawerClose asChild>
-            <Button type="submit">Save changes</Button>
+            <Button type="submit">Enregister</Button>
           </DrawerClose>
         </DrawerFooter>
       </DrawerContent>

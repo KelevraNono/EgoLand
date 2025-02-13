@@ -26,23 +26,23 @@ export const UsersList = () => {
       data={users}
       columns={[
         {
-          title: 'First Name',
+          title: 'Prénom',
           field: 'firstName',
         },
         {
-          title: 'Last Name',
+          title: 'Nom',
           field: 'lastName',
         },
         {
-          title: 'Email',
+          title: 'Adresse e-mail',
           field: 'email',
         },
         {
-          title: 'Role',
+          title: 'Rôle',
           field: 'role',
         },
         {
-          title: 'Created At',
+          title: 'Créé le',
           field: 'createdAt',
           Cell({ entry: { createdAt } }) {
             return <span>{formatDate(createdAt)}</span>;

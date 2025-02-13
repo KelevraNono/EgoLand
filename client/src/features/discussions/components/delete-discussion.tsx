@@ -18,7 +18,7 @@ export const DeleteDiscussion = ({ id }: DeleteDiscussionProps) => {
       onSuccess: () => {
         addNotification({
           type: 'success',
-          title: 'Discussion Deleted',
+          title: 'Discussion supprimé',
         });
       },
     },
@@ -28,11 +28,11 @@ export const DeleteDiscussion = ({ id }: DeleteDiscussionProps) => {
     <Authorization allowedRoles={[ROLES.ADMIN]}>
       <ConfirmationDialog
         icon="danger"
-        title="Delete Discussion"
-        body="Are you sure you want to delete this discussion?"
+        title="Supprimer discussion"
+        body="Voulez-vous vraiment supprimer cette discussion?"
         triggerButton={
           <Button variant="destructive" icon={<Trash className="size-4" />}>
-            Delete Discussion
+            Supprimer discussion
           </Button>
         }
         confirmButton={
@@ -44,7 +44,7 @@ export const DeleteDiscussion = ({ id }: DeleteDiscussionProps) => {
               deleteDiscussionMutation.mutate({ discussionId: id })
             }
           >
-            Delete Discussion
+            Supprimer discussion
           </Button>
         }
       />

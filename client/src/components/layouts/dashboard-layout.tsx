@@ -11,7 +11,7 @@ import {
 } from '../ui/dropdown';
 import { Link } from '../ui/link';
 
-import logo from '@/assets/logo.svg';
+import logo from '@/assets/logo.png';
 import { Button } from '@/components/ui/button';
 import { Drawer, DrawerContent, DrawerTrigger } from '@/components/ui/drawer';
 import { paths } from '@/config/paths';
@@ -81,10 +81,10 @@ export function DashboardLayout({ children }: { children: React.ReactNode }) {
   });
   const { checkAccess } = useAuthorization();
   const navigation = [
-    { name: 'Dashboard', to: paths.app.dashboard.getHref(), icon: Home },
+    { name: 'Tableau de bord', to: paths.app.dashboard.getHref(), icon: Home },
     { name: 'Discussions', to: paths.app.discussions.getHref(), icon: Folder },
     checkAccess({ allowedRoles: [ROLES.ADMIN] }) && {
-      name: 'Users',
+      name: 'Utilisateurs',
       to: paths.app.users.getHref(),
       icon: Users,
     },
@@ -173,7 +173,7 @@ export function DashboardLayout({ children }: { children: React.ReactNode }) {
                 size="icon"
                 className="overflow-hidden rounded-full"
               >
-                <span className="sr-only">Open user menu</span>
+                <span className="sr-only">Ouvrir menu utilisateur</span>
                 <User2 className="size-6 rounded-full" />
               </Button>
             </DropdownMenuTrigger>
@@ -182,14 +182,14 @@ export function DashboardLayout({ children }: { children: React.ReactNode }) {
                 onClick={() => navigate(paths.app.profile.getHref())}
                 className={cn('block px-4 py-2 text-sm text-gray-700')}
               >
-                Your Profile
+                Votre profil
               </DropdownMenuItem>
               <DropdownMenuSeparator />
               <DropdownMenuItem
                 className={cn('block px-4 py-2 text-sm text-gray-700 w-full')}
                 onClick={() => logout.mutate({})}
               >
-                Sign Out
+                Se déconnecter
               </DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>

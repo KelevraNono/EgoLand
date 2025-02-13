@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router';
 
-import logo from '@/assets/logo.svg';
+import logo from '@/assets/logo.png';
 import { Head } from '@/components/seo';
 import { Button } from '@/components/ui/button';
 import { paths } from '@/config/paths';
@@ -30,9 +30,7 @@ const LandingRoute = () => {
           <p>Bienvenu sur EgoLand</p>
           <div className="mt-8 flex justify-center">
             <div className="inline-flex rounded-md shadow">
-              <Button onClick={handleStart}>
-                Se connecter
-              </Button>
+              <Button onClick={handleStart}>Se connecter</Button>
             </div>
           </div>
         </div>

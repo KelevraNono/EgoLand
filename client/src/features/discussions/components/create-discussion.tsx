@@ -17,7 +17,7 @@ export const CreateDiscussion = () => {
       onSuccess: () => {
         addNotification({
           type: 'success',
-          title: 'Discussion Created',
+          title: 'Discussion créée',
         });
       },
     },
@@ -29,10 +29,10 @@ export const CreateDiscussion = () => {
         isDone={createDiscussionMutation.isSuccess}
         triggerButton={
           <Button size="sm" icon={<Plus className="size-4" />}>
-            Create Discussion
+            Créer discussion
           </Button>
         }
-        title="Create Discussion"
+        title="Créer discussion"
         submitButton={
           <Button
             form="create-discussion"
@@ -40,7 +40,7 @@ export const CreateDiscussion = () => {
             size="sm"
             isLoading={createDiscussionMutation.isPending}
           >
-            Submit
+            Enregistrer
           </Button>
         }
       >
@@ -54,13 +54,13 @@ export const CreateDiscussion = () => {
           {({ register, formState }) => (
             <>
               <Input
-                label="Title"
+                label="Titre"
                 error={formState.errors['title']}
                 registration={register('title')}
               />
 
               <Textarea
-                label="Body"
+                label="Contenu"
                 error={formState.errors['body']}
                 registration={register('body')}
               />

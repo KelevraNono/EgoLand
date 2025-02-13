@@ -2,7 +2,7 @@ import * as React from 'react';
 import { useEffect } from 'react';
 import { useNavigate, useSearchParams } from 'react-router';
 
-import logo from '@/assets/logo.svg';
+import logo from '@/assets/logo.png';
 import { Head } from '@/components/seo';
 import { Link } from '@/components/ui/link';
 import { paths } from '@/config/paths';
