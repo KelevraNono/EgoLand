@@ -1,8 +1,6 @@
 import Cookies from 'js-cookie';
 import { HttpResponse, http } from 'msw';
 
-import { env } from '@/config/env';
-
 import { db, persistDb } from '../db';
 import {
   authenticate,
@@ -11,6 +9,8 @@ import {
   AUTH_COOKIE,
   networkDelay,
 } from '../utils';
+
+import { env } from '@/config/env';
 
 type RegisterBody = {
   firstName: string;

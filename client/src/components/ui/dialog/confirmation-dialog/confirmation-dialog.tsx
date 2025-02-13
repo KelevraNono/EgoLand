@@ -2,9 +2,6 @@ import { CircleAlert, Info } from 'lucide-react';
 import * as React from 'react';
 import { useEffect } from 'react';
 
-import { Button } from '@/components/ui/button';
-import { useDisclosure } from '@/hooks/use-disclosure';
-
 import {
   Dialog,
   DialogContent,
@@ -13,6 +10,9 @@ import {
   DialogTitle,
   DialogTrigger,
 } from '../dialog';
+
+import { Button } from '@/components/ui/button';
+import { useDisclosure } from '@/hooks/use-disclosure';
 
 export type ConfirmationDialogProps = {
   triggerButton: React.ReactElement;

@@ -1,9 +1,9 @@
 import { useMutation, useQueryClient } from '@tanstack/react-query';
 
+import { getInfiniteCommentsQueryOptions } from './get-comments';
+
 import { api } from '@/lib/api-client';
 import { MutationConfig } from '@/lib/react-query';
-
-import { getInfiniteCommentsQueryOptions } from './get-comments';
 
 export const deleteComment = ({ commentId }: { commentId: string }) => {
   return api.delete(`/comments/${commentId}`);

@@ -1,13 +1,13 @@
 import { Plus } from 'lucide-react';
 
-import { Button } from '@/components/ui/button';
-import { Form, FormDrawer, Textarea } from '@/components/ui/form';
-import { useNotifications } from '@/components/ui/notifications';
-
 import {
   useCreateComment,
   createCommentInputSchema,
 } from '../api/create-comment';
+
+import { Button } from '@/components/ui/button';
+import { Form, FormDrawer, Textarea } from '@/components/ui/form';
+import { useNotifications } from '@/components/ui/notifications';
 
 type CreateCommentProps = {
   discussionId: string;

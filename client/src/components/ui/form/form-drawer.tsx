@@ -1,7 +1,5 @@
 import * as React from 'react';
 
-import { useDisclosure } from '@/hooks/use-disclosure';
-
 import { Button } from '../button';
 import {
   Drawer,
@@ -12,6 +10,8 @@ import {
   DrawerTrigger,
   DrawerTitle,
 } from '../drawer';
+
+import { useDisclosure } from '@/hooks/use-disclosure';
 
 type FormDrawerProps = {
   isDone: boolean;

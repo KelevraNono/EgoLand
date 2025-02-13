@@ -1,14 +1,14 @@
 import { Pen } from 'lucide-react';
 
-import { Button } from '@/components/ui/button';
-import { Form, FormDrawer, Input, Textarea } from '@/components/ui/form';
-import { useNotifications } from '@/components/ui/notifications';
-import { useUser } from '@/lib/auth';
-
 import {
   updateProfileInputSchema,
   useUpdateProfile,
 } from '../api/update-profile';
+
+import { Button } from '@/components/ui/button';
+import { Form, FormDrawer, Input, Textarea } from '@/components/ui/form';
+import { useNotifications } from '@/components/ui/notifications';
+import { useUser } from '@/lib/auth';
 
 export const UpdateProfile = () => {
   const user = useUser();

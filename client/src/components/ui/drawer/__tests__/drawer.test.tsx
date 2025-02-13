@@ -1,6 +1,3 @@
-import { Button } from '@/components/ui/button';
-import { rtlRender, screen, userEvent, waitFor } from '@/testing/test-utils';
-
 import {
   Drawer,
   DrawerClose,
@@ -10,6 +7,9 @@ import {
   DrawerTitle,
   DrawerTrigger,
 } from '../drawer';
+
+import { Button } from '@/components/ui/button';
+import { rtlRender, screen, userEvent, waitFor } from '@/testing/test-utils';
 
 const openButtonText = 'Open Drawer';
 const titleText = 'Drawer Title';

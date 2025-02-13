@@ -1,9 +1,6 @@
 import { Meta, StoryObj } from '@storybook/react';
 import * as React from 'react';
 
-import { Button } from '@/components/ui/button';
-import { useDisclosure } from '@/hooks/use-disclosure';
-
 import {
   Dialog,
   DialogContent,
@@ -13,6 +10,9 @@ import {
   DialogTitle,
   DialogTrigger,
 } from './dialog';
+
+import { Button } from '@/components/ui/button';
+import { useDisclosure } from '@/hooks/use-disclosure';
 
 const DemoDialog = () => {
   const { close, open, isOpen } = useDisclosure();

@@ -7,14 +7,14 @@ import userEvent from '@testing-library/user-event';
 import Cookies from 'js-cookie';
 import { RouterProvider, createMemoryRouter } from 'react-router';
 
-import { AppProvider } from '@/app/provider';
-
 import {
   createDiscussion as generateDiscussion,
   createUser as generateUser,
 } from './data-generators';
 import { db } from './mocks/db';
 import { AUTH_COOKIE, authenticate, hash } from './mocks/utils';
+
+import { AppProvider } from '@/app/provider';
 
 export const createUser = async (userProperties?: any) => {
   const user = generateUser(userProperties) as any;
