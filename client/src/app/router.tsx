@@ -24,8 +24,22 @@ const convert = (queryClient: QueryClient) => (m: any) => {
 export const createAppRouter = (queryClient: QueryClient) =>
   createBrowserRouter([
     {
-      path: paths.home.path,
+      path: paths.home.root.path,
       lazy: () => import('./routes/landing').then(convert(queryClient)),
+      children: [
+        {
+          path: paths.home.about.path,
+          lazy: () => import('./routes/about').then(convert(queryClient)),
+        },
+        {
+          path: paths.home.shop.path,
+          lazy: () => import('./routes/shop').then(convert(queryClient)),
+        },
+        {
+          path: paths.home.servers.path,
+          lazy: () => import('./routes/servers').then(convert(queryClient)),
+        },
+      ],
     },
     {
       path: paths.auth.register.path,

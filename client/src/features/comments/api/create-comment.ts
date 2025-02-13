@@ -8,8 +8,8 @@ import { MutationConfig } from '@/lib/react-query';
 import { Comment } from '@/types/api';
 
 export const createCommentInputSchema = z.object({
-  discussionId: z.string().min(1, 'Required'),
-  body: z.string().min(1, 'Required'),
+  discussionId: z.string().min(1, 'Obligatoire'),
+  body: z.string().min(1, 'Obligatoire'),
 });
 
 export type CreateCommentInput = z.infer<typeof createCommentInputSchema>;

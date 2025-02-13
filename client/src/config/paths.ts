@@ -1,9 +1,22 @@
 export const paths = {
   home: {
-    path: '/',
-    getHref: () => '/',
+    root: {
+      path: '/',
+      getHref: () => '/',
+    },
+    about: {
+      path: '/about',
+      getHref: () => '/about',
+    },
+    shop: {
+      path: '/shop',
+      getHref: () => '/shop',
+    },
+    servers: {
+      path: '/servers',
+      getHref: () => '/servers',
+    },
   },
-
   auth: {
     register: {
       path: '/auth/register',
@@ -37,6 +50,14 @@ export const paths = {
     users: {
       path: 'users',
       getHref: () => '/app/users',
+    },
+    bases: {
+      path: 'bases',
+      getHref: () => '/app/bases',
+    },
+    base: {
+      path: 'bases/:baseId',
+      getHref: (id: string) => `/app/bases/${id}`,
     },
     profile: {
       path: 'profile',

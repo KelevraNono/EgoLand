@@ -21,8 +21,8 @@ const logout = (): Promise<void> => {
 };
 
 export const loginInputSchema = z.object({
-  email: z.string().min(1, 'Required').email('Invalid email'),
-  password: z.string().min(5, 'Required'),
+  email: z.string().min(1, 'Obligatoire').email('Invalid email'),
+  password: z.string().min(5, 'Obligatoire'),
 });
 
 export type LoginInput = z.infer<typeof loginInputSchema>;
@@ -32,20 +32,20 @@ const loginWithEmailAndPassword = (data: LoginInput): Promise<AuthResponse> => {
 
 export const registerInputSchema = z
   .object({
-    email: z.string().min(1, 'Required'),
-    firstName: z.string().min(1, 'Required'),
-    lastName: z.string().min(1, 'Required'),
-    password: z.string().min(5, 'Required'),
+    email: z.string().min(1, 'Obligatoire'),
+    firstName: z.string().min(1, 'Obligatoire'),
+    lastName: z.string().min(1, 'Obligatoire'),
+    password: z.string().min(5, 'Obligatoire'),
   })
   .and(
     z
       .object({
-        teamId: z.string().min(1, 'Required'),
+        teamId: z.string().min(1, 'Obligatoire'),
         teamName: z.null().default(null),
       })
       .or(
         z.object({
-          teamName: z.string().min(1, 'Required'),
+          teamName: z.string().min(1, 'Obligatoire'),
           teamId: z.null().default(null),
         }),
       ),

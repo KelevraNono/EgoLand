@@ -8,8 +8,8 @@ import { MutationConfig } from '@/lib/react-query';
 import { Discussion } from '@/types/api';
 
 export const createDiscussionInputSchema = z.object({
-  title: z.string().min(1, 'Required'),
-  body: z.string().min(1, 'Required'),
+  title: z.string().min(1, 'Obligatoire'),
+  body: z.string().min(1, 'Obligatoire'),
 });
 
 export type CreateDiscussionInput = z.infer<typeof createDiscussionInputSchema>;

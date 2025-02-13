@@ -11,7 +11,7 @@ export const MainErrorFallback = () => {
         className="mt-4"
         onClick={() => window.location.assign(window.location.origin)}
       >
-        Refresh
+        Rafraichir
       </Button>
     </div>
   );

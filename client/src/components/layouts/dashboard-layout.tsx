@@ -1,4 +1,4 @@
-import { Home, PanelLeft, Folder, Users, User2 } from 'lucide-react';
+import { Home, PanelLeft, Folder, Users, User2, Building } from 'lucide-react';
 import { useEffect, useState } from 'react';
 import { NavLink, useNavigate, useNavigation } from 'react-router';
 
@@ -27,7 +27,10 @@ type SideNavigationItem = {
 
 const Logo = () => {
   return (
-    <Link className="flex items-center text-white" to={paths.home.getHref()}>
+    <Link
+      className="flex items-center gap-1 text-white"
+      to={paths.home.root.getHref()}
+    >
       <img className="h-8 w-auto" src={logo} alt="Workflow" />
       <span className="text-sm font-semibold text-white">EgoLand</span>
     </Link>
@@ -87,6 +90,11 @@ export function DashboardLayout({ children }: { children: React.ReactNode }) {
       name: 'Utilisateurs',
       to: paths.app.users.getHref(),
       icon: Users,
+    },
+    checkAccess({ allowedRoles: [ROLES.ADMIN] }) && {
+      name: 'Bases',
+      to: paths.app.bases.getHref(),
+      icon: Building,
     },
   ].filter(Boolean) as SideNavigationItem[];
 

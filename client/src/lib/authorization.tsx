@@ -29,7 +29,7 @@ export const useAuthorization = () => {
   const user = useUser();
 
   if (!user.data) {
-    throw Error('User does not exist!');
+    throw Error("L'utilisateur n'éxiste pas");
   }
 
   const checkAccess = React.useCallback(

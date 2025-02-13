@@ -42,7 +42,7 @@ export const authHandlers = [
 
       if (existingUser) {
         return HttpResponse.json(
-          { message: 'The user already exists' },
+          { message: "L'utilisateur existe déjà" },
           { status: 400 },
         );
       }
