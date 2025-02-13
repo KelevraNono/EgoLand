@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "prepare": "cd ./apps/nextjs-app && yarn && cd ../nextjs-pages && yarn && cd ../react-vite && yarn"
+    "prepare": "cd client && yarn"
   },
   "author": "KelevraNono",
   "license": "MIT"
