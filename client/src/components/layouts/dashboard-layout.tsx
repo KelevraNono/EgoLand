@@ -29,7 +29,7 @@ const Logo = () => {
   return (
     <Link
       className="flex items-center gap-1 text-white"
-      to={paths.home.root.getHref()}
+      to={paths.public.landing.getHref()}
     >
       <img className="h-8 w-auto" src={logo} alt="Workflow" />
       <span className="text-sm font-semibold text-white">EgoLand</span>

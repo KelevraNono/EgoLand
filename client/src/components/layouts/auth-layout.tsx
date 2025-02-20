@@ -36,7 +36,7 @@ export const AuthLayout = ({ children, title }: LayoutProps) => {
           <div className="flex justify-center">
             <Link
               className="flex items-center text-white"
-              to={paths.home.getHref()}
+              to={paths.public.landing.getHref()}
             >
               <img className="h-24 w-auto" src={logo} alt="Workflow" />
             </Link>

@@ -1,6 +1,6 @@
 export const paths = {
-  home: {
-    root: {
+  public: {
+    landing: {
       path: '/',
       getHref: () => '/',
     },
@@ -29,7 +29,6 @@ export const paths = {
         `/auth/login${redirectTo ? `?redirectTo=${encodeURIComponent(redirectTo)}` : ''}`,
     },
   },
-
   app: {
     root: {
       path: '/app',

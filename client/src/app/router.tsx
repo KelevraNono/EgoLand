@@ -24,22 +24,20 @@ const convert = (queryClient: QueryClient) => (m: any) => {
 export const createAppRouter = (queryClient: QueryClient) =>
   createBrowserRouter([
     {
-      path: paths.home.root.path,
-      lazy: () => import('./routes/landing').then(convert(queryClient)),
-      children: [
-        {
-          path: paths.home.about.path,
-          lazy: () => import('./routes/about').then(convert(queryClient)),
-        },
-        {
-          path: paths.home.shop.path,
-          lazy: () => import('./routes/shop').then(convert(queryClient)),
-        },
-        {
-          path: paths.home.servers.path,
-          lazy: () => import('./routes/servers').then(convert(queryClient)),
-        },
-      ],
+      path: paths.public.landing.path,
+      lazy: () => import('./routes/public/landing').then(convert(queryClient)),
+    },
+    {
+      path: paths.public.about.path,
+      lazy: () => import('./routes/public/about').then(convert(queryClient)),
+    },
+    {
+      path: paths.public.shop.path,
+      lazy: () => import('./routes/public/shop').then(convert(queryClient)),
+    },
+    {
+      path: paths.public.servers.path,
+      lazy: () => import('./routes/public/servers').then(convert(queryClient)),
     },
     {
       path: paths.auth.register.path,
