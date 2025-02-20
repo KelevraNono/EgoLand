@@ -1,3 +1,4 @@
+import { t } from 'i18next';
 import { Trash } from 'lucide-react';
 
 import { useDeleteComment } from '../api/delete-comment';
@@ -19,7 +20,7 @@ export const DeleteComment = ({ id, discussionId }: DeleteCommentProps) => {
       onSuccess: () => {
         addNotification({
           type: 'success',
-          title: 'Comment Deleted',
+          title: t('commentDeleted'),
         });
       },
     },
@@ -29,15 +30,15 @@ export const DeleteComment = ({ id, discussionId }: DeleteCommentProps) => {
     <ConfirmationDialog
       isDone={deleteCommentMutation.isSuccess}
       icon="danger"
-      title="Supprimer commentaire"
-      body="Are you sure you want to delete this comment?"
+      title={t('deleteComment')}
+      body={t('sureWantDeleteComment')}
       triggerButton={
         <Button
           variant="destructive"
           size="sm"
           icon={<Trash className="size-4" />}
         >
-          Supprimer commentaire
+          {t('deleteComment')}
         </Button>
       }
       confirmButton={
@@ -47,7 +48,7 @@ export const DeleteComment = ({ id, discussionId }: DeleteCommentProps) => {
           variant="destructive"
           onClick={() => deleteCommentMutation.mutate({ commentId: id })}
         >
-          Supprimer commentaire
+          {t('deleteComment')}
         </Button>
       }
     />

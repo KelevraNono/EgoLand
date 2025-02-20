@@ -1,3 +1,5 @@
+import { t } from 'i18next';
+
 import { LoginForm } from '../login-form';
 
 import {
@@ -15,13 +17,10 @@ test('should login new user and call onSuccess cb which should navigate the user
 
   await renderApp(<LoginForm onSuccess={onSuccess} />, { user: null });
 
-  await userEvent.type(screen.getByLabelText(/Adresse e-mail/i), newUser.email);
-  await userEvent.type(
-    screen.getByLabelText(/Mot de passe/i),
-    newUser.password,
-  );
+  await userEvent.type(screen.getByLabelText(t('email')), newUser.email);
+  await userEvent.type(screen.getByLabelText(t('password')), newUser.password);
 
-  await userEvent.click(screen.getByRole('button', { name: /log in/i }));
+  await userEvent.click(screen.getByRole('button', { name: t('login') }));
 
   await waitFor(() => expect(onSuccess).toHaveBeenCalledTimes(1));
 });

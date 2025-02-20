@@ -1,3 +1,4 @@
+import { t } from 'i18next';
 import { ArchiveX } from 'lucide-react';
 
 import { useInfiniteComments } from '../api/get-comments';
@@ -38,7 +39,7 @@ export const CommentsList = ({ discussionId }: CommentsListProps) => {
         className="flex h-40 flex-col items-center justify-center bg-white text-gray-500"
       >
         <ArchiveX className="size-10" />
-        <h4>Pas de données</h4>
+        <h4>{t('noData')}</h4>
       </div>
     );
 
@@ -65,7 +66,8 @@ export const CommentsList = ({ discussionId }: CommentsListProps) => {
                   {comment.author && (
                     <span className="text-xs font-bold">
                       {' '}
-                      par {comment.author.firstName} {comment.author.lastName}
+                      {t('by')} {comment.author.firstName}{' '}
+                      {comment.author.lastName}
                     </span>
                   )}
                 </div>

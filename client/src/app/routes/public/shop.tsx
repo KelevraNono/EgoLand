@@ -1,9 +1,11 @@
+import { t } from 'i18next';
+
 import { PublicLayout } from '@/components/layouts/public-layout';
 
 const ShopRoute = () => {
   return (
-    <PublicLayout title="Nos serveurs">
-      <p>Bienvenu sur la boutique</p>
+    <PublicLayout title={t('shop')}>
+      <p>{t('servers')}</p>
     </PublicLayout>
   );
 };

@@ -1,3 +1,5 @@
+import { t } from 'i18next';
+
 import { RegisterForm } from '../register-form';
 
 import { createUser } from '@/testing/data-generators';
@@ -18,13 +20,16 @@ test('should register new user and call onSuccess cb which should navigate the u
     { user: null },
   );
 
-  await userEvent.type(screen.getByLabelText(/first name/i), newUser.firstName);
-  await userEvent.type(screen.getByLabelText(/last name/i), newUser.lastName);
-  await userEvent.type(screen.getByLabelText(/Adresse e-mail/i), newUser.email);
-  await userEvent.type(screen.getByLabelText(/password/i), newUser.password);
-  await userEvent.type(screen.getByLabelText(/team name/i), newUser.teamName);
+  await userEvent.type(
+    screen.getByLabelText(t('firstName')),
+    newUser.firstName,
+  );
+  await userEvent.type(screen.getByLabelText(t('lastName')), newUser.lastName);
+  await userEvent.type(screen.getByLabelText(t('email')), newUser.email);
+  await userEvent.type(screen.getByLabelText(t('password')), newUser.password);
+  await userEvent.type(screen.getByLabelText(t('teamName')), newUser.teamName);
 
-  await userEvent.click(screen.getByRole('button', { name: /register/i }));
+  await userEvent.click(screen.getByRole('button', { name: t('signIn') }));
 
   await waitFor(() => expect(onSuccess).toHaveBeenCalledTimes(1));
 });

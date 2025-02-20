@@ -1,3 +1,4 @@
+import { t } from 'i18next';
 import { ArchiveX } from 'lucide-react';
 import * as React from 'react';
 
@@ -144,7 +145,7 @@ export const Table = <Entry extends BaseEntity>({
     return (
       <div className="flex h-80 flex-col items-center justify-center bg-white text-gray-500">
         <ArchiveX className="size-16" />
-        <h4>Pas de données</h4>
+        <h4>{t('noData')}</h4>
       </div>
     );
   }

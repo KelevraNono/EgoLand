@@ -1,3 +1,4 @@
+import { t } from 'i18next';
 import { Link, useSearchParams } from 'react-router';
 
 import { Button } from '@/components/ui/button';
@@ -28,13 +29,13 @@ export const LoginForm = ({ onSuccess }: LoginFormProps) => {
           <>
             <Input
               type="email"
-              label="Adresse e-mail"
+              label={t('email')}
               error={formState.errors['email']}
               registration={register('email')}
             />
             <Input
               type="password"
-              label="Mot de passe"
+              label={t('password')}
               error={formState.errors['password']}
               registration={register('password')}
             />
@@ -44,7 +45,7 @@ export const LoginForm = ({ onSuccess }: LoginFormProps) => {
                 type="submit"
                 className="w-full"
               >
-                Se connecter
+                {t('login')}
               </Button>
             </div>
           </>
@@ -56,7 +57,7 @@ export const LoginForm = ({ onSuccess }: LoginFormProps) => {
             to={paths.auth.register.getHref(redirectTo)}
             className="font-medium text-blue-600 hover:text-blue-500"
           >
-            S'enregistrer
+            {t('signIn')}
           </Link>
         </div>
       </div>

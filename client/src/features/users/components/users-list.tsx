@@ -1,3 +1,5 @@
+import { t } from 'i18next';
+
 import { useUsers } from '../api/get-users';
 
 import { DeleteUser } from './delete-user';
@@ -26,23 +28,23 @@ export const UsersList = () => {
       data={users}
       columns={[
         {
-          title: 'Prénom',
+          title: t('firstName'),
           field: 'firstName',
         },
         {
-          title: 'Nom',
+          title: t('lastName'),
           field: 'lastName',
         },
         {
-          title: 'Adresse e-mail',
+          title: t('email'),
           field: 'email',
         },
         {
-          title: 'Rôle',
+          title: t('Rôle'),
           field: 'role',
         },
         {
-          title: 'Créé le',
+          title: t('createdAt'),
           field: 'createdAt',
           Cell({ entry: { createdAt } }) {
             return <span>{formatDate(createdAt)}</span>;

@@ -1,3 +1,4 @@
+import { t } from 'i18next';
 import { Pen } from 'lucide-react';
 
 import {
@@ -18,7 +19,7 @@ export const UpdateProfile = () => {
       onSuccess: () => {
         addNotification({
           type: 'success',
-          title: 'Profile Updated',
+          title: t('profileUpdated'),
         });
       },
     },
@@ -29,10 +30,10 @@ export const UpdateProfile = () => {
       isDone={updateProfileMutation.isSuccess}
       triggerButton={
         <Button icon={<Pen className="size-4" />} size="sm">
-          Éditer le profil
+          {t('editProfil')}
         </Button>
       }
-      title="Éditer le profil"
+      title={t('editProfil')}
       submitButton={
         <Button
           form="update-profile"
@@ -40,7 +41,7 @@ export const UpdateProfile = () => {
           size="sm"
           isLoading={updateProfileMutation.isPending}
         >
-          Enregistrer
+          {t('save')}
         </Button>
       }
     >
@@ -62,24 +63,24 @@ export const UpdateProfile = () => {
         {({ register, formState }) => (
           <>
             <Input
-              label="Prénom"
+              label={t('firstName')}
               error={formState.errors['firstName']}
               registration={register('firstName')}
             />
             <Input
-              label="Nom"
+              label={t('lastName')}
               error={formState.errors['lastName']}
               registration={register('lastName')}
             />
             <Input
-              label="Adresse e-mail"
+              label={t('email')}
               type="email"
               error={formState.errors['email']}
               registration={register('email')}
             />
 
             <Textarea
-              label="Bio"
+              label={t('bio')}
               error={formState.errors['bio']}
               registration={register('bio')}
             />

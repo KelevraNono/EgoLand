@@ -1,3 +1,5 @@
+import { t } from 'i18next';
+
 import { useDeleteUser } from '../api/delete-user';
 
 import { Button } from '@/components/ui/button';
@@ -17,7 +19,7 @@ export const DeleteUser = ({ id }: DeleteUserProps) => {
       onSuccess: () => {
         addNotification({
           type: 'success',
-          title: 'User Deleted',
+          title: t('userDeleted'),
         });
       },
     },
@@ -28,9 +30,9 @@ export const DeleteUser = ({ id }: DeleteUserProps) => {
   return (
     <ConfirmationDialog
       icon="danger"
-      title="Delete User"
-      body="Are you sure you want to delete this user?"
-      triggerButton={<Button variant="destructive">Delete</Button>}
+      title={t('deleteUser')}
+      body={t('sureWantDeleteUser')}
+      triggerButton={<Button variant="destructive">{t('delete')}</Button>}
       confirmButton={
         <Button
           isLoading={deleteUserMutation.isPending}
@@ -38,7 +40,7 @@ export const DeleteUser = ({ id }: DeleteUserProps) => {
           variant="destructive"
           onClick={() => deleteUserMutation.mutate({ userId: id })}
         >
-          Delete User
+          {t('deleteUser')}
         </Button>
       }
     />

@@ -1,6 +1,11 @@
 {
-  "editor.formatOnSave": true,
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit"
-  }
+	"editor.formatOnSave": true,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": "explicit"
+	},
+	"i18n-ally.localesPaths": ["client/public/locales"],
+	"i18n-ally.enabledFrameworks": ["react-i18next"],
+	"i18n-ally.keystyle": "nested",
+	"i18n-ally.sourceLanguage": "fr",
+	"i18n-ally.displayLanguage": "fr"
 }

@@ -1,13 +1,15 @@
+import { t } from 'i18next';
+
 import { PublicLayout } from '@/components/layouts/public-layout';
 
 const LandingRoute = () => {
   return (
-    <PublicLayout title="Accueil">
+    <PublicLayout title={t('home')}>
       <div>
-        <p>Chernarus</p>
-        <p>Deer Isle</p>
-        <p>Sakhal</p>
-        <p>Viens découvrir l'aventure avec nous !</p>
+        <p>{t('chernarus')}</p>
+        <p>{t('deerisle')}</p>
+        <p>{t('sakhal')}</p>
+        <p>{t('catchline')}</p>
         <iframe
           width="600"
           height="350"

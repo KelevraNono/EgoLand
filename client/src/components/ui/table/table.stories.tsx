@@ -1,4 +1,5 @@
 import { Meta, StoryObj } from '@storybook/react';
+import { t } from 'i18next';
 
 import { Table } from './table';
 
@@ -43,19 +44,19 @@ export const Default: Story = {
     data,
     columns: [
       {
-        title: 'Nom',
+        title: t('name'),
         field: 'name',
       },
       {
-        title: 'Titre',
+        title: t('title'),
         field: 'title',
       },
       {
-        title: 'Rôle',
+        title: t('role'),
         field: 'role',
       },
       {
-        title: 'Adresse e-mail',
+        title: t('email'),
         field: 'email',
       },
     ],

@@ -1,3 +1,5 @@
+import { t } from 'i18next';
+
 import { CommentsList } from './comments-list';
 import { CreateComment } from './create-comment';
 
@@ -9,7 +11,7 @@ export const Comments = ({ discussionId }: CommentsProps) => {
   return (
     <div>
       <div className="mb-4 flex items-center justify-between">
-        <h3 className="text-xl font-bold">Commentaires :</h3>
+        <h3 className="text-xl font-bold">{t('comments')}</h3>
         <CreateComment discussionId={discussionId} />
       </div>
       <CommentsList discussionId={discussionId} />

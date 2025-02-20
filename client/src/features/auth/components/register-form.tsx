@@ -1,3 +1,4 @@
+import { t } from 'i18next';
 import * as React from 'react';
 import { Link, useSearchParams } from 'react-router';
 
@@ -39,25 +40,25 @@ export const RegisterForm = ({
           <>
             <Input
               type="text"
-              label="Prénom"
+              label={t('firstName')}
               error={formState.errors['firstName']}
               registration={register('firstName')}
             />
             <Input
               type="text"
-              label="Nom"
+              label={t('lastName')}
               error={formState.errors['lastName']}
               registration={register('lastName')}
             />
             <Input
               type="email"
-              label="Adresse e-mail"
+              label={t('email')}
               error={formState.errors['email']}
               registration={register('email')}
             />
             <Input
               type="password"
-              label="Mot de passe"
+              label={t('password')}
               error={formState.errors['password']}
               registration={register('password')}
             />
@@ -71,14 +72,12 @@ export const RegisterForm = ({
                 } relative inline-flex h-6 w-11 items-center rounded-full transition-colors focus:outline-none focus:ring-2 focus:ring-slate-500 focus:ring-offset-2`}
                 id="choose-team"
               />
-              <Label htmlFor="airplane-mode">
-                Rejoindre une équipe existante
-              </Label>
+              <Label htmlFor="airplane-mode">{t('joinExistingTeam')}</Label>
             </div>
 
             {chooseTeam && teams ? (
               <Select
-                label="Équipe"
+                label={t('team')}
                 error={formState.errors['teamId']}
                 registration={register('teamId')}
                 options={teams?.map((team) => ({
@@ -89,7 +88,7 @@ export const RegisterForm = ({
             ) : (
               <Input
                 type="text"
-                label="Nom d'équipe"
+                label={t('teamName')}
                 error={formState.errors['teamName']}
                 registration={register('teamName')}
               />
@@ -100,7 +99,7 @@ export const RegisterForm = ({
                 type="submit"
                 className="w-full"
               >
-                S'enregistrer
+                {t('signIn')}
               </Button>
             </div>
           </>
@@ -112,7 +111,7 @@ export const RegisterForm = ({
             to={paths.auth.login.getHref(redirectTo)}
             className="font-medium text-blue-600 hover:text-blue-500"
           >
-            Se connecter
+            {t('login')}
           </Link>
         </div>
       </div>

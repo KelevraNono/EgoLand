@@ -1,3 +1,4 @@
+import { t } from 'i18next';
 import * as React from 'react';
 import { useNavigate } from 'react-router';
 
@@ -53,19 +54,19 @@ export const PublicLayout = ({ children, title }: PublicLayoutProps) => {
               <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
                 <span className="block">{title}</span>
               </h2>
-              <p>Bienvenu sur EgoLand</p>
+              <p>{t('welcome')}</p>
               <div className="mt-8 flex justify-center">
                 <div className="inline-flex gap-1 rounded-md shadow">
-                  <Button onClick={handleHome}>Accueil</Button>
-                  <Button onClick={handleAbout}>A propos</Button>
-                  <Button onClick={handleShop}>Boutique</Button>
-                  <Button onClick={handleServers}>Nos serveurs</Button>
-                  <Button>Nous rejoindre</Button>
+                  <Button onClick={handleHome}>{t('home')}</Button>
+                  <Button onClick={handleAbout}>{t('about')}</Button>
+                  <Button onClick={handleShop}>{t('shop')}</Button>
+                  <Button onClick={handleServers}>{t('servers')}</Button>
+                  <Button>{t('joinUs')}</Button>
                 </div>
               </div>
               <div className="mt-8 flex justify-center">
                 <div className="inline-flex rounded-md shadow">
-                  <Button onClick={handleStart}>Se connecter</Button>
+                  <Button onClick={handleStart}>{t('login')}</Button>
                 </div>
               </div>
               <hr />

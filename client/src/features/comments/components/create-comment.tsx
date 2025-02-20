@@ -1,3 +1,4 @@
+import { t } from 'i18next';
 import { Plus } from 'lucide-react';
 
 import {
@@ -21,7 +22,7 @@ export const CreateComment = ({ discussionId }: CreateCommentProps) => {
       onSuccess: () => {
         addNotification({
           type: 'success',
-          title: 'Commentaire créé',
+          title: t('commentCreated'),
         });
       },
     },
@@ -32,10 +33,10 @@ export const CreateComment = ({ discussionId }: CreateCommentProps) => {
       isDone={createCommentMutation.isSuccess}
       triggerButton={
         <Button size="sm" icon={<Plus className="size-4" />}>
-          Créer commentaire
+          {t('createComment')}
         </Button>
       }
-      title="Créer commentaire"
+      title={t('createComment')}
       submitButton={
         <Button
           isLoading={createCommentMutation.isPending}
@@ -44,7 +45,7 @@ export const CreateComment = ({ discussionId }: CreateCommentProps) => {
           size="sm"
           disabled={createCommentMutation.isPending}
         >
-          Enregistrer
+          {t('save')}
         </Button>
       }
     >
@@ -65,7 +66,7 @@ export const CreateComment = ({ discussionId }: CreateCommentProps) => {
       >
         {({ register, formState }) => (
           <Textarea
-            label="Contenu"
+            label={t('content')}
             error={formState.errors['body']}
             registration={register('body')}
           />
