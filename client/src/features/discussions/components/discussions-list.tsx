@@ -1,4 +1,5 @@
 import { useQueryClient } from '@tanstack/react-query';
+import { t } from 'i18next';
 import { useSearchParams } from 'react-router';
 
 import { getDiscussionQueryOptions } from '../api/get-discussion';
@@ -44,11 +45,11 @@ export const DiscussionsList = ({
       data={discussions}
       columns={[
         {
-          title: 'Titre',
+          title: t('content'),
           field: 'title',
         },
         {
-          title: 'Créée le',
+          title: t('createdAt'),
           field: 'createdAt',
           Cell({ entry: { createdAt } }) {
             return <span>{formatDate(createdAt)}</span>;
@@ -67,7 +68,7 @@ export const DiscussionsList = ({
                 }}
                 to={paths.app.discussion.getHref(id)}
               >
-                Voir
+                {t('see')}
               </Link>
             );
           },

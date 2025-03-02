@@ -1,3 +1,4 @@
+import { t } from 'i18next';
 import { Plus } from 'lucide-react';
 
 import {
@@ -17,7 +18,7 @@ export const CreateDiscussion = () => {
       onSuccess: () => {
         addNotification({
           type: 'success',
-          title: 'Discussion créée',
+          title: t('discussionCreated'),
         });
       },
     },
@@ -29,10 +30,10 @@ export const CreateDiscussion = () => {
         isDone={createDiscussionMutation.isSuccess}
         triggerButton={
           <Button size="sm" icon={<Plus className="size-4" />}>
-            Créer discussion
+            {t('createDiscussion')}
           </Button>
         }
-        title="Créer discussion"
+        title={t('createDiscussion')}
         submitButton={
           <Button
             form="create-discussion"
@@ -40,7 +41,7 @@ export const CreateDiscussion = () => {
             size="sm"
             isLoading={createDiscussionMutation.isPending}
           >
-            Enregistrer
+            {t('save')}
           </Button>
         }
       >
@@ -54,13 +55,13 @@ export const CreateDiscussion = () => {
           {({ register, formState }) => (
             <>
               <Input
-                label="Titre"
+                label={t('title')}
                 error={formState.errors['title']}
                 registration={register('title')}
               />
 
               <Textarea
-                label="Contenu"
+                label={t('content')}
                 error={formState.errors['body']}
                 registration={register('body')}
               />

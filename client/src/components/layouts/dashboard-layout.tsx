@@ -91,11 +91,6 @@ export function DashboardLayout({ children }: { children: React.ReactNode }) {
       to: paths.app.users.getHref(),
       icon: Users,
     },
-    checkAccess({ allowedRoles: [ROLES.ADMIN] }) && {
-      name: 'Bases',
-      to: paths.app.bases.getHref(),
-      icon: Building,
-    },
   ].filter(Boolean) as SideNavigationItem[];
 
   return (

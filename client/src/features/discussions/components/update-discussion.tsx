@@ -1,3 +1,4 @@
+import { t } from 'i18next';
 import { Pen } from 'lucide-react';
 
 import { useDiscussion } from '../api/get-discussion';
@@ -37,10 +38,10 @@ export const UpdateDiscussion = ({ discussionId }: UpdateDiscussionProps) => {
         isDone={updateDiscussionMutation.isSuccess}
         triggerButton={
           <Button icon={<Pen className="size-4" />} size="sm">
-            Éditer discussion
+            {t('editDiscussion')}
           </Button>
         }
-        title="Éditer discussion"
+        title={t('editDiscussion')}
         submitButton={
           <Button
             form="update-discussion"
@@ -48,7 +49,7 @@ export const UpdateDiscussion = ({ discussionId }: UpdateDiscussionProps) => {
             size="sm"
             isLoading={updateDiscussionMutation.isPending}
           >
-            Enregistrer
+            {t('save')}
           </Button>
         }
       >
@@ -71,12 +72,12 @@ export const UpdateDiscussion = ({ discussionId }: UpdateDiscussionProps) => {
           {({ register, formState }) => (
             <>
               <Input
-                label="Titre"
+                label={t('title')}
                 error={formState.errors['title']}
                 registration={register('title')}
               />
               <Textarea
-                label="Contenu"
+                label={t('content')}
                 error={formState.errors['body']}
                 registration={register('body')}
               />

@@ -1,3 +1,4 @@
+import { t } from 'i18next';
 import { Trash } from 'lucide-react';
 
 import { useDeleteDiscussion } from '../api/delete-discussion';
@@ -18,7 +19,7 @@ export const DeleteDiscussion = ({ id }: DeleteDiscussionProps) => {
       onSuccess: () => {
         addNotification({
           type: 'success',
-          title: 'Discussion supprimé',
+          title: t('discussionDeleted'),
         });
       },
     },
@@ -28,11 +29,11 @@ export const DeleteDiscussion = ({ id }: DeleteDiscussionProps) => {
     <Authorization allowedRoles={[ROLES.ADMIN]}>
       <ConfirmationDialog
         icon="danger"
-        title="Supprimer discussion"
-        body="Voulez-vous vraiment supprimer cette discussion?"
+        title={t('deleteDiscussion')}
+        body={t('sureWantDeleteDiscussion')}
         triggerButton={
           <Button variant="destructive" icon={<Trash className="size-4" />}>
-            Supprimer discussion
+            {t('deleteDiscussion')}
           </Button>
         }
         confirmButton={
@@ -44,7 +45,7 @@ export const DeleteDiscussion = ({ id }: DeleteDiscussionProps) => {
               deleteDiscussionMutation.mutate({ discussionId: id })
             }
           >
-            Supprimer discussion
+            {t('deleteDiscussion')}
           </Button>
         }
       />

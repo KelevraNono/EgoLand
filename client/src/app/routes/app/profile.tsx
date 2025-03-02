@@ -1,3 +1,5 @@
+import { t } from 'i18next';
+
 import { ContentLayout } from '@/components/layouts';
 import { UpdateProfile } from '@/features/users/components/update-profile';
 import { useUser } from '@/lib/auth';
@@ -26,21 +28,21 @@ const ProfileRoute = () => {
         <div className="px-4 py-5 sm:px-6">
           <div className="flex justify-between">
             <h3 className="text-lg font-medium leading-6 text-gray-900">
-              Information utilisateur
+              {t('userInformation')}
             </h3>
             <UpdateProfile />
           </div>
           <p className="mt-1 max-w-2xl text-sm text-gray-500">
-            Détails personnel de l'utilisateur.
+            {t('userDetailInformation')}
           </p>
         </div>
         <div className="border-t border-gray-200 px-4 py-5 sm:p-0">
           <dl className="sm:divide-y sm:divide-gray-200">
-            <Entry label="Prénom" value={user.data.firstName} />
-            <Entry label="Nom" value={user.data.lastName} />
-            <Entry label="Adresse e-mail" value={user.data.email} />
-            <Entry label="Rôle" value={user.data.role} />
-            <Entry label="Bio" value={user.data.bio} />
+            <Entry label={t('firstName')} value={user.data.firstName} />
+            <Entry label={t('lastName')} value={user.data.lastName} />
+            <Entry label={t('email')} value={user.data.email} />
+            <Entry label={t('role')} value={user.data.role} />
+            <Entry label={t('bio')} value={user.data.bio} />
           </dl>
         </div>
       </div>

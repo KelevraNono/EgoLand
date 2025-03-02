@@ -50,14 +50,6 @@ export const paths = {
       path: 'users',
       getHref: () => '/app/users',
     },
-    bases: {
-      path: 'bases',
-      getHref: () => '/app/bases',
-    },
-    base: {
-      path: 'bases/:baseId',
-      getHref: (id: string) => `/app/bases/${id}`,
-    },
     profile: {
       path: 'profile',
       getHref: () => '/app/profile',

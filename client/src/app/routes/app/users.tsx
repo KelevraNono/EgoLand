@@ -1,4 +1,5 @@
 import { QueryClient } from '@tanstack/react-query';
+import { t } from 'i18next';
 
 import { ContentLayout } from '@/components/layouts';
 import { getUsersQueryOptions } from '@/features/users/api/get-users';
@@ -18,7 +19,7 @@ const UsersRoute = () => {
   return (
     <ContentLayout title="Utilisateurs">
       <Authorization
-        forbiddenFallback={<div>Visible que par les administrateurs</div>}
+        forbiddenFallback={<div>{t('onlyAdmins')}</div>}
         allowedRoles={[ROLES.ADMIN]}
       >
         <UsersList />

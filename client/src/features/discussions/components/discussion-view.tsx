@@ -1,3 +1,5 @@
+import { t } from 'i18next';
+
 import { useDiscussion } from '../api/get-discussion';
 import { UpdateDiscussion } from '../components/update-discussion';
 
@@ -29,7 +31,7 @@ export const DiscussionView = ({ discussionId }: { discussionId: string }) => {
       </span>
       {discussion.author && (
         <span className="ml-2 text-sm font-bold">
-          par {discussion.author.firstName} {discussion.author.lastName}
+          {t('by')} {discussion.author.firstName} {discussion.author.lastName}
         </span>
       )}
       <div className="mt-6 flex flex-col space-y-16">
