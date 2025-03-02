@@ -1,5 +1,4 @@
-import * as React from 'react';
-import { useEffect } from 'react';
+import { ReactNode, useEffect } from 'react';
 import { useNavigate, useSearchParams } from 'react-router';
 
 import logo from '@/assets/logo.png';
@@ -9,7 +8,7 @@ import { paths } from '@/config/paths';
 import { useUser } from '@/lib/auth';
 
 type LayoutProps = {
-  children: React.ReactNode;
+  children: ReactNode;
   title: string;
 };
 

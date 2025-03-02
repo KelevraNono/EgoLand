@@ -1,17 +1,17 @@
-import * as React from 'react';
 import { UseFormRegisterReturn } from 'react-hook-form';
 
 import { FieldWrapper, FieldWrapperPassThroughProps } from './field-wrapper';
 
 import { cn } from '@/utils/cn';
+import { forwardRef, TextareaHTMLAttributes } from 'react';
 
-export type TextareaProps = React.TextareaHTMLAttributes<HTMLTextAreaElement> &
+export type TextareaProps = TextareaHTMLAttributes<HTMLTextAreaElement> &
   FieldWrapperPassThroughProps & {
     className?: string;
     registration: Partial<UseFormRegisterReturn>;
   };
 
-const Textarea = React.forwardRef<HTMLTextAreaElement, TextareaProps>(
+const Textarea = forwardRef<HTMLTextAreaElement, TextareaProps>(
   ({ className, label, error, registration, ...props }, ref) => {
     return (
       <FieldWrapper label={label} error={error}>

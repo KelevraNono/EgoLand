@@ -1,5 +1,5 @@
 import type { Meta } from '@storybook/react';
-import React from 'react';
+import React, { useState } from 'react';
 
 import {
   DropdownMenu,
@@ -39,8 +39,8 @@ export const Default = () => (
 );
 
 export const WithCheckboxItems = () => {
-  const [checked, setChecked] = React.useState(true);
-  const [checked2, setChecked2] = React.useState(false);
+  const [checked, setChecked] = useState(true);
+  const [checked2, setChecked2] = useState(false);
 
   return (
     <DropdownMenu>
@@ -66,7 +66,7 @@ export const WithCheckboxItems = () => {
 };
 
 export const WithRadioItems = () => {
-  const [value, setValue] = React.useState('one');
+  const [value, setValue] = useState('one');
 
   return (
     <DropdownMenu>

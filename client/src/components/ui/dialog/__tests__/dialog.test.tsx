@@ -1,5 +1,3 @@
-import * as React from 'react';
-
 import {
   Dialog,
   DialogContent,
@@ -12,6 +10,7 @@ import {
 import { Button } from '@/components/ui/button';
 import { useDisclosure } from '@/hooks/use-disclosure';
 import { rtlRender, screen, userEvent, waitFor } from '@/testing/test-utils';
+import { useRef } from 'react';
 
 const openButtonText = 'Open Modal';
 const cancelButtonText = 'Fermer';
@@ -19,7 +18,7 @@ const titleText = 'Modal Title';
 
 const TestDialog = () => {
   const { close, open, isOpen } = useDisclosure();
-  const cancelButtonRef = React.useRef(null);
+  const cancelButtonRef = useRef(null);
 
   return (
     <Dialog

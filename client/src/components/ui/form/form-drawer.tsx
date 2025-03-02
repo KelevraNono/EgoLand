@@ -1,5 +1,4 @@
-import * as React from 'react';
-
+import { ReactElement, ReactNode, useEffect } from 'react';
 import { Button } from '../button';
 import {
   Drawer,
@@ -15,10 +14,10 @@ import { useDisclosure } from '@/hooks/use-disclosure';
 
 type FormDrawerProps = {
   isDone: boolean;
-  triggerButton: React.ReactElement;
-  submitButton: React.ReactElement;
+  triggerButton: ReactElement;
+  submitButton: ReactElement;
   title: string;
-  children: React.ReactNode;
+  children: ReactNode;
 };
 
 export const FormDrawer = ({
@@ -30,7 +29,7 @@ export const FormDrawer = ({
 }: FormDrawerProps) => {
   const { close, open, isOpen } = useDisclosure();
 
-  React.useEffect(() => {
+  useEffect(() => {
     if (isDone) {
       close();
     }

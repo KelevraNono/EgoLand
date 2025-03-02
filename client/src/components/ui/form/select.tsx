@@ -1,12 +1,12 @@
-import * as React from 'react';
 import { UseFormRegisterReturn } from 'react-hook-form';
 
 import { FieldWrapper, FieldWrapperPassThroughProps } from './field-wrapper';
 
 import { cn } from '@/utils/cn';
+import { ReactNode } from 'react';
 
 type Option = {
-  label: React.ReactNode;
+  label: ReactNode;
   value: string | number | string[];
 };
 

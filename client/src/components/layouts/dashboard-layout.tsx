@@ -1,5 +1,5 @@
 import { Home, PanelLeft, Folder, Users, User2, Building } from 'lucide-react';
-import { useEffect, useState } from 'react';
+import { ReactNode, SVGProps, useEffect, useState } from 'react';
 import { NavLink, useNavigate, useNavigation } from 'react-router';
 
 import {
@@ -22,7 +22,7 @@ import { cn } from '@/utils/cn';
 type SideNavigationItem = {
   name: string;
   to: string;
-  icon: (props: React.SVGProps<SVGSVGElement>) => JSX.Element;
+  icon: (props: SVGProps<SVGSVGElement>) => JSX.Element;
 };
 
 const Logo = () => {
@@ -77,7 +77,7 @@ const Progress = () => {
   );
 };
 
-export function DashboardLayout({ children }: { children: React.ReactNode }) {
+export function DashboardLayout({ children }: { children: ReactNode }) {
   const navigate = useNavigate();
   const logout = useLogout({
     onSuccess: () => navigate(paths.auth.login.getHref(location.pathname)),

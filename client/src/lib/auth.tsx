@@ -6,6 +6,7 @@ import { api } from './api-client';
 
 import { paths } from '@/config/paths';
 import { AuthResponse, User } from '@/types/api';
+import { ReactNode } from 'react';
 
 // api call definitions for auth (types, schemas, requests):
 // these are not part of features as this is a module shared across features
@@ -75,7 +76,7 @@ const authConfig = {
 export const { useUser, useLogin, useLogout, useRegister, AuthLoader } =
   configureAuth(authConfig);
 
-export const ProtectedRoute = ({ children }: { children: React.ReactNode }) => {
+export const ProtectedRoute = ({ children }: { children: ReactNode }) => {
   const user = useUser();
   const location = useLocation();
 
