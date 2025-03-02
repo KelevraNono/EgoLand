@@ -1,3 +1,9 @@
+import { useRef } from 'react';
+
+import { Button } from '@/components/ui/button';
+import { useDisclosure } from '@/hooks/use-disclosure';
+import { rtlRender, screen, userEvent, waitFor } from '@/testing/test-utils';
+
 import {
   Dialog,
   DialogContent,
@@ -6,11 +12,6 @@ import {
   DialogTitle,
   DialogTrigger,
 } from '../dialog';
-
-import { Button } from '@/components/ui/button';
-import { useDisclosure } from '@/hooks/use-disclosure';
-import { rtlRender, screen, userEvent, waitFor } from '@/testing/test-utils';
-import { useRef } from 'react';
 
 const openButtonText = 'Open Modal';
 const cancelButtonText = 'Fermer';

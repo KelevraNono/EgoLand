@@ -1,15 +1,15 @@
 import {
+  CheckIcon,
+  ChevronRightIcon,
+  DotFilledIcon,
+} from '@radix-ui/react-icons';
+import { DropdownMenu as DropdownMenuPrimitive } from 'radix-ui';
+import {
   ComponentPropsWithoutRef,
   ElementRef,
   forwardRef,
   HTMLAttributes,
 } from 'react';
-import { DropdownMenu as DropdownMenuPrimitive } from 'radix-ui';
-import {
-  CheckIcon,
-  ChevronRightIcon,
-  DotFilledIcon,
-} from '@radix-ui/react-icons';
 
 import { cn } from '@/utils/cn';
 

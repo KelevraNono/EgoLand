@@ -1,12 +1,12 @@
 import { t } from 'i18next';
 import { Trash } from 'lucide-react';
 
-import { useDeleteDiscussion } from '../api/delete-discussion';
-
 import { Button } from '@/components/ui/button';
 import { ConfirmationDialog } from '@/components/ui/dialog';
 import { useNotifications } from '@/components/ui/notifications';
 import { Authorization, ROLES } from '@/lib/authorization';
+
+import { useDeleteDiscussion } from '../api/delete-discussion';
 
 type DeleteDiscussionProps = {
   id: string;

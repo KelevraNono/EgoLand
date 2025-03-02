@@ -1,6 +1,14 @@
-import { Home, PanelLeft, Folder, Users, User2, Building } from 'lucide-react';
+import { Home, PanelLeft, Folder, Users, User2 } from 'lucide-react';
 import { ReactNode, SVGProps, useEffect, useState } from 'react';
 import { NavLink, useNavigate, useNavigation } from 'react-router';
+
+import logo from '@/assets/logo.png';
+import { Button } from '@/components/ui/button';
+import { Drawer, DrawerContent, DrawerTrigger } from '@/components/ui/drawer';
+import { paths } from '@/config/paths';
+import { useLogout } from '@/lib/auth';
+import { ROLES, useAuthorization } from '@/lib/authorization';
+import { cn } from '@/utils/cn';
 
 import {
   DropdownMenu,
@@ -10,14 +18,6 @@ import {
   DropdownMenuTrigger,
 } from '../ui/dropdown';
 import { Link } from '../ui/link';
-
-import logo from '@/assets/logo.png';
-import { Button } from '@/components/ui/button';
-import { Drawer, DrawerContent, DrawerTrigger } from '@/components/ui/drawer';
-import { paths } from '@/config/paths';
-import { useLogout } from '@/lib/auth';
-import { ROLES, useAuthorization } from '@/lib/authorization';
-import { cn } from '@/utils/cn';
 
 type SideNavigationItem = {
   name: string;

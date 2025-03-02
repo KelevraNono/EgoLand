@@ -1,9 +1,9 @@
+import { ReactNode } from 'react';
 import { UseFormRegisterReturn } from 'react-hook-form';
 
-import { FieldWrapper, FieldWrapperPassThroughProps } from './field-wrapper';
-
 import { cn } from '@/utils/cn';
-import { ReactNode } from 'react';
+
+import { FieldWrapper, FieldWrapperPassThroughProps } from './field-wrapper';
 
 type Option = {
   label: ReactNode;

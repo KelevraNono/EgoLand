@@ -1,7 +1,5 @@
 import type { Mock } from 'vitest';
 
-import { default as DiscussionsRoute } from '../discussions';
-
 import { createDiscussion } from '@/testing/data-generators';
 import {
   renderApp,
@@ -11,6 +9,8 @@ import {
   within,
 } from '@/testing/test-utils';
 import { formatDate } from '@/utils/format';
+
+import { default as DiscussionsRoute } from '../discussions';
 
 beforeAll(() => {
   vi.spyOn(console, 'error').mockImplementation(() => {});

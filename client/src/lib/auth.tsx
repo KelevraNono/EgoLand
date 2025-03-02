@@ -1,12 +1,12 @@
+import { ReactNode } from 'react';
 import { configureAuth } from 'react-query-auth';
 import { Navigate, useLocation } from 'react-router';
 import { z } from 'zod';
 
-import { api } from './api-client';
-
 import { paths } from '@/config/paths';
 import { AuthResponse, User } from '@/types/api';
-import { ReactNode } from 'react';
+
+import { api } from './api-client';
 
 // api call definitions for auth (types, schemas, requests):
 // these are not part of features as this is a module shared across features

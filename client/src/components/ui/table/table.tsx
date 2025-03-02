@@ -1,10 +1,5 @@
 import { t } from 'i18next';
 import { ArchiveX } from 'lucide-react';
-
-import { TablePagination, TablePaginationProps } from './pagination';
-
-import { BaseEntity } from '@/types/api';
-import { cn } from '@/utils/cn';
 import {
   forwardRef,
   HTMLAttributes,
@@ -12,6 +7,11 @@ import {
   TdHTMLAttributes,
   ThHTMLAttributes,
 } from 'react';
+
+import { BaseEntity } from '@/types/api';
+import { cn } from '@/utils/cn';
+
+import { TablePagination, TablePaginationProps } from './pagination';
 
 const TableElement = forwardRef<
   HTMLTableElement,

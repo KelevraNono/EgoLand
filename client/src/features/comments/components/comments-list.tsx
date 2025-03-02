@@ -1,10 +1,6 @@
 import { t } from 'i18next';
 import { ArchiveX } from 'lucide-react';
 
-import { useInfiniteComments } from '../api/get-comments';
-
-import { DeleteComment } from './delete-comment';
-
 import { Button } from '@/components/ui/button';
 import { MDPreview } from '@/components/ui/md-preview';
 import { Spinner } from '@/components/ui/spinner';
@@ -12,6 +8,10 @@ import { useUser } from '@/lib/auth';
 import { POLICIES, Authorization } from '@/lib/authorization';
 import { User } from '@/types/api';
 import { formatDate } from '@/utils/format';
+
+import { useInfiniteComments } from '../api/get-comments';
+
+import { DeleteComment } from './delete-comment';
 
 type CommentsListProps = {
   discussionId: string;

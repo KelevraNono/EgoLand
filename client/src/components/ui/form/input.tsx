@@ -1,9 +1,9 @@
+import { forwardRef, InputHTMLAttributes } from 'react';
 import { type UseFormRegisterReturn } from 'react-hook-form';
 
-import { FieldWrapper, FieldWrapperPassThroughProps } from './field-wrapper';
-
 import { cn } from '@/utils/cn';
-import { forwardRef, InputHTMLAttributes } from 'react';
+
+import { FieldWrapper, FieldWrapperPassThroughProps } from './field-wrapper';
 
 export type InputProps = InputHTMLAttributes<HTMLInputElement> &
   FieldWrapperPassThroughProps & {

@@ -1,55 +1,68 @@
-import { t } from 'i18next';
-import { useNavigate } from 'react-router';
+import { Info, Home, Server, ShoppingCart, Bot } from 'lucide-react';
+import { SVGProps } from 'react';
+import { NavLink } from 'react-router';
+
+import logo from '@/assets/logo.png';
+import { paths } from '@/config/paths';
+import { cn } from '@/utils/cn';
 
 import { Button } from '../ui/button';
+import { Link } from '../ui/link';
 
-import { paths } from '@/config/paths';
-import { useUser } from '@/lib/auth';
+const Logo = () => {
+  return (
+    <Link
+      className="flex items-center gap-1 text-white"
+      to={paths.public.landing.getHref()}
+    >
+      <img className="h-14 w-auto" src={logo} alt="EgoLand" />
+    </Link>
+  );
+};
+
+type SideNavigationItem = {
+  name: string;
+  to: string;
+  icon: (props: SVGProps<SVGSVGElement>) => JSX.Element;
+};
 
 export const Header = () => {
-  const navigate = useNavigate();
-  const user = useUser();
-
-  const handleStart = () => {
-    if (user.data) {
-      navigate(paths.app.dashboard.getHref());
-    } else {
-      navigate(paths.auth.login.getHref());
-    }
-  };
-
-  const handleHome = () => {
-    navigate(paths.public.landing.getHref());
-  };
-
-  const handleAbout = () => {
-    navigate(paths.public.about.getHref());
-  };
-
-  const handleShop = () => {
-    navigate(paths.public.shop.getHref());
-  };
-
-  const handleServers = () => {
-    navigate(paths.public.servers.getHref());
-  };
+  const navigation = [
+    { name: 'Accueil', to: paths.public.landing.getHref(), icon: Home },
+    { name: 'A propos', to: paths.public.about.getHref(), icon: Info },
+    { name: 'Boutique', to: paths.public.shop.getHref(), icon: ShoppingCart },
+    { name: 'Serveurs', to: paths.public.servers.getHref(), icon: Server },
+    ,
+  ].filter(Boolean) as SideNavigationItem[];
 
   return (
-    <div className="py-6">
-      <div className="mt-8 flex justify-center">
-        <div className="inline-flex gap-1 rounded-md shadow">
-          <Button onClick={handleHome}>{t('home')}</Button>
-          <Button onClick={handleAbout}>{t('about')}</Button>
-          <Button onClick={handleShop}>{t('shop')}</Button>
-          <Button onClick={handleServers}>{t('servers')}</Button>
-          <Button>{t('joinUs')}</Button>
+    <header className="flex flex-col sticky top-0 z-30 py-4 bg-black">
+      <nav className="flex justify-between items-center">
+        <div className="flex">
+          <Logo />
         </div>
-      </div>
-      <div className="mt-8 flex justify-center">
-        <div className="inline-flex rounded-md shadow">
-          <Button onClick={handleStart}>{t('login')}</Button>
+        <div className="flex gap-4">
+          {navigation.map((item) => (
+            <NavLink
+              key={item.name}
+              to={item.to}
+              className={({ isActive }) =>
+                cn(
+                  'hover:bg-secondary',
+                  'flex items-center rounded p-2 gap-4',
+                  isActive && 'bg-primary',
+                )
+              }
+            >
+              <item.icon aria-hidden="true" />
+              {item.name}
+            </NavLink>
+          ))}
         </div>
-      </div>
-    </div>
+        <div>
+          <Button icon={<Bot />}>Discord</Button>
+        </div>
+      </nav>
+    </header>
   );
 };

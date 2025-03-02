@@ -1,4 +1,5 @@
 import { ReactNode } from 'react';
+
 import { Head } from '../seo';
 
 type ContentLayoutProps = {

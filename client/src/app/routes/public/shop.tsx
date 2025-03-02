@@ -5,7 +5,7 @@ import { PublicLayout } from '@/components/layouts/public-layout';
 const ShopRoute = () => {
   return (
     <PublicLayout title={t('shop')}>
-      <p>{t('servers')}</p>
+      <p>{t('shop')}</p>
     </PublicLayout>
   );
 };

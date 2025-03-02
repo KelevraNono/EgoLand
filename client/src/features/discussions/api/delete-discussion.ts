@@ -1,9 +1,9 @@
 import { useMutation, useQueryClient } from '@tanstack/react-query';
 
-import { getDiscussionsQueryOptions } from './get-discussions';
-
 import { api } from '@/lib/api-client';
 import { MutationConfig } from '@/lib/react-query';
+
+import { getDiscussionsQueryOptions } from './get-discussions';
 
 export const deleteDiscussion = ({
   discussionId,

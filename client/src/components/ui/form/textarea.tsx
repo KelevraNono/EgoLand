@@ -1,9 +1,9 @@
+import { forwardRef, TextareaHTMLAttributes } from 'react';
 import { UseFormRegisterReturn } from 'react-hook-form';
 
-import { FieldWrapper, FieldWrapperPassThroughProps } from './field-wrapper';
-
 import { cn } from '@/utils/cn';
-import { forwardRef, TextareaHTMLAttributes } from 'react';
+
+import { FieldWrapper, FieldWrapperPassThroughProps } from './field-wrapper';
 
 export type TextareaProps = TextareaHTMLAttributes<HTMLTextAreaElement> &
   FieldWrapperPassThroughProps & {

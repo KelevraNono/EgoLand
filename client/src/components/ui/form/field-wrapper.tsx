@@ -1,8 +1,8 @@
+import { ReactNode } from 'react';
 import { type FieldError } from 'react-hook-form';
 
 import { Error } from './error';
 import { Label } from './label';
-import { ReactNode } from 'react';
 
 type FieldWrapperProps = {
   label?: string;

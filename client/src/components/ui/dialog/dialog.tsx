@@ -1,13 +1,13 @@
-import { Dialog as DialogPrimitive } from 'radix-ui';
 import { Cross2Icon } from '@radix-ui/react-icons';
-
-import { cn } from '@/utils/cn';
+import { Dialog as DialogPrimitive } from 'radix-ui';
 import {
   ComponentPropsWithoutRef,
   ElementRef,
   forwardRef,
   HTMLAttributes,
 } from 'react';
+
+import { cn } from '@/utils/cn';
 
 const Dialog = DialogPrimitive.Root;
 

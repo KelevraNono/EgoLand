@@ -1,5 +1,4 @@
 import { t } from 'i18next';
-
 import { Link, useSearchParams } from 'react-router';
 
 import { Button } from '@/components/ui/button';

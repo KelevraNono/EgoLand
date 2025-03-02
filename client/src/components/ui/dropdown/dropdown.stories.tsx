@@ -1,6 +1,8 @@
 import type { Meta } from '@storybook/react';
 import React, { useState } from 'react';
 
+import { Button } from '@/components/ui/button';
+
 import {
   DropdownMenu,
   DropdownMenuTrigger,
@@ -15,8 +17,6 @@ import {
   DropdownMenuSubContent,
   DropdownMenuRadioGroup,
 } from './dropdown';
-
-import { Button } from '@/components/ui/button';
 
 const meta: Meta = {
   component: DropdownMenu,

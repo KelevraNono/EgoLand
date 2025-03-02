@@ -1,10 +1,10 @@
-import { Slot } from 'radix-ui';
 import { cva, type VariantProps } from 'class-variance-authority';
-
-import { Spinner } from '../spinner';
+import { Slot } from 'radix-ui';
+import { ButtonHTMLAttributes, forwardRef, ReactNode } from 'react';
 
 import { cn } from '@/utils/cn';
-import { ButtonHTMLAttributes, forwardRef, ReactNode } from 'react';
+
+import { Spinner } from '../spinner';
 
 const buttonVariants = cva(
   'focus-visible:ring-ring inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 disabled:pointer-events-none disabled:opacity-50',

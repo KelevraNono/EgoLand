@@ -2,16 +2,16 @@ import { useQueryClient } from '@tanstack/react-query';
 import { t } from 'i18next';
 import { useSearchParams } from 'react-router';
 
-import { getDiscussionQueryOptions } from '../api/get-discussion';
-import { useDiscussions } from '../api/get-discussions';
-
-import { DeleteDiscussion } from './delete-discussion';
-
 import { Link } from '@/components/ui/link';
 import { Spinner } from '@/components/ui/spinner';
 import { Table } from '@/components/ui/table';
 import { paths } from '@/config/paths';
 import { formatDate } from '@/utils/format';
+
+import { getDiscussionQueryOptions } from '../api/get-discussion';
+import { useDiscussions } from '../api/get-discussions';
+
+import { DeleteDiscussion } from './delete-discussion';
 
 export type DiscussionsListProps = {
   onDiscussionPrefetch?: (id: string) => void;
