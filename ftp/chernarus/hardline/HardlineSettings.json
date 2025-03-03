@@ -22450,7 +22450,7 @@
     "UncommonItemRequirement": 10000,
     "UseFactionReputation": 1,
     "UseItemRarityForMarketPurchase": 1,
-    "UseItemRarityForMarketSell": 1,
+    "UseItemRarityForMarketSell": 0,
     "UseItemRarityOnInventoryIcons": 1,
     "UseReputation": 1,
     "m_Version": 11
