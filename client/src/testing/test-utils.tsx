@@ -11,6 +11,11 @@ import { AppProvider } from '@/app/provider';
 
 import {
   createDiscussion as generateDiscussion,
+  createWarning as generateWarning,
+  createEvent as generateEvent,
+  createBase as generateBase,
+  createBan as generateBan,
+  createVehicule as generateVehicule,
   createUser as generateUser,
 } from './data-generators';
 import { db } from './mocks/db';
@@ -25,6 +30,36 @@ export const createUser = async (userProperties?: any) => {
 export const createDiscussion = async (discussionProperties?: any) => {
   const discussion = generateDiscussion(discussionProperties);
   const res = await db.discussion.create(discussion);
+  return res;
+};
+
+export const createBase = async (baseProperties?: any) => {
+  const base = generateBase(baseProperties);
+  const res = await db.base.create(base);
+  return res;
+};
+
+export const createBan = async (banProperties?: any) => {
+  const ban = generateBan(banProperties);
+  const res = await db.ban.create(ban);
+  return res;
+};
+
+export const createEvent = async (eventProperties?: any) => {
+  const event = generateEvent(eventProperties);
+  const res = await db.event.create(event);
+  return res;
+};
+
+export const createVehicule = async (vehiculeProperties?: any) => {
+  const vehicule = generateVehicule(vehiculeProperties);
+  const res = await db.vehicule.create(vehicule);
+  return res;
+};
+
+export const createWarning = async (warningProperties?: any) => {
+  const warning = generateWarning(warningProperties);
+  const res = await db.warning.create(warning);
   return res;
 };
 

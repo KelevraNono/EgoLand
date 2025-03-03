@@ -1,4 +1,15 @@
-import { Home, PanelLeft, Folder, Users, User2 } from 'lucide-react';
+import {
+  Home,
+  PanelLeft,
+  Folder,
+  Users,
+  User2,
+  Car,
+  ShieldBan,
+  ShieldAlert,
+  Building,
+  Calendar,
+} from 'lucide-react';
 import { JSX, ReactNode, SVGProps, useEffect, useState } from 'react';
 import { NavLink, useNavigate, useNavigation } from 'react-router';
 
@@ -91,6 +102,15 @@ export function DashboardLayout({ children }: { children: ReactNode }) {
       to: paths.app.users.getHref(),
       icon: Users,
     },
+    { name: 'Events', to: paths.app.events.getHref(), icon: Calendar },
+    { name: 'Bases', to: paths.app.bases.getHref(), icon: Building },
+    {
+      name: 'Avertissements',
+      to: paths.app.warnings.getHref(),
+      icon: ShieldAlert,
+    },
+    { name: 'Bans', to: paths.app.bans.getHref(), icon: ShieldBan },
+    { name: 'Voitures', to: paths.app.vehicules.getHref(), icon: Car },
   ].filter(Boolean) as SideNavigationItem[];
 
   return (

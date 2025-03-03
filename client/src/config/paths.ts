@@ -98,6 +98,26 @@ export const paths = {
       path: 'users',
       getHref: () => '/app/users',
     },
+    events: {
+      path: 'events',
+      getHref: () => '/app/events',
+    },
+    bases: {
+      path: 'bases',
+      getHref: () => '/app/bases',
+    },
+    warnings: {
+      path: 'warnings',
+      getHref: () => '/app/warnings',
+    },
+    bans: {
+      path: 'bans',
+      getHref: () => '/app/bans',
+    },
+    vehicules: {
+      path: 'vehicules',
+      getHref: () => '/app/vehicules',
+    },
     profile: {
       path: 'profile',
       getHref: () => '/app/profile',

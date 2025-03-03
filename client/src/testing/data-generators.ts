@@ -74,3 +74,74 @@ export const createComment = <
 ) => {
   return { ...generateComment(), ...overrides };
 };
+
+const generateBase = () => ({
+  id: randUuid(),
+  title: randCatchPhrase(),
+  body: randParagraph(),
+  createdAt: Date.now(),
+});
+
+export const createBase = <T extends Partial<ReturnType<typeof generateBase>>>(
+  overrides?: T,
+) => {
+  return { ...generateBase(), ...overrides };
+};
+
+const generateBan = () => ({
+  id: randUuid(),
+  title: randCatchPhrase(),
+  body: randParagraph(),
+  createdAt: Date.now(),
+});
+
+export const createBan = <T extends Partial<ReturnType<typeof generateBan>>>(
+  overrides?: T,
+) => {
+  return { ...generateBan(), ...overrides };
+};
+
+const generateEvent = () => ({
+  id: randUuid(),
+  title: randCatchPhrase(),
+  body: randParagraph(),
+  createdAt: Date.now(),
+});
+
+export const createEvent = <
+  T extends Partial<ReturnType<typeof generateEvent>>,
+>(
+  overrides?: T,
+) => {
+  return { ...generateEvent(), ...overrides };
+};
+
+const generateVehicule = () => ({
+  id: randUuid(),
+  title: randCatchPhrase(),
+  body: randParagraph(),
+  createdAt: Date.now(),
+});
+
+export const createVehicule = <
+  T extends Partial<ReturnType<typeof generateVehicule>>,
+>(
+  overrides?: T,
+) => {
+  return { ...generateVehicule(), ...overrides };
+};
+
+const generateWarning = () => ({
+  id: randUuid(),
+  title: randCatchPhrase(),
+  body: randParagraph(),
+  createdAt: Date.now(),
+});
+
+export const createWarning = <
+  T extends Partial<ReturnType<typeof generateWarning>>,
+>(
+  overrides?: T,
+) => {
+  return { ...generateWarning(), ...overrides };
+};

@@ -147,6 +147,33 @@ export const createAppRouter = (queryClient: QueryClient) =>
           lazy: () => import('./routes/app/users').then(convert(queryClient)),
         },
         {
+          path: paths.app.events.path,
+          lazy: () =>
+            import('./routes/app/events/events').then(convert(queryClient)),
+        },
+        {
+          path: paths.app.bases.path,
+          lazy: () =>
+            import('./routes/app/bases/bases').then(convert(queryClient)),
+        },
+        {
+          path: paths.app.warnings.path,
+          lazy: () =>
+            import('./routes/app/warnings/warnings').then(convert(queryClient)),
+        },
+        {
+          path: paths.app.bans.path,
+          lazy: () =>
+            import('./routes/app/bans/bans').then(convert(queryClient)),
+        },
+        {
+          path: paths.app.vehicules.path,
+          lazy: () =>
+            import('./routes/app/vehicules/vehicules').then(
+              convert(queryClient),
+            ),
+        },
+        {
           path: paths.app.profile.path,
           lazy: () => import('./routes/app/profile').then(convert(queryClient)),
         },

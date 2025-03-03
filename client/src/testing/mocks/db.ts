@@ -34,6 +34,36 @@ const models = {
     discussionId: String,
     createdAt: Date.now,
   },
+  ban: {
+    id: primaryKey(nanoid),
+    title: String,
+    body: String,
+    createdAt: Date.now,
+  },
+  base: {
+    id: primaryKey(nanoid),
+    title: String,
+    body: String,
+    createdAt: Date.now,
+  },
+  event: {
+    id: primaryKey(nanoid),
+    title: String,
+    body: String,
+    createdAt: Date.now,
+  },
+  vehicule: {
+    id: primaryKey(nanoid),
+    title: String,
+    body: String,
+    createdAt: Date.now,
+  },
+  warning: {
+    id: primaryKey(nanoid),
+    title: String,
+    body: String,
+    createdAt: Date.now,
+  },
 };
 
 export const db = factory(models);

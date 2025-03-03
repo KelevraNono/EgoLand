@@ -49,11 +49,27 @@ export type Comment = Entity<{
   author: User;
 }>;
 
+export type Warning = Entity<{
+  title: string;
+  body: string;
+}>;
+
+export type Vehicule = Entity<{
+  title: string;
+  body: string;
+}>;
+
+export type Event = Entity<{
+  title: string;
+  body: string;
+}>;
+
 export type Base = Entity<{
-  firstName: string;
-  lastName: string;
-  email: string;
-  role: 'ADMIN' | 'USER';
-  teamId: string;
-  bio: string;
+  title: string;
+  body: string;
+}>;
+
+export type Ban = Entity<{
+  title: string;
+  body: string;
 }>;
