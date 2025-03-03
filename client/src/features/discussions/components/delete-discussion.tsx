@@ -32,7 +32,7 @@ export const DeleteDiscussion = ({ id }: DeleteDiscussionProps) => {
         title={t('deleteDiscussion')}
         body={t('sureWantDeleteDiscussion')}
         triggerButton={
-          <Button variant="destructive" icon={<Trash className="size-4" />}>
+          <Button variant="danger" icon={<Trash className="size-4" />}>
             {t('deleteDiscussion')}
           </Button>
         }
@@ -40,7 +40,7 @@ export const DeleteDiscussion = ({ id }: DeleteDiscussionProps) => {
           <Button
             isLoading={deleteDiscussionMutation.isPending}
             type="button"
-            variant="destructive"
+            variant="danger"
             onClick={() =>
               deleteDiscussionMutation.mutate({ discussionId: id })
             }

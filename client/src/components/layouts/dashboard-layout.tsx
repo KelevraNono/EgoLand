@@ -1,5 +1,5 @@
 import { Home, PanelLeft, Folder, Users, User2 } from 'lucide-react';
-import { ReactNode, SVGProps, useEffect, useState } from 'react';
+import { JSX, ReactNode, SVGProps, useEffect, useState } from 'react';
 import { NavLink, useNavigate, useNavigation } from 'react-router';
 
 import logo from '@/assets/logo.png';
@@ -95,7 +95,7 @@ export function DashboardLayout({ children }: { children: ReactNode }) {
 
   return (
     <div className="bg-muted/40 flex min-h-screen w-full flex-col">
-      <aside className="fixed inset-y-0 left-0 z-10 hidden w-60 flex-col border-r bg-black sm:flex">
+      <aside className="fixed inset-y-0 left-0 z-10 hidden w-60 flex-col border-r sm:flex">
         <nav className="flex flex-col items-center gap-4 px-2 py-4">
           <div className="flex h-16 shrink-0 items-center px-4">
             <Logo />
@@ -107,17 +107,13 @@ export function DashboardLayout({ children }: { children: ReactNode }) {
               end={item.name !== 'Discussions'}
               className={({ isActive }) =>
                 cn(
-                  'text-gray-300 hover:bg-gray-700 hover:text-white',
                   'group flex flex-1 w-full items-center rounded-md p-2 text-base font-medium',
-                  isActive && 'bg-gray-900 text-white',
+                  isActive && '',
                 )
               }
             >
               <item.icon
-                className={cn(
-                  'text-gray-400 group-hover:text-gray-300',
-                  'mr-4 size-6 shrink-0',
-                )}
+                className={cn('mr-4 size-6 shrink-0')}
                 aria-hidden="true"
               />
               {item.name}
@@ -126,7 +122,7 @@ export function DashboardLayout({ children }: { children: ReactNode }) {
         </nav>
       </aside>
       <div className="flex flex-col sm:gap-4 sm:py-4 sm:pl-60">
-        <header className="bg-background sticky top-0 z-30 flex h-14 items-center justify-between gap-4 border-b px-4 sm:static sm:h-auto sm:justify-end sm:border-0 sm:bg-transparent sm:px-6">
+        <header className="bg-black sticky top-0 z-30 flex h-14 items-center justify-between gap-4 border-b px-4 sm:static sm:h-auto sm:justify-end sm:border-0 sm:bg-transparent sm:px-6">
           <Progress />
           <Drawer>
             <DrawerTrigger asChild>
@@ -135,10 +131,7 @@ export function DashboardLayout({ children }: { children: ReactNode }) {
                 <span className="sr-only">Toggle Menu</span>
               </Button>
             </DrawerTrigger>
-            <DrawerContent
-              side="left"
-              className="bg-black pt-10 text-white sm:max-w-60"
-            >
+            <DrawerContent side="left" className="pt-10 sm:max-w-60">
               <nav className="grid gap-6 text-lg font-medium">
                 <div className="flex h-16 shrink-0 items-center px-4">
                   <Logo />
@@ -150,17 +143,13 @@ export function DashboardLayout({ children }: { children: ReactNode }) {
                     end
                     className={({ isActive }) =>
                       cn(
-                        'text-gray-300 hover:bg-gray-700 hover:text-white',
                         'group flex flex-1 w-full items-center rounded-md p-2 text-base font-medium',
-                        isActive && 'bg-gray-900 text-white',
+                        isActive && '',
                       )
                     }
                   >
                     <item.icon
-                      className={cn(
-                        'text-gray-400 group-hover:text-gray-300',
-                        'mr-4 size-6 shrink-0',
-                      )}
+                      className={cn('mr-4 size-6 shrink-0')}
                       aria-hidden="true"
                     />
                     {item.name}
@@ -183,13 +172,13 @@ export function DashboardLayout({ children }: { children: ReactNode }) {
             <DropdownMenuContent align="end">
               <DropdownMenuItem
                 onClick={() => navigate(paths.app.profile.getHref())}
-                className={cn('block px-4 py-2 text-sm text-gray-700')}
+                className={cn('block px-4 py-2 text-sm')}
               >
                 Votre profil
               </DropdownMenuItem>
               <DropdownMenuSeparator />
               <DropdownMenuItem
-                className={cn('block px-4 py-2 text-sm text-gray-700 w-full')}
+                className={cn('block px-4 py-2 text-sm w-full')}
                 onClick={() => logout.mutate({})}
               >
                 Se déconnecter

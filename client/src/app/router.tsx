@@ -37,7 +37,79 @@ export const createAppRouter = (queryClient: QueryClient) =>
     },
     {
       path: paths.public.servers.path,
-      lazy: () => import('./routes/public/servers').then(convert(queryClient)),
+      lazy: () =>
+        import('./routes/public/servers/servers').then(convert(queryClient)),
+    },
+    {
+      path: paths.public.servers.chernarus.path,
+      lazy: () =>
+        import('./routes/public/servers/chernarus').then(convert(queryClient)),
+    },
+    {
+      path: paths.public.servers.chernarus['wolf-home'].path,
+      lazy: () =>
+        import('./routes/public/servers/chernarus/wolf-home').then(
+          convert(queryClient),
+        ),
+    },
+    {
+      path: paths.public.servers.chernarus.mechanic.path,
+      lazy: () =>
+        import('./routes/public/servers/chernarus/mechanic').then(
+          convert(queryClient),
+        ),
+    },
+    {
+      path: paths.public.servers.chernarus.tailor.path,
+      lazy: () =>
+        import('./routes/public/servers/chernarus/tailor').then(
+          convert(queryClient),
+        ),
+    },
+    {
+      path: paths.public.servers.chernarus.medic.path,
+      lazy: () =>
+        import('./routes/public/servers/chernarus/medic').then(
+          convert(queryClient),
+        ),
+    },
+    {
+      path: paths.public.servers.chernarus.police.path,
+      lazy: () =>
+        import('./routes/public/servers/chernarus/police').then(
+          convert(queryClient),
+        ),
+    },
+    {
+      path: paths.public.servers.chernarus.gunsmith.path,
+      lazy: () =>
+        import('./routes/public/servers/chernarus/gunsmith').then(
+          convert(queryClient),
+        ),
+    },
+    {
+      path: paths.public.servers['deer-isle'].path,
+      lazy: () =>
+        import('./routes/public/servers/deer-isle').then(convert(queryClient)),
+    },
+    {
+      path: paths.public.servers.sakhal.path,
+      lazy: () =>
+        import('./routes/public/servers/sakhal').then(convert(queryClient)),
+    },
+    {
+      path: paths.public['privacy-policy'].path,
+      lazy: () =>
+        import('./routes/public/privacy-policy').then(convert(queryClient)),
+    },
+    {
+      path: paths.public['legal-notices'].path,
+      lazy: () =>
+        import('./routes/public/legal-notices').then(convert(queryClient)),
+    },
+    {
+      path: paths.public.sitemap.path,
+      lazy: () => import('./routes/public/sitemap').then(convert(queryClient)),
     },
     {
       path: paths.auth.register.path,

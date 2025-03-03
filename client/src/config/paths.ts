@@ -15,6 +15,54 @@ export const paths = {
     servers: {
       path: '/servers',
       getHref: () => '/servers',
+      chernarus: {
+        path: '/servers/chernarus',
+        getHref: () => '/servers/chernarus',
+        'wolf-home': {
+          path: '/servers/chernarus/wolf-home',
+          getHref: () => '/servers/chernarus/wolf-home',
+        },
+        mechanic: {
+          path: '/servers/chernarus/mechanic',
+          getHref: () => '/servers/chernarus/mechanic',
+        },
+        tailor: {
+          path: '/servers/chernarus/tailor',
+          getHref: () => '/servers/chernarus/tailor',
+        },
+        medic: {
+          path: '/servers/chernarus/medic',
+          getHref: () => '/servers/chernarus/medic',
+        },
+        police: {
+          path: '/servers/chernarus/police',
+          getHref: () => '/servers/chernarus/police',
+        },
+        gunsmith: {
+          path: '/servers/chernarus/gunsmith',
+          getHref: () => '/servers/chernarus/gunsmith',
+        },
+      },
+      'deer-isle': {
+        path: '/servers/deer-isle',
+        getHref: () => '/servers/deer-isle',
+      },
+      sakhal: {
+        path: '/servers/sakhal',
+        getHref: () => '/servers/sakhal',
+      },
+    },
+    'privacy-policy': {
+      path: '/privacy-policy',
+      getHref: () => '/privacy-policy',
+    },
+    'legal-notices': {
+      path: '/legal-notices',
+      getHref: () => '/legal-notices',
+    },
+    sitemap: {
+      path: '/sitemap',
+      getHref: () => '/sitemap',
     },
   },
   auth: {

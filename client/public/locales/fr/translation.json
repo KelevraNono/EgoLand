@@ -60,5 +60,19 @@
   "createDiscussions": "Créer des discussions",
   "editDiscussions": "Editer des discussions",
   "deleteDiscussions": "Supprimer des discussions",
-  "deleteComments": "Supprimer des commentaires"
+  "deleteComments": "Supprimer des commentaires",
+  "copyright": "EgoLand. Tous droits réservés.",
+  "privacypolicy": "Politique de confidentialité",
+  "legalNotices": "Mentions légales",
+  "sitemap": "Plan du site",
+  "discord": "Discord",
+  "gite": "Gîte du loup",
+  "garage": "Garage",
+  "garagiste": "Garagiste",
+  "wolfHome": "Gîte du loup",
+  "mechanic": "Garagiste",
+  "tailor": "Tailleur",
+  "SMUR": "SMUR",
+  "police": "Police",
+  "gunsmith": "Armurier"
 }

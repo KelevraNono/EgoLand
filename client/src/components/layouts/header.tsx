@@ -1,12 +1,12 @@
-import { Info, Home, Server, ShoppingCart, Bot } from 'lucide-react';
-import { SVGProps } from 'react';
+import { t } from 'i18next';
+import { Info, Home, Server, ShoppingCart, User } from 'lucide-react';
+import { JSX, SVGProps } from 'react';
 import { NavLink } from 'react-router';
 
 import logo from '@/assets/logo.png';
 import { paths } from '@/config/paths';
 import { cn } from '@/utils/cn';
 
-import { Button } from '../ui/button';
 import { Link } from '../ui/link';
 
 const Logo = () => {
@@ -32,11 +32,10 @@ export const Header = () => {
     { name: 'A propos', to: paths.public.about.getHref(), icon: Info },
     { name: 'Boutique', to: paths.public.shop.getHref(), icon: ShoppingCart },
     { name: 'Serveurs', to: paths.public.servers.getHref(), icon: Server },
-    ,
   ].filter(Boolean) as SideNavigationItem[];
 
   return (
-    <header className="flex flex-col sticky top-0 z-30 py-4 bg-black">
+    <header className="flex flex-col sticky top-0 z-30 py-4">
       <nav className="flex justify-between items-center">
         <div className="flex">
           <Logo />
@@ -59,8 +58,19 @@ export const Header = () => {
             </NavLink>
           ))}
         </div>
-        <div>
-          <Button icon={<Bot />}>Discord</Button>
+        <div className="flex gap-4">
+          <NavLink
+            to={paths.auth.login.getHref()}
+            className={() =>
+              cn(
+                'hover:bg-secondary',
+                'flex items-center rounded p-2 gap-4 bg-primary',
+              )
+            }
+          >
+            <User aria-hidden="true" />
+            {t('login')}
+          </NavLink>
         </div>
       </nav>
     </header>

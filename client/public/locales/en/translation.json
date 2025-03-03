@@ -60,5 +60,19 @@
   "createDiscussions": "Create discussions",
   "editDiscussions": "Edit discussions",
   "deleteDiscussions": "Delete discussions",
-  "deleteComments": "Delete comments"
+  "deleteComments": "Delete comments",
+  "copyright": "Egoland. All rights reserved.",
+  "privacypolicy": "Privacy Policy",
+  "legalNotices": "Legal notices",
+  "sitemap": "Site plan",
+  "discord": "Discord",
+  "gite": "Wolf gîte",
+  "garage": "Garage",
+  "garagiste": "Mechanic",
+  "wolfHome": "Wolf home",
+  "mechanic": "Mechanic",
+  "tailor": "Tailor",
+  "SMUR": "Smur",
+  "police": "Police",
+  "gunsmith": "Gunsmith"
 }

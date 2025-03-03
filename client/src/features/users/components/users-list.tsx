@@ -40,7 +40,7 @@ export const UsersList = () => {
           field: 'email',
         },
         {
-          title: t('Rôle'),
+          title: t('role'),
           field: 'role',
         },
         {

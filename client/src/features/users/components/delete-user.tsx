@@ -32,12 +32,12 @@ export const DeleteUser = ({ id }: DeleteUserProps) => {
       icon="danger"
       title={t('deleteUser')}
       body={t('sureWantDeleteUser')}
-      triggerButton={<Button variant="destructive">{t('delete')}</Button>}
+      triggerButton={<Button variant="danger">{t('delete')}</Button>}
       confirmButton={
         <Button
           isLoading={deleteUserMutation.isPending}
           type="button"
-          variant="destructive"
+          variant="danger"
           onClick={() => deleteUserMutation.mutate({ userId: id })}
         >
           {t('deleteUser')}

@@ -67,7 +67,7 @@ export const RegisterForm = ({
                 checked={chooseTeam}
                 onCheckedChange={setChooseTeam}
                 className={`${
-                  chooseTeam ? 'bg-blue-600' : 'bg-gray-200'
+                  chooseTeam ? 'bg-blue-600' : ''
                 } relative inline-flex h-6 w-11 items-center rounded-full transition-colors focus:outline-none focus:ring-2 focus:ring-slate-500 focus:ring-offset-2`}
                 id="choose-team"
               />

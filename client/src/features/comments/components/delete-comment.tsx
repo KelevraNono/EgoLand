@@ -33,11 +33,7 @@ export const DeleteComment = ({ id, discussionId }: DeleteCommentProps) => {
       title={t('deleteComment')}
       body={t('sureWantDeleteComment')}
       triggerButton={
-        <Button
-          variant="destructive"
-          size="sm"
-          icon={<Trash className="size-4" />}
-        >
+        <Button variant="danger" size="sm" icon={<Trash className="size-4" />}>
           {t('deleteComment')}
         </Button>
       }
@@ -45,7 +41,7 @@ export const DeleteComment = ({ id, discussionId }: DeleteCommentProps) => {
         <Button
           isLoading={deleteCommentMutation.isPending}
           type="button"
-          variant="destructive"
+          variant="danger"
           onClick={() => deleteCommentMutation.mutate({ commentId: id })}
         >
           {t('deleteComment')}
