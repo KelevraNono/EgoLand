@@ -3,6 +3,7 @@ import {
   ChevronRightIcon,
   DotsHorizontalIcon,
 } from '@radix-ui/react-icons';
+import { t } from 'i18next';
 import { ComponentProps, forwardRef } from 'react';
 
 import { ButtonProps, buttonVariants } from '@/components/ui/button';
@@ -79,7 +80,7 @@ const PaginationPrevious = ({
     {...props}
   >
     <ChevronLeftIcon className="size-4" />
-    <span>Previous</span>
+    <span>{t('previous')}</span>
   </PaginationLink>
 );
 PaginationPrevious.displayName = 'PaginationPrevious';
@@ -94,7 +95,7 @@ const PaginationNext = ({
     className={cn('gap-1 pr-2.5', className)}
     {...props}
   >
-    <span>Next</span>
+    <span>{t('next')}</span>
     <ChevronRightIcon className="size-4" />
   </PaginationLink>
 );
@@ -110,7 +111,7 @@ const PaginationEllipsis = ({
     {...props}
   >
     <DotsHorizontalIcon className="size-4" />
-    <span className="sr-only">More pages</span>
+    <span className="sr-only">{t('morePages')}</span>
   </span>
 );
 PaginationEllipsis.displayName = 'PaginationEllipsis';

@@ -145,3 +145,18 @@ export const createWarning = <
 ) => {
   return { ...generateWarning(), ...overrides };
 };
+
+const generateDonation = () => ({
+  id: randUuid(),
+  title: randCatchPhrase(),
+  body: randParagraph(),
+  createdAt: Date.now(),
+});
+
+export const createDonation = <
+  T extends Partial<ReturnType<typeof generateDonation>>,
+>(
+  overrides?: T,
+) => {
+  return { ...generateDonation(), ...overrides };
+};

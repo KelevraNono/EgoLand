@@ -64,6 +64,12 @@ const models = {
     body: String,
     createdAt: Date.now,
   },
+  donation: {
+    id: primaryKey(nanoid),
+    title: String,
+    body: String,
+    createdAt: Date.now,
+  },
 };
 
 export const db = factory(models);

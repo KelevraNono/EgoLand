@@ -21,7 +21,7 @@ export const UpdateBan = ({ banId }: UpdateBanProps) => {
       onSuccess: () => {
         addNotification({
           type: 'success',
-          title: 'Ban éditée',
+          title: t('banEdited'),
         });
       },
     },

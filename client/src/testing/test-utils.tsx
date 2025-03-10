@@ -17,6 +17,7 @@ import {
   createBan as generateBan,
   createVehicule as generateVehicule,
   createUser as generateUser,
+  createDonation as generateDonation,
 } from './data-generators';
 import { db } from './mocks/db';
 import { AUTH_COOKIE, authenticate, hash } from './mocks/utils';
@@ -60,6 +61,12 @@ export const createVehicule = async (vehiculeProperties?: any) => {
 export const createWarning = async (warningProperties?: any) => {
   const warning = generateWarning(warningProperties);
   const res = await db.warning.create(warning);
+  return res;
+};
+
+export const createDonation = async (donationProperties?: any) => {
+  const donation = generateDonation(donationProperties);
+  const res = await db.donation.create(donation);
   return res;
 };
 

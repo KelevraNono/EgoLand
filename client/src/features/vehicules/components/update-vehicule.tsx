@@ -24,7 +24,7 @@ export const UpdateVehicule = ({ vehiculeId }: UpdateVehiculeProps) => {
       onSuccess: () => {
         addNotification({
           type: 'success',
-          title: 'Vehicule éditée',
+          title: t('vehiculeEdited'),
         });
       },
     },

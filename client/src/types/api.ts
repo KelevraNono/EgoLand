@@ -73,3 +73,8 @@ export type Ban = Entity<{
   title: string;
   body: string;
 }>;
+
+export type Donation = Entity<{
+  title: string;
+  body: string;
+}>;

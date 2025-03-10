@@ -9,6 +9,7 @@ import { bansHandlers } from './bans';
 import { basesHandlers } from './bases';
 import { commentsHandlers } from './comments';
 import { discussionsHandlers } from './discussions';
+import { donationsHandlers } from './donations';
 import { eventsHandlers } from './events';
 import { teamsHandlers } from './teams';
 import { usersHandlers } from './users';
@@ -22,6 +23,7 @@ export const handlers = [
   ...teamsHandlers,
   ...usersHandlers,
   ...warningsHandlers,
+  ...donationsHandlers,
   ...vehiculesHandlers,
   ...eventsHandlers,
   ...basesHandlers,

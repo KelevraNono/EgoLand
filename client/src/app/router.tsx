@@ -147,9 +147,23 @@ export const createAppRouter = (queryClient: QueryClient) =>
           lazy: () => import('./routes/app/users').then(convert(queryClient)),
         },
         {
+          path: paths.app.donations.path,
+          lazy: () =>
+            import('./routes/app/donations/donations').then(
+              convert(queryClient),
+            ),
+        },
+        {
           path: paths.app.events.path,
           lazy: () =>
             import('./routes/app/events/events').then(convert(queryClient)),
+        },
+        {
+          path: paths.app.vehicules.path,
+          lazy: () =>
+            import('./routes/app/vehicules/vehicules').then(
+              convert(queryClient),
+            ),
         },
         {
           path: paths.app.bases.path,
@@ -165,13 +179,6 @@ export const createAppRouter = (queryClient: QueryClient) =>
           path: paths.app.bans.path,
           lazy: () =>
             import('./routes/app/bans/bans').then(convert(queryClient)),
-        },
-        {
-          path: paths.app.vehicules.path,
-          lazy: () =>
-            import('./routes/app/vehicules/vehicules').then(
-              convert(queryClient),
-            ),
         },
         {
           path: paths.app.profile.path,

@@ -24,7 +24,7 @@ export const UpdateWarning = ({ warningId }: UpdateWarningProps) => {
       onSuccess: () => {
         addNotification({
           type: 'success',
-          title: 'Warning éditée',
+          title: t('warningEdited'),
         });
       },
     },

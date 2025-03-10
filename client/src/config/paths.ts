@@ -110,6 +110,10 @@ export const paths = {
       path: 'warnings',
       getHref: () => '/app/warnings',
     },
+    donations: {
+      path: 'donations',
+      getHref: () => '/app/donations',
+    },
     bans: {
       path: 'bans',
       getHref: () => '/app/bans',

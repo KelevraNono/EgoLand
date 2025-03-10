@@ -1,70 +1,56 @@
 import { t } from 'i18next';
-import { Pen } from 'lucide-react';
+import { Plus } from 'lucide-react';
+
+import {
+  createDonationInputSchema,
+  useCreateDonation,
+} from '../api/create-donation';
 
 import { Button } from '@/components/ui/button';
 import { Form, FormDrawer, Input, Textarea } from '@/components/ui/form';
 import { useNotifications } from '@/components/ui/notifications';
 import { Authorization, ROLES } from '@/lib/authorization';
 
-import { useEvent } from '../api/get-event';
-import { updateEventInputSchema, useUpdateEvent } from '../api/update-event';
-
-type UpdateEventProps = {
-  eventId: string;
-};
-
-export const UpdateEvent = ({ eventId }: UpdateEventProps) => {
+export const CreateDonation = () => {
   const { addNotification } = useNotifications();
-  const eventQuery = useEvent({ eventId });
-  const updateEventMutation = useUpdateEvent({
+  const createDonationMutation = useCreateDonation({
     mutationConfig: {
       onSuccess: () => {
         addNotification({
           type: 'success',
-          title: t('eventEdited'),
+          title: t('donationCreated'),
         });
       },
     },
   });
 
-  const event = eventQuery.data?.data;
-
   return (
     <Authorization allowedRoles={[ROLES.ADMIN]}>
       <FormDrawer
-        isDone={updateEventMutation.isSuccess}
+        isDone={createDonationMutation.isSuccess}
         triggerButton={
-          <Button icon={<Pen className="size-4" />} size="sm">
-            {t('editEvent')}
+          <Button size="sm" icon={<Plus className="size-4" />}>
+            {t('createDonation')}
           </Button>
         }
-        title={t('editEvent')}
+        title={t('createDonation')}
         submitButton={
           <Button
-            form="update-event"
+            form="create-donation"
             type="submit"
             size="sm"
-            isLoading={updateEventMutation.isPending}
+            isLoading={createDonationMutation.isPending}
           >
             {t('save')}
           </Button>
         }
       >
         <Form
-          id="update-event"
+          id="create-donation"
           onSubmit={(values) => {
-            updateEventMutation.mutate({
-              data: values,
-              eventId,
-            });
+            createDonationMutation.mutate({ data: values });
           }}
-          options={{
-            defaultValues: {
-              title: event?.title ?? '',
-              body: event?.body ?? '',
-            },
-          }}
-          schema={updateEventInputSchema}
+          schema={createDonationInputSchema}
         >
           {({ register, formState }) => (
             <>
@@ -73,6 +59,7 @@ export const UpdateEvent = ({ eventId }: UpdateEventProps) => {
                 error={formState.errors['title']}
                 registration={register('title')}
               />
+
               <Textarea
                 label={t('content')}
                 error={formState.errors['body']}

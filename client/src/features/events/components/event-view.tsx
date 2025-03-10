@@ -28,11 +28,6 @@ export const EventView = ({ eventId }: { eventId: string }) => {
   return (
     <div>
       <span className="text-xs font-bold">{formatDate(event.createdAt)}</span>
-      {event.author && (
-        <span className="ml-2 text-sm font-bold">
-          {t('by')} {event.author.firstName} {event.author.lastName}
-        </span>
-      )}
       <div className="mt-6 flex flex-col space-y-16">
         <div className="flex justify-end">
           <UpdateEvent eventId={eventId} />

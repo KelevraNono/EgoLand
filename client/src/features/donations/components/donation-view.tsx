@@ -1,19 +1,17 @@
-import { t } from 'i18next';
+import { useDonation } from '../api/get-donation';
+
+import { UpdateDonation } from './update-donation';
 
 import { MDPreview } from '@/components/ui/md-preview';
 import { Spinner } from '@/components/ui/spinner';
 import { formatDate } from '@/utils/format';
 
-import { useBan } from '../api/get-ban';
-
-import { UpdateBan } from './update-ban';
-
-export const BanView = ({ banId }: { banId: string }) => {
-  const banQuery = useBan({
-    banId,
+export const DonationView = ({ donationId }: { donationId: string }) => {
+  const donationQuery = useDonation({
+    donationId,
   });
 
-  if (banQuery.isLoading) {
+  if (donationQuery.isLoading) {
     return (
       <div className="flex h-48 w-full items-center justify-center">
         <Spinner size="lg" />
@@ -21,22 +19,24 @@ export const BanView = ({ banId }: { banId: string }) => {
     );
   }
 
-  const ban = banQuery?.data?.data;
+  const donation = donationQuery?.data?.data;
 
-  if (!ban) return null;
+  if (!donation) return null;
 
   return (
     <div>
-      <span className="text-xs font-bold">{formatDate(ban.createdAt)}</span>
+      <span className="text-xs font-bold">
+        {formatDate(donation.createdAt)}
+      </span>
       <div className="mt-6 flex flex-col space-y-16">
         <div className="flex justify-end">
-          <UpdateBan banId={banId} />
+          <UpdateDonation donationId={donationId} />
         </div>
         <div>
           <div className="overflow-hidden shadow sm:rounded-lg">
             <div className="px-4 py-5 sm:px-6">
               <div className="mt-1 max-w-2xl text-sm">
-                <MDPreview value={ban.body} />
+                <MDPreview value={donation.body} />
               </div>
             </div>
           </div>

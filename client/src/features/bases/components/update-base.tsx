@@ -21,7 +21,7 @@ export const UpdateBase = ({ baseId }: UpdateBaseProps) => {
       onSuccess: () => {
         addNotification({
           type: 'success',
-          title: 'Base éditée',
+          title: t('baseEdited'),
         });
       },
     },
