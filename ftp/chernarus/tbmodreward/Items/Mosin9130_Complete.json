@@ -1,0 +1,10 @@
+{
+	"uniqueName": "Mosin9130_Complete",
+	"health": 100.0,
+	"type": "Mosin9130",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [
+		"Mosin_Compensator",
+		"PUScopeOptic"
+	]
+}

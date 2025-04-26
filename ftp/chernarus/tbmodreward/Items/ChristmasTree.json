@@ -1,0 +1,8 @@
+{
+	"uniqueName": "ChristmasTree",
+	"health": 100.0,
+	"type": "ChristmasTree",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [],
+	"isCar": 0
+}

@@ -1,0 +1,8 @@
+{
+	"uniqueName": "CarRadiator",
+	"health": 100.0,
+	"type": "CarRadiator",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [],
+	"isCar": 0
+}

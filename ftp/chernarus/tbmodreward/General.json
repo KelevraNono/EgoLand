@@ -1,0 +1,6 @@
+{
+    "version": "3",
+    "subtractNPCKillsFromPlayerKills": 1,
+    "maxBackupsPerPlayer": 960,
+    "doNotCountKillsWhenPlayerIsInSameGroupFromLBMasterGroup": 1
+}

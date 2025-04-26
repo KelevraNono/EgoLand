@@ -1,0 +1,8 @@
+{
+	"uniqueName": "BearTrap",
+	"health": 100.0,
+	"type": "BearTrap",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [],
+	"isCar": 0
+}

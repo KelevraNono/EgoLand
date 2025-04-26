@@ -1,0 +1,8 @@
+{
+	"uniqueName": "Lockpick",
+	"health": 100.0,
+	"type": "Lockpick",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [],
+	"isCar": 0
+}

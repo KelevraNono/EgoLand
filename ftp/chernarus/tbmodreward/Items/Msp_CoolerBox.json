@@ -1,0 +1,8 @@
+{
+    "uniqueName": "Msp_CoolerBox",
+    "health": 100.0,
+    "type": "Msp_CoolerBox",
+    "quantity": 1.0,
+    "attachmentUniqueNames": [],
+    "isCar": 0
+}

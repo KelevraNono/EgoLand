@@ -1,0 +1,8 @@
+{
+    "uniqueName": "ME_Fenris_summon",
+    "health": 100.0,
+    "type": "ME_Fenris_summon",
+    "quantity": 1.0,
+    "attachmentUniqueNames": [],
+    "isCar": 0
+}

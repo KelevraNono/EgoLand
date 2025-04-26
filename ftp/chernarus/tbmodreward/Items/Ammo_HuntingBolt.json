@@ -1,0 +1,8 @@
+{
+    "uniqueName": "Ammo_HuntingBolt",
+    "health": 100.0,
+    "type": "Ammo_HuntingBolt",
+    "quantity": 50,
+    "attachmentUniqueNames": [],
+    "isCar": 0
+}

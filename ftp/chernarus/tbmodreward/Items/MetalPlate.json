@@ -1,0 +1,8 @@
+{
+	"uniqueName": "MetalPlate",
+	"health": 100.0,
+	"type": "MetalPlate",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [],
+	"isCar": 0
+}

@@ -1,0 +1,8 @@
+{
+    "uniqueName": "Fire_minion",
+    "health": 100.0,
+    "type": "Fire_minion",
+    "quantity": 1.0,
+    "attachmentUniqueNames": [],
+    "isCar": 0
+}

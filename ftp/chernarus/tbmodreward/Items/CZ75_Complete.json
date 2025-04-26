@@ -1,0 +1,11 @@
+{
+	"uniqueName": "CZ75_Complete",
+	"health": 100.0,
+	"type": "CZ75",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [
+		"Mag_CZ75_15Rnd",
+		"PistolSuppressor",
+		"TLRLight"
+	]
+}

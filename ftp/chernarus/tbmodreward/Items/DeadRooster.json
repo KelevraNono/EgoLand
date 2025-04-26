@@ -1,0 +1,8 @@
+{
+	"uniqueName": "DeadRooster",
+	"health": 100.0,
+	"type": "DeadRooster",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [],
+	"isCar": 0
+}

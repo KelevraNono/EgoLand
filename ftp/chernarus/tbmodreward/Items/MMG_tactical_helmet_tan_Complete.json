@@ -1,0 +1,11 @@
+{
+	"uniqueName": "MMG_tactical_helmet_tan_Complete",
+	"health": 100.0,
+	"type": "MMG_tactical_helmet_tan",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [
+		"NVGoggles",
+		"Battery9V"
+	],
+	"isCar": 0
+}

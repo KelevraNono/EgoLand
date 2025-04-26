@@ -1,0 +1,8 @@
+{
+	"uniqueName": "FryingPan",
+	"health": 100.0,
+	"type": "FryingPan",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [],
+	"isCar": 0
+}

@@ -1,0 +1,8 @@
+{
+	"uniqueName": "CanOpener",
+	"health": 100.0,
+	"type": "CanOpener",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [],
+	"isCar": 0
+}

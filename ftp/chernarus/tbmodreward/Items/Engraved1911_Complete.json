@@ -1,0 +1,10 @@
+{
+	"uniqueName": "Engraved1911_Complete",
+	"health": 100.0,
+	"type": "Engraved1911",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [
+		"PistolSuppressor",
+		"Mag_1911_7Rnd"
+	]
+}

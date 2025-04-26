@@ -1,0 +1,10 @@
+{
+	"uniqueName": "GorkaHelmet",
+	"health": 100.0,
+	"type": "GorkaHelmet",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [
+		"GorkaHelmetVisor"
+	],
+	"isCar": 0
+}

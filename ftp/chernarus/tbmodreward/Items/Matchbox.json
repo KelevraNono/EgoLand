@@ -1,0 +1,8 @@
+{
+	"uniqueName": "Matchbox",
+	"health": 100.0,
+	"type": "Matchbox",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [],
+	"isCar": 0
+}

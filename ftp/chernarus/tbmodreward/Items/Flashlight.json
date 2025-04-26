@@ -1,0 +1,8 @@
+{
+	"uniqueName": "Flashlight",
+	"health": 100.0,
+	"type": "Flashlight",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [],
+	"isCar": 0
+}

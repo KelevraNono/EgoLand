@@ -1,0 +1,8 @@
+{
+    "uniqueName": "CP_RollingPapers",
+    "health": 100.0,
+    "type": "CP_RollingPapers",
+    "quantity": 100,
+    "attachmentUniqueNames": [],
+    "isCar": 0
+}

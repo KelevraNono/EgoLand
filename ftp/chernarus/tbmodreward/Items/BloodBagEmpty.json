@@ -1,0 +1,8 @@
+{
+	"uniqueName": "BloodBagEmpty",
+	"health": 100.0,
+	"type": "BloodBagEmpty",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [],
+	"isCar": 0
+}

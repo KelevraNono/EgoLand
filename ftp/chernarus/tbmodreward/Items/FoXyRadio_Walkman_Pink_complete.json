@@ -1,0 +1,14 @@
+{
+	"uniqueName": "FoXyRadio_Walkman_Pink_complete",
+	"health": 100.0,
+	"type": "FoXyRadio_Walkman_Pink",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [
+		"Mixtape_FRSP2_DJCammy",
+		"FoXyRadio_EarPhones",
+		"FoXyRadio_Wires",
+		"FoXyRadio_Belt",
+		"FoXyRadio_Battery_AA"
+	],
+	"isCar": 0
+}

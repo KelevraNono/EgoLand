@@ -1,0 +1,8 @@
+{
+    "uniqueName": "FreezeFurnace",
+    "health": 100.0,
+    "type": "FreezeFurnace",
+    "quantity": 1.0,
+    "attachmentUniqueNames": [],
+    "isCar": 0
+}

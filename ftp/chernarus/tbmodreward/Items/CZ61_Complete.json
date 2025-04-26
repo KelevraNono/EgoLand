@@ -1,0 +1,10 @@
+{
+	"uniqueName": "CZ61_Complete",
+	"health": 100.0,
+	"type": "CZ61",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [
+		"PistolSuppressor",
+		"Mag_CZ61_20Rnd"
+	]
+}

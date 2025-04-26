@@ -1,0 +1,8 @@
+{
+	"uniqueName": "Blowtorch",
+	"health": 100.0,
+	"type": "Blowtorch",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [],
+	"isCar": 0
+}

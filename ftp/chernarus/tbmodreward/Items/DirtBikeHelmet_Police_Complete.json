@@ -1,0 +1,10 @@
+{
+	"uniqueName": "DirtBikeHelmet_Police_Complete",
+	"health": 100.0,
+	"type": "DirtBikeHelmet_Police",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [
+		"DirtBikeHelmet_Mouthguard",
+		"DirtBikeHelmet_Visor"
+	]
+}

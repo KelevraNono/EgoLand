@@ -1,0 +1,8 @@
+{
+	"uniqueName": "Compass",
+	"health": 100.0,
+	"type": "Compass",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [],
+	"isCar": 0
+}

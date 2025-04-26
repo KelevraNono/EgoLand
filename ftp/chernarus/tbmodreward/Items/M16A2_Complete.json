@@ -1,0 +1,9 @@
+{
+	"uniqueName": "M16A2_Complete",
+	"health": 100.0,
+	"type": "M16A2",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [
+		"Mag_CMAG_40Rnd"
+	]
+}

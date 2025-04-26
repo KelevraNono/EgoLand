@@ -1,0 +1,13 @@
+{
+    "uniqueName": "Med_kit",
+    "health": 100.0,
+    "type": "Med_kit",
+    "quantity": 1.0,
+    "attachmentUniqueNames": [
+        "Med_capsula_1",
+        "Med_capsula_2",
+        "Med_capsula_3",
+        "Med_capsula_4"
+    ],
+    "isCar": 0
+}

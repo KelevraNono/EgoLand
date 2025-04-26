@@ -1,0 +1,8 @@
+{
+	"uniqueName": "CarBattery",
+	"health": 100.0,
+	"type": "CarBattery",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [],
+	"isCar": 0
+}

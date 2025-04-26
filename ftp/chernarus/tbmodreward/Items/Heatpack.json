@@ -1,0 +1,8 @@
+{
+	"uniqueName": "Heatpack",
+	"health": 100.0,
+	"type": "Heatpack",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [],
+	"isCar": 0
+}

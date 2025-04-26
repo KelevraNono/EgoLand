@@ -1,0 +1,8 @@
+{
+    "uniqueName": "ExpansionGarageVehicle",
+    "health": 100.0,
+    "type": "ExpansionGarageVehicle",
+    "quantity": 1.0,
+    "attachmentUniqueNames": [],
+    "isCar": 0
+}

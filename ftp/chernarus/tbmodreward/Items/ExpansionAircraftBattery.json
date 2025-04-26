@@ -1,0 +1,8 @@
+{
+    "uniqueName": "ExpansionAircraftBattery",
+    "health": 100.0,
+    "type": "ExpansionAircraftBattery",
+    "quantity": 1.0,
+    "attachmentUniqueNames": [],
+    "isCar": 0
+}

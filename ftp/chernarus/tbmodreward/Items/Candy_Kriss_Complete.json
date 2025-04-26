@@ -1,0 +1,12 @@
+{
+	"uniqueName": "Candy_Kriss_Complete",
+	"health": 100.0,
+	"type": "Candy_Kriss",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [
+		"Candy_Kriss_Buttstock",
+		"ReflexOptic",
+		"UniversalLight",
+		"Candy_Kriss_mag_33Rnd"
+	]
+}

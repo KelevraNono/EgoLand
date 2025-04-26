@@ -1,0 +1,8 @@
+{
+	"uniqueName": "Grenade_ChemGas",
+	"health": 100.0,
+	"type": "Grenade_ChemGas",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [],
+	"isCar": 0
+}

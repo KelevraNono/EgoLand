@@ -1,0 +1,8 @@
+{
+	"uniqueName": "DuctTape",
+	"health": 100.0,
+	"type": "DuctTape",
+	"quantity": 100,
+	"attachmentUniqueNames": [],
+	"isCar": 0
+}

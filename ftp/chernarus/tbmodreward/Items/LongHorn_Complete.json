@@ -1,0 +1,9 @@
+{
+	"uniqueName": "LongHorn_Complete",
+	"health": 100.0,
+	"type": "LongHorn",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [
+		"PistolOptic"
+	]
+}

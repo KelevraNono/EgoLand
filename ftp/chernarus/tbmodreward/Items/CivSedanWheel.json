@@ -1,0 +1,8 @@
+{
+	"uniqueName": "CivSedanWheel",
+	"health": 100.0,
+	"type": "CivSedanWheel",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [],
+	"isCar": 0
+}

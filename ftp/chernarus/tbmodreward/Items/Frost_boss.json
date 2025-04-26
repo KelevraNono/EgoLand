@@ -1,0 +1,8 @@
+{
+    "uniqueName": "Frost_boss",
+    "health": 100.0,
+    "type": "Frost_boss",
+    "quantity": 1.0,
+    "attachmentUniqueNames": [],
+    "isCar": 0
+}

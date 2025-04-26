@@ -1,0 +1,8 @@
+{
+	"uniqueName": "LargeTent",
+	"health": 100.0,
+	"type": "LargeTent",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [],
+	"isCar": 0
+}

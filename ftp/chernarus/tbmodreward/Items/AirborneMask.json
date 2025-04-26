@@ -1,0 +1,10 @@
+{
+	"uniqueName": "AirborneMask",
+	"health": 100.0,
+	"type": "AirborneMask",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [
+		"GasMask_Filter"
+	],
+	"isCar": 0
+}

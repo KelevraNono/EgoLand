@@ -1,0 +1,8 @@
+{
+    "uniqueName": "Garage_Sign_Player",
+    "health": 100.0,
+    "type": "Garage_Sign_Player",
+    "quantity": 1.0,
+    "attachmentUniqueNames": [],
+    "isCar": 0
+}

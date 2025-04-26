@@ -1,0 +1,24 @@
+{
+	"uniqueName": "CivilianSedan_Wine_Complete",
+	"health": 100.0,
+	"type": "CivilianSedan_Wine",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [
+		"CivSedanWheel",
+		"CivSedanWheel",
+		"CivSedanWheel",
+		"CivSedanWheel",
+		"CivSedanWheel",
+		"CarRadiator",
+		"CarBattery",
+		"SparkPlug",
+		"HeadlightH7",
+		"HeadlightH7",
+		"CivSedanDoors_Driver_Wine",
+		"CivSedanDoors_CoDriver_Wine",
+		"CivSedanDoors_BackLeft_Wine",
+		"CivSedanDoors_BackRight_Wine",
+		"CivSedanHood_Wine",
+		"CivSedanTrunk_Wine"
+	]
+}

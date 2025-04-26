@@ -1,0 +1,18 @@
+{
+	"uniqueName": "FirstAidKit",
+	"health": 100.0,
+	"type": "FirstAidKit",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [
+		"IodineTincture",
+		"TetracyclineAntibiotics",
+		"PainkillerTablets",
+		"VitaminBottle",
+		"BandageDressing",
+		"BloodTestKit",
+		"SalineBagIV",
+		"StartKitIV",
+		"BloodBagEmpty"
+	],
+	"isCar": 0
+}

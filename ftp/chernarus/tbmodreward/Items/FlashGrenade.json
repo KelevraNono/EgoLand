@@ -1,0 +1,8 @@
+{
+	"uniqueName": "FlashGrenade",
+	"health": 100.0,
+	"type": "FlashGrenade",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [],
+	"isCar": 0
+}

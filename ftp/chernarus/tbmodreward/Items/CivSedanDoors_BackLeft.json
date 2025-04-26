@@ -1,0 +1,8 @@
+{
+	"uniqueName": "CivSedanDoors_BackLeft",
+	"health": 100.0,
+	"type": "CivSedanDoors_BackLeft",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [],
+	"isCar": 0
+}

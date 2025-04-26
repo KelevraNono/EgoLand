@@ -1,0 +1,8 @@
+{
+    "uniqueName": "Msp_SnowballFridge",
+    "health": 100.0,
+    "type": "Msp_SnowballFridge",
+    "quantity": 1.0,
+    "attachmentUniqueNames": [],
+    "isCar": 0
+}

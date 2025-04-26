@@ -1,0 +1,8 @@
+{
+	"uniqueName": "Hook",
+	"health": 100.0,
+	"type": "Hook",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [],
+	"isCar": 0
+}

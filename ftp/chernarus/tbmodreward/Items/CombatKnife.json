@@ -1,0 +1,8 @@
+{
+	"uniqueName": "CombatKnife",
+	"health": 100.0,
+	"type": "CombatKnife",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [],
+	"isCar": 0
+}

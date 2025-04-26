@@ -1,0 +1,8 @@
+{
+    "uniqueName": "Bonfire",
+    "health": 100.0,
+    "type": "Bonfire",
+    "quantity": 1.0,
+    "attachmentUniqueNames": [],
+    "isCar": 0
+}

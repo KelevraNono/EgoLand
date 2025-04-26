@@ -1,0 +1,8 @@
+{
+    "uniqueName": "DoorTestCamera",
+    "health": 100.0,
+    "type": "DoorTestCamera",
+    "quantity": 1.0,
+    "attachmentUniqueNames": [],
+    "isCar": 0
+}

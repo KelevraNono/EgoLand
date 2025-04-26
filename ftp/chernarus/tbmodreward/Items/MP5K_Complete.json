@@ -1,0 +1,15 @@
+{
+	"uniqueName": "MP5K_Complete",
+	"health": 100.0,
+	"type": "MP5K",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [
+		"MP5_RailHndgrd",
+		"MP5_PlasticHndgrd",
+		"MP5k_StockBttstck",
+		"Mag_MP5_30Rnd",
+		"M4_T3NRDSOptic",
+		"MP5_Compensator",
+		"PistolSuppressor"
+	]
+}

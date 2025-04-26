@@ -1,0 +1,8 @@
+{
+	"uniqueName": "BloodTestKit",
+	"health": 100.0,
+	"type": "BloodTestKit",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [],
+	"isCar": 0
+}

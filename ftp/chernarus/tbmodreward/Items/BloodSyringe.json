@@ -1,0 +1,8 @@
+{
+    "uniqueName": "BloodSyringe",
+    "health": 100.0,
+    "type": "BloodSyringe",
+    "quantity": 1.0,
+    "attachmentUniqueNames": [],
+    "isCar": 0
+}

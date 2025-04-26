@@ -1,0 +1,13 @@
+{
+	"uniqueName": "AKM_Complete",
+	"health": 100.0,
+	"type": "AKM",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [
+		"AK_PlasticBttstck",
+		"AK_PlasticHndgrd",
+		"KashtanOptic",
+		"AK_Suppressor",
+		"Mag_AKM_30Rnd"
+	]
+}

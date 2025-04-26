@@ -1,0 +1,8 @@
+{
+	"uniqueName": "Firewood",
+	"health": 100.0,
+	"type": "Firewood",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [],
+	"isCar": 0
+}

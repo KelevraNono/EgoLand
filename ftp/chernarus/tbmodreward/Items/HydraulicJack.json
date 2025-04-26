@@ -1,0 +1,8 @@
+{
+    "uniqueName": "HydraulicJack",
+    "health": 100.0,
+    "type": "HydraulicJack",
+    "quantity": 1.0,
+    "attachmentUniqueNames": [],
+    "isCar": 0
+}

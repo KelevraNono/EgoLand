@@ -1,0 +1,11 @@
+{
+	"uniqueName": "MMG_striker_helmet_alpine_Complete",
+	"health": 100.0,
+	"type": "MMG_striker_helmet_alpine",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [
+		"UniversalLight",
+		"Battery9V"
+	],
+	"isCar": 0
+}

@@ -1,0 +1,8 @@
+{
+    "uniqueName": "BoneKnife",
+    "health": 100.0,
+    "type": "BoneKnife",
+    "quantity": 1.0,
+    "attachmentUniqueNames": [],
+    "isCar": 0
+}

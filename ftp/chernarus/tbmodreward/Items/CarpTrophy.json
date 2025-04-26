@@ -1,0 +1,8 @@
+{
+    "uniqueName": "CarpTrophy",
+    "health": 100.0,
+    "type": "CarpTrophy",
+    "quantity": 1.0,
+    "attachmentUniqueNames": [],
+    "isCar": 0
+}

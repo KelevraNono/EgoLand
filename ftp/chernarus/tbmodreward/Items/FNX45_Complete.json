@@ -1,0 +1,12 @@
+{
+	"uniqueName": "FNX45_Complete",
+	"health": 100.0,
+	"type": "FNX45",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [
+		"Mag_FNX45_15Rnd",
+		"PistolSuppressor",
+		"TLRLight",
+		"FNP45_MRDSOptic"
+	]
+}

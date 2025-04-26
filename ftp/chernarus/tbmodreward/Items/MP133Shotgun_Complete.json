@@ -1,0 +1,9 @@
+{
+	"uniqueName": "MP133Shotgun_Complete",
+	"health": 100.0,
+	"type": "MP133Shotgun",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [
+		"FNP45_MRDSOptic"
+	]
+}

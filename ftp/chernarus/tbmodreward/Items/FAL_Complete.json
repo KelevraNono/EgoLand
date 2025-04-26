@@ -1,0 +1,11 @@
+{
+	"uniqueName": "FAL_Complete",
+	"health": 100.0,
+	"type": "FAL",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [
+		"Fal_FoldingBttstck",
+		"BUISOptic",
+		"Mag_FAL_20Rnd"
+	]
+}

@@ -1,0 +1,10 @@
+{
+	"uniqueName": "DirtBikeHelmet_Chernarus_Complete",
+	"health": 100.0,
+	"type": "DirtBikeHelmet_Chernarus",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [
+		"DirtBikeHelmet_Mouthguard",
+		"DirtBikeHelmet_Visor"
+	]
+}

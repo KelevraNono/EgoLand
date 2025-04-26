@@ -1,0 +1,8 @@
+{
+	"uniqueName": "FishNetTrap",
+	"health": 100.0,
+	"type": "FishNetTrap",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [],
+	"isCar": 0
+}

@@ -1,0 +1,8 @@
+{
+    "uniqueName": "HipPack_Medical",
+    "health": 100.0,
+    "type": "HipPack_Medical",
+    "quantity": 1.0,
+    "attachmentUniqueNames": [],
+    "isCar": 0
+}

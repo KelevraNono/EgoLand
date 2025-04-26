@@ -1,0 +1,24 @@
+{
+	"uniqueName": "CivilianSedan_Black_Complete",
+	"health": 100.0,
+	"type": "CivilianSedan_Black",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [
+		"CivSedanWheel",
+		"CivSedanWheel",
+		"CivSedanWheel",
+		"CivSedanWheel",
+		"CivSedanWheel",
+		"CarRadiator",
+		"CarBattery",
+		"SparkPlug",
+		"HeadlightH7",
+		"HeadlightH7",
+		"CivSedanDoors_Driver_Black",
+		"CivSedanDoors_CoDriver_Black",
+		"CivSedanDoors_BackLeft_Black",
+		"CivSedanDoors_BackRight_Black",
+		"CivSedanHood_Black",
+		"CivSedanTrunk_Black"
+	]
+}

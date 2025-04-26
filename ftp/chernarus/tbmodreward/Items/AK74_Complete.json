@@ -1,0 +1,12 @@
+{
+	"uniqueName": "AK74_Complete",
+	"health": 100.0,
+	"type": "AK74",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [
+		"AK74_WoodBttstck",
+		"AK74_Hndgrd",
+		"PSO11Optic",
+		"Mag_AK74_30Rnd"
+	]
+}

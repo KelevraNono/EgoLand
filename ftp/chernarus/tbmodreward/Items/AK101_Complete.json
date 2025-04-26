@@ -1,0 +1,12 @@
+{
+	"uniqueName": "AK101_Complete",
+	"health": 100.0,
+	"type": "AK101",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [
+		"AK_PlasticBttstck",
+		"AK_PlasticHndgrd",
+		"PSO11Optic",
+		"Mag_AK101_30Rnd"
+	]
+}

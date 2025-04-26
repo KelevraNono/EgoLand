@@ -1,0 +1,8 @@
+{
+	"uniqueName": "GardenPlot",
+	"health": 100.0,
+	"type": "GardenPlot",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [],
+	"isCar": 0
+}

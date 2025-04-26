@@ -1,0 +1,8 @@
+{
+    "uniqueName": "BBP_Toilet",
+    "health": 100.0,
+    "type": "BBP_Toilet",
+    "quantity": 1.0,
+    "attachmentUniqueNames": [],
+    "isCar": 0
+}

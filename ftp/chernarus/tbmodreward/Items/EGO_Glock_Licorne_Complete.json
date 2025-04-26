@@ -1,0 +1,13 @@
+{
+    "uniqueName": "EGO_Glock_Licorne_Complete",
+    "health": 100.0,
+    "type": "EGO_Glock_Licorne",
+    "quantity": 1.0,
+    "attachmentUniqueNames": [
+        "PITSTOP_Glock18_Magazine",
+        "PistolSuppressor",
+		"TLRLight",
+        "FNP45_MRDSOptic"
+    ],
+    "isCar": 0
+}

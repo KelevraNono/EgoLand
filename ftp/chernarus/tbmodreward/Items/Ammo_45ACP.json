@@ -1,0 +1,8 @@
+{
+	"uniqueName": "Ammo_45ACP",
+	"health": 100.0,
+	"type": "Ammo_45ACP",
+	"quantity": 50,
+	"attachmentUniqueNames": [],
+	"isCar": 0
+}

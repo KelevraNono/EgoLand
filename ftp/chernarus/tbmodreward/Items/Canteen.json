@@ -1,0 +1,8 @@
+{
+	"uniqueName": "Canteen",
+	"health": 100.0,
+	"type": "Canteen",
+	"quantity": 100,
+	"attachmentUniqueNames": [],
+	"isCar": 0
+}

@@ -1,0 +1,8 @@
+{
+    "uniqueName": "LootChest",
+    "health": 100.0,
+    "type": "LootChest",
+    "quantity": 1.0,
+    "attachmentUniqueNames": [],
+    "isCar": 0
+}

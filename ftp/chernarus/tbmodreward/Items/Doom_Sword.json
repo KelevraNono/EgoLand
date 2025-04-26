@@ -1,0 +1,8 @@
+{
+    "uniqueName": "Doom_Sword",
+    "health": 100.0,
+    "type": "Doom_Sword",
+    "quantity": 1.0,
+    "attachmentUniqueNames": [],
+    "isCar": 0
+}

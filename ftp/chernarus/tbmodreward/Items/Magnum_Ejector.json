@@ -1,0 +1,8 @@
+{
+    "uniqueName": "Magnum_Ejector",
+    "health": 100.0,
+    "type": "Magnum_Ejector",
+    "quantity": 1.0,
+    "attachmentUniqueNames": [],
+    "isCar": 0
+}

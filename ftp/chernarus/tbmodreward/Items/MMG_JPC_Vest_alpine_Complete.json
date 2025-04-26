@@ -1,0 +1,13 @@
+{
+	"uniqueName": "MMG_JPC_Vest_alpine_Complete",
+	"health": 100.0,
+	"type": "MMG_JPC_Vest_alpine",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [
+		"MMG_ammo_pouch_alpine",
+		"MMG_Med_Pouch_alpine",
+		"MMG_bottle_alpine",
+		"MMG_sheath_alpine"
+	],
+	"isCar": 0
+}

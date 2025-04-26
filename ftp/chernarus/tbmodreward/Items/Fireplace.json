@@ -1,0 +1,8 @@
+{
+	"uniqueName": "Fireplace",
+	"health": 100.0,
+	"type": "Fireplace",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [],
+	"isCar": 0
+}

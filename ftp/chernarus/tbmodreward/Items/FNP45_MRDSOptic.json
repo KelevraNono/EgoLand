@@ -1,0 +1,10 @@
+{
+	"uniqueName": "FNP45_MRDSOptic",
+	"health": 100.0,
+	"type": "FNP45_MRDSOptic",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [
+		"Battery9V"
+	],
+	"isCar": 0
+}

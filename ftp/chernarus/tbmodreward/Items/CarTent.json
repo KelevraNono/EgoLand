@@ -1,0 +1,8 @@
+{
+	"uniqueName": "CarTent",
+	"health": 100.0,
+	"type": "CarTent",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [],
+	"isCar": 0
+}

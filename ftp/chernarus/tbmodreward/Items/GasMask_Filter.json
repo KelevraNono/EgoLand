@@ -1,0 +1,8 @@
+{
+	"uniqueName": "GasMask_Filter",
+	"health": 100.0,
+	"type": "GasMask_Filter",
+	"quantity": 100,
+	"attachmentUniqueNames": [],
+	"isCar": 0
+}

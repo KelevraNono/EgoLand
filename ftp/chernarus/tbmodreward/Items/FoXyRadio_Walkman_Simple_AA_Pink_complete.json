@@ -1,0 +1,12 @@
+{
+	"uniqueName": "FoXyRadio_Walkman_Simple_AA_Pink_complete",
+	"health": 100.0,
+	"type": "FoXyRadio_Walkman_Simple_AA_Pink",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [
+		"FoXyRadio_Battery_AA",
+		"FoXyRadio_EarPhones",
+		"Mixtape_FRSP2_DJCammy"
+	],
+	"isCar": 0
+}

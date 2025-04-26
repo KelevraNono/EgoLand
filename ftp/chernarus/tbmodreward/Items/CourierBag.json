@@ -1,0 +1,8 @@
+{
+	"uniqueName": "CourierBag",
+	"health": 100.0,
+	"type": "CourierBag",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [],
+	"isCar": 0
+}

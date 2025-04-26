@@ -1,0 +1,12 @@
+{
+	"uniqueName": "Glock19_Complete",
+	"health": 100.0,
+	"type": "Glock19",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [
+		"PistolSuppressor",
+		"TLRLight",
+		"Mag_Glock_15Rnd",
+		"FNP45_MRDSOptic"
+	]
+}

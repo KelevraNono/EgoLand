@@ -1,0 +1,10 @@
+{
+	"uniqueName": "CZ527_Complete",
+	"health": 100.0,
+	"type": "CZ527",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [
+		"HuntingOptic",
+		"Mag_CZ527_5rnd"
+	]
+}

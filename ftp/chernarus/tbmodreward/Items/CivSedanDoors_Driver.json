@@ -1,0 +1,8 @@
+{
+	"uniqueName": "CivSedanDoors_Driver",
+	"health": 100.0,
+	"type": "CivSedanDoors_Driver",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [],
+	"isCar": 0
+}

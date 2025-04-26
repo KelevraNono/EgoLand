@@ -1,0 +1,8 @@
+{
+	"uniqueName": "MilitaryBelt",
+	"health": 100.0,
+	"type": "MilitaryBelt",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [],
+	"isCar": 0
+}

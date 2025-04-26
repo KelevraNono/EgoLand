@@ -1,0 +1,11 @@
+{
+	"uniqueName": "ASVAL_Complete",
+	"health": 100.0,
+	"type": "ASVAL",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [
+		"Mag_VAL_20Rnd",
+		"ReflexOptic",
+		"TLRLight"
+	]
+}

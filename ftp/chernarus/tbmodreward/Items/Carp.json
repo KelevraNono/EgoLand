@@ -1,0 +1,8 @@
+{
+	"uniqueName": "Carp",
+	"health": 100.0,
+	"type": "Carp",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [],
+	"isCar": 0
+}

@@ -1,0 +1,8 @@
+{
+    "uniqueName": "ButaneCanister",
+    "health": 100.0,
+    "type": "ButaneCanister",
+    "quantity": 1.0,
+    "attachmentUniqueNames": [],
+    "isCar": 0
+}

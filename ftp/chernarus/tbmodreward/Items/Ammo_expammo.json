@@ -1,0 +1,8 @@
+{
+    "uniqueName": "Ammo_expammo",
+    "health": 100.0,
+    "type": "Ammo_expammo",
+    "quantity": 1.0,
+    "attachmentUniqueNames": [],
+    "isCar": 0
+}

@@ -1,0 +1,8 @@
+{
+    "uniqueName": "LB_ATM_Terminal",
+    "health": 100.0,
+    "type": "LB_ATM_Terminal",
+    "quantity": 1.0,
+    "attachmentUniqueNames": [],
+    "isCar": 0
+}

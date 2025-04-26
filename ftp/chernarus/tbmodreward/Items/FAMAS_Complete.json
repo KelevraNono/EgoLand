@@ -1,0 +1,9 @@
+{
+	"uniqueName": "FAMAS_Complete",
+	"health": 100.0,
+	"type": "FAMAS",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [
+		"Mag_FAMAS_25Rnd"
+	]
+}

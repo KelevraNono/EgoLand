@@ -1,0 +1,8 @@
+{
+	"uniqueName": "Fence",
+	"health": 100.0,
+	"type": "Fence",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [],
+	"isCar": 0
+}

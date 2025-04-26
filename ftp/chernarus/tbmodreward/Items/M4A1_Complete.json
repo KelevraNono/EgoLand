@@ -1,0 +1,12 @@
+{
+	"uniqueName": "M4A1_Complete",
+	"health": 100.0,
+	"type": "M4A1",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [
+		"M4_OEBttstck",
+		"M4_PlasticHndgrd",
+		"M4_CarryHandleOptic",
+		"Mag_CMAG_10Rnd"
+	]
+}

@@ -1,0 +1,8 @@
+{
+	"uniqueName": "AntiChemInjector",
+	"health": 100.0,
+	"type": "AntiChemInjector",
+	"quantity": 100,
+	"attachmentUniqueNames": [],
+	"isCar": 0
+}

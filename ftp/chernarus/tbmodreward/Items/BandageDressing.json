@@ -1,0 +1,8 @@
+{
+	"uniqueName": "BandageDressing",
+	"health": 100.0,
+	"type": "BandageDressing",
+	"quantity": 100,
+	"attachmentUniqueNames": [],
+	"isCar": 0
+}

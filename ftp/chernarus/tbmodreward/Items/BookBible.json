@@ -1,0 +1,8 @@
+{
+    "uniqueName": "BookBible",
+    "health": 100.0,
+    "type": "BookBible",
+    "quantity": 1.0,
+    "attachmentUniqueNames": [],
+    "isCar": 0
+}

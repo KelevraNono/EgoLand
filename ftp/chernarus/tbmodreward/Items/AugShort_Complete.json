@@ -1,0 +1,9 @@
+{
+	"uniqueName": "AugShort_Complete",
+	"health": 100.0,
+	"type": "AugShort",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [
+		"Mag_Aug_30Rnd"
+	]
+}

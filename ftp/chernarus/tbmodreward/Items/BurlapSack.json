@@ -1,0 +1,8 @@
+{
+	"uniqueName": "BurlapSack",
+	"health": 100.0,
+	"type": "BurlapSack",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [],
+	"isCar": 0
+}

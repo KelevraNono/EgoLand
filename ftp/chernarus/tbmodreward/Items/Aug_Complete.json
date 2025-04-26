@@ -1,0 +1,11 @@
+{
+	"uniqueName": "Aug_Complete",
+	"health": 100.0,
+	"type": "Aug",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [
+		"Mag_Aug_30Rnd",
+		"ReflexOptic",
+		"TLRLight"
+	]
+}

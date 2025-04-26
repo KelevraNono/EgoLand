@@ -1,0 +1,9 @@
+{
+	"uniqueName": "Deagle_Complete",
+	"health": 100.0,
+	"type": "Deagle",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [
+		"Mag_Deagle_9rnd"
+	]
+}

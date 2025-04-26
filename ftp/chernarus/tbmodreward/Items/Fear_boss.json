@@ -1,0 +1,8 @@
+{
+    "uniqueName": "Fear_boss",
+    "health": 100.0,
+    "type": "Fear_boss",
+    "quantity": 1.0,
+    "attachmentUniqueNames": [],
+    "isCar": 0
+}

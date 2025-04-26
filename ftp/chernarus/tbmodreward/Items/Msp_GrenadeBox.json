@@ -1,0 +1,8 @@
+{
+    "uniqueName": "Msp_GrenadeBox",
+    "health": 100.0,
+    "type": "Msp_GrenadeBox",
+    "quantity": 1.0,
+    "attachmentUniqueNames": [],
+    "isCar": 0
+}

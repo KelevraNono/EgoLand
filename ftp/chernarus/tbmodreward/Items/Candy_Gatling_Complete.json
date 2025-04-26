@@ -1,0 +1,11 @@
+{
+	"uniqueName": "Candy_Gatling_Complete",
+	"health": 100.0,
+	"type": "Candy_Gatling",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [
+		"Candy_MD_Optic",
+		"UniversalLight",
+		"Candy_Gatling_mag_20Rnd"
+	]
+}

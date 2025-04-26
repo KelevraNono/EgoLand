@@ -1,0 +1,8 @@
+{
+	"uniqueName": "Crowbar",
+	"health": 100.0,
+	"type": "Crowbar",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [],
+	"isCar": 0
+}

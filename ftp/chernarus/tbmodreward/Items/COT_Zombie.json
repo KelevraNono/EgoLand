@@ -1,0 +1,8 @@
+{
+    "uniqueName": "COT_Zombie",
+    "health": 100.0,
+    "type": "COT_Zombie",
+    "quantity": 1.0,
+    "attachmentUniqueNames": [],
+    "isCar": 0
+}

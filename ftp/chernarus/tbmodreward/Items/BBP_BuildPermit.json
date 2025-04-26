@@ -1,0 +1,8 @@
+{
+    "uniqueName": "BBP_BuildPermit",
+    "health": 100.0,
+    "type": "BBP_BuildPermit",
+    "quantity": 1.0,
+    "attachmentUniqueNames": [],
+    "isCar": 0
+}

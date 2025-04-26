@@ -1,0 +1,8 @@
+{
+    "uniqueName": "Chainsaw",
+    "health": 100.0,
+    "type": "Chainsaw",
+    "quantity": 1.0,
+    "attachmentUniqueNames": [],
+    "isCar": 0
+}

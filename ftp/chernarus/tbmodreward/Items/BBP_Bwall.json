@@ -1,0 +1,8 @@
+{
+    "uniqueName": "BBP_Bwall",
+    "health": 100.0,
+    "type": "BBP_Bwall",
+    "quantity": 1.0,
+    "attachmentUniqueNames": [],
+    "isCar": 0
+}

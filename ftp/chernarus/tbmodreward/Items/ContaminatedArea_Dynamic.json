@@ -1,0 +1,8 @@
+{
+	"uniqueName": "ContaminatedArea_Dynamic",
+	"health": 100.0,
+	"type": "ContaminatedArea_Dynamic",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [],
+	"isCar": 0
+}

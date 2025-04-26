@@ -1,0 +1,9 @@
+{
+	"uniqueName": "B95_Complete",
+	"health": 100.0,
+	"type": "B95",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [
+		"HuntingOptic"
+	]
+}

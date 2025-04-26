@@ -1,0 +1,8 @@
+{
+	"uniqueName": "BaseRadio",
+	"health": 100.0,
+	"type": "BaseRadio",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [],
+	"isCar": 0
+}
