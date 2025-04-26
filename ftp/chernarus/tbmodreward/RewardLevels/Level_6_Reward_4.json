@@ -1,0 +1,14 @@
+{
+	"uniqueName": "Level_6_Reward_4",
+	"version": "1",
+	"level": 6,
+	"canTakenTimes": -1,
+	"items": [],
+	"uniqueItemNames": [
+		"CP_CannabisBrickNomad",
+		"WolfTrophy",
+		"DNA_KeyCard_Yellow_Inactive",
+		"Msp_TreasureChest",
+		"ArrakisGoldDildo"
+	]
+}

@@ -1,0 +1,8 @@
+{
+    "uniqueName": "PoliceBaton",
+    "health": 100.0,
+    "type": "PoliceBaton",
+    "quantity": 1.0,
+    "attachmentUniqueNames": [],
+    "isCar": 0
+}

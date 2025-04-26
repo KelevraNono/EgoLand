@@ -1,0 +1,13 @@
+{
+	"uniqueName": "Level_3_Premium_Reward_3",
+	"version": "1",
+	"level": 3,
+	"canTakenTimes": -1,
+	"items": [],
+	"uniqueItemNames": [
+		"HuntingBag_Hannah",
+		"HuntingJacket_Summer",
+		"HuntingVest",
+		"HunterPants_Summer"
+	]
+}

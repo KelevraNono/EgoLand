@@ -1,0 +1,8 @@
+{
+    "uniqueName": "TestInfected",
+    "health": 100.0,
+    "type": "TestInfected",
+    "quantity": 1.0,
+    "attachmentUniqueNames": [],
+    "isCar": 0
+}

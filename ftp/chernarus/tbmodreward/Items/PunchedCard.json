@@ -1,0 +1,8 @@
+{
+    "uniqueName": "PunchedCard",
+    "health": 100.0,
+    "type": "PunchedCard",
+    "quantity": 1.0,
+    "attachmentUniqueNames": [],
+    "isCar": 0
+}

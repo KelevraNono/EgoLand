@@ -1,0 +1,14 @@
+{
+	"uniqueName": "Level_7_Reward_3",
+	"version": "1",
+	"level": 7,
+	"canTakenTimes": -1,
+	"items": [],
+	"uniqueItemNames": [
+		"CP_JointStardawg",
+		"rag_baseitems_bookshelf_kit",
+		"Med_capsula_4",
+		"DNA_KeyCard_Green_Inactive",
+		"Iris_boots"
+	]
+}

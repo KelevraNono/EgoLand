@@ -1,0 +1,9 @@
+{
+	"uniqueName": "SmershVest_Complete",
+	"health": 100.0,
+	"type": "SmershVest_Complete",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [
+		"SmershBag"
+	]
+}

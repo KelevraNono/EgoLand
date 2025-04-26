@@ -1,0 +1,14 @@
+{
+	"uniqueName": "Level_4_Reward_3",
+	"version": "1",
+	"level": 4,
+	"canTakenTimes": -1,
+	"items": [],
+	"uniqueItemNames": [
+		"Crossbow_Autumn",
+		"Ammo_HuntingBolt",
+		"PITSTOP3_Ghillie_Pants",
+		"PITSTOP3_Ghillie_Top",
+		"ML_Tactical_Knife_Camo_4"
+	]
+}

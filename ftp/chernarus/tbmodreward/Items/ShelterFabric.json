@@ -1,0 +1,8 @@
+{
+	"uniqueName": "ShelterFabric",
+	"health": 100.0,
+	"type": "ShelterFabric",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [],
+	"isCar": 0
+}

@@ -1,0 +1,8 @@
+{
+    "uniqueName": "NMRP_food",
+    "health": 100.0,
+    "type": "NMRP_food",
+    "quantity": 1.0,
+    "attachmentUniqueNames": [],
+    "isCar": 0
+}

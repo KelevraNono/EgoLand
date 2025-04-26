@@ -1,0 +1,8 @@
+{
+	"uniqueName": "Plant_Tomato",
+	"health": 100.0,
+	"type": "Plant_Tomato",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [],
+	"isCar": 0
+}

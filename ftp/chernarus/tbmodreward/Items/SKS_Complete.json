@@ -1,0 +1,9 @@
+{
+	"uniqueName": "SKS_Complete",
+	"health": 100.0,
+	"type": "SKS",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [
+		"PUScopeOptic"
+	]
+}

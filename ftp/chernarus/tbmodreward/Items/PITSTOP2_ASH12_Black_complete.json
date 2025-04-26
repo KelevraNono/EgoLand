@@ -1,0 +1,12 @@
+{
+	"uniqueName": "PITSTOP2_ASH12_Black_complete",
+	"health": 100.0,
+	"type": "PITSTOP2_ASH12_Black",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [
+		"GhillieAtt_Mossy",
+		"PITSTOP2_ASH12_Suppressor",
+		"PITSTOP2_ASH12_Magazine"
+	],
+	"isCar": 0
+}

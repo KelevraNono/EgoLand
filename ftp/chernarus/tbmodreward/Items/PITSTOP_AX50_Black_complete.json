@@ -1,0 +1,13 @@
+{
+	"uniqueName": "PITSTOP_AX50_Black_complete",
+	"health": 100.0,
+	"type": "PITSTOP_AX50_Black",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [
+		"GhillieAtt_Mossy",
+		"PITSTOP_AX50_Magazine",
+		"PITSTOP3_AX50_Suppressor",
+		"PITSTOP2_NX8Optic_Black"
+	],
+	"isCar": 0
+}

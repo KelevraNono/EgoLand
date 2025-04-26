@@ -1,0 +1,10 @@
+{
+	"uniqueName": "Saiga_Complete",
+	"health": 100.0,
+	"type": "Saiga",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [
+		"Saiga_Bttstck",
+		"Mag_Saiga_5Rnd"
+	]
+}

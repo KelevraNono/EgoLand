@@ -1,0 +1,12 @@
+{
+	"uniqueName": "Level_1_Reward_5",
+	"version": "1",
+	"level": 1,
+	"canTakenTimes": -1,
+	"items": [],
+	"uniqueItemNames": [
+		"WeaponCleaningKit",
+		"SewingKit",
+		"LeatherSewingKit"
+	]
+}

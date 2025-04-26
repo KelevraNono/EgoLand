@@ -1,0 +1,19 @@
+{
+    "uniqueName": "Default_Level_Condition_4",
+    "level": 4,
+    "onlineTimeRequiredInMinutes": 210,
+    "playerKillsRequiredCount": -1,
+    "headshotKillsRequiredCount": -1,
+    "distanceTravelledRequiredInMeters": 30000,
+    "canReTakenAfterPeriodOfDaysRealTime": 1,
+    "canTakenOnlyOnce": 0,
+    "animalKills": {
+        "Animal_CervusElaphus": 4
+    },
+    "infectedKillsRequiredCount": 140,
+    "zombieKills": {},
+    "aiKillsRequiredCount": -1,
+    "aiHeadShotKillsRequiredCount": -1,
+    "version": "6",
+    "displayName": "#Level 4"
+}

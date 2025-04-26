@@ -1,0 +1,13 @@
+{
+	"uniqueName": "Level_2_Reward_1",
+	"version": "1",
+	"level": 2,
+	"canTakenTimes": -1,
+	"items": [],
+	"uniqueItemNames": [
+		"Candy_Kriss_Complete",
+		"Candy_Kriss_mag_33Rnd",
+		"LBmaster_SpawnTicket_1",
+		"LBmaster_SpawnTicket_1"
+	]
+}

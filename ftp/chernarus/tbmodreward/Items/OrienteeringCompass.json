@@ -1,0 +1,8 @@
+{
+	"uniqueName": "OrienteeringCompass",
+	"health": 100.0,
+	"type": "OrienteeringCompass",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [],
+	"isCar": 0
+}

@@ -1,0 +1,19 @@
+{
+    "uniqueName": "Premium_Level_Condition_2",
+    "level": 2,
+    "onlineTimeRequiredInMinutes": 120,
+    "playerKillsRequiredCount": -1,
+    "headshotKillsRequiredCount": -1,
+    "distanceTravelledRequiredInMeters": 15000,
+    "canReTakenAfterPeriodOfDaysRealTime": 1,
+    "canTakenOnlyOnce": 0,
+    "animalKills": {
+        "Animal_VulpesVulpes": 2
+    },
+    "infectedKillsRequiredCount": 70,
+    "zombieKills": {},
+    "aiKillsRequiredCount": -1,
+    "aiHeadShotKillsRequiredCount": -1,
+    "version": "6",
+    "displayName": "#Premium 2"
+}

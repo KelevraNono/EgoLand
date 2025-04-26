@@ -1,0 +1,8 @@
+{
+	"uniqueName": "ShelterStick",
+	"health": 100.0,
+	"type": "ShelterStick",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [],
+	"isCar": 0
+}

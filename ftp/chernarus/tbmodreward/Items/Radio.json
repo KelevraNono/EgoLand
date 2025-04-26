@@ -1,0 +1,8 @@
+{
+    "uniqueName": "Radio",
+    "health": 100.0,
+    "type": "Radio",
+    "quantity": 1.0,
+    "attachmentUniqueNames": [],
+    "isCar": 0
+}

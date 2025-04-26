@@ -1,0 +1,14 @@
+{
+	"uniqueName": "Level_7_Premium_Reward_2",
+	"version": "1",
+	"level": 7,
+	"canTakenTimes": -1,
+	"items": [],
+	"uniqueItemNames": [
+		"SFP_Tarelka_KolbasaOgurecTomat",
+		"MoreCassettes_LaCompagnieCreole_CaFaitRireLesOiseaux",
+		"Exo_skelet_V2",
+		"SFP_F1Grenade",
+		"SantasHat"
+	]
+}

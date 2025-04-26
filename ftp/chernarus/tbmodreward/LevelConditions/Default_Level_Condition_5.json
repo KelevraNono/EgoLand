@@ -1,0 +1,20 @@
+{
+    "uniqueName": "Default_Level_Condition_5",
+    "level": 5,
+    "onlineTimeRequiredInMinutes": 270,
+    "playerKillsRequiredCount": -1,
+    "headshotKillsRequiredCount": -1,
+    "distanceTravelledRequiredInMeters": 35000,
+    "canReTakenAfterPeriodOfDaysRealTime": 2,
+    "canTakenOnlyOnce": 0,
+    "animalKills": {
+        "Animal_CanisLupus_White": 5,
+        "Animal_CanisLupus_Grey": 5
+    },
+    "infectedKillsRequiredCount": 170,
+    "zombieKills": {},
+    "aiKillsRequiredCount": -1,
+    "aiHeadShotKillsRequiredCount": -1,
+    "version": "6",
+    "displayName": "#Level 5"
+}

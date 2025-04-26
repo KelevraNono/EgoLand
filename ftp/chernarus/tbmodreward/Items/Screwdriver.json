@@ -1,0 +1,8 @@
+{
+	"uniqueName": "Screwdriver",
+	"health": 100.0,
+	"type": "Screwdriver",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [],
+	"isCar": 0
+}

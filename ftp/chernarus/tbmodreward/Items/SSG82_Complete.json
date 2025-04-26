@@ -1,0 +1,9 @@
+{
+	"uniqueName": "SSG82_Complete",
+	"health": 100.0,
+	"type": "SSG82",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [
+		"Mag_SSG82_5rnd"
+	]
+}

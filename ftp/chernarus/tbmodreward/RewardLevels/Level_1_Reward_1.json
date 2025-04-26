@@ -1,0 +1,12 @@
+{
+	"uniqueName": "Level_1_Reward_1",
+	"version": "1",
+	"level": 1,
+	"canTakenTimes": -1,
+	"items": [],
+	"uniqueItemNames": [
+		"Mag_Glock_15Rnd",
+		"Glock19_Complete",
+		"Ammo_9x19"
+	]
+}

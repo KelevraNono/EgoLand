@@ -1,0 +1,8 @@
+{
+	"uniqueName": "PainkillerTablets",
+	"health": 100.0,
+	"type": "PainkillerTablets",
+	"quantity": 100,
+	"attachmentUniqueNames": [],
+	"isCar": 0
+}

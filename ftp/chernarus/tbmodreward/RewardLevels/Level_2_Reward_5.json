@@ -1,0 +1,13 @@
+{
+	"uniqueName": "Level_2_Reward_5",
+	"version": "1",
+	"level": 2,
+	"canTakenTimes": -1,
+	"items": [],
+	"uniqueItemNames": [
+		"CP_CannabisSeedsPackSkunk",
+		"CP_CannabisSeedsPackBlue",
+		"CP_CannabisSeedsPackKush",
+		"CP_CannabisSeedsPackStardawg"
+	]
+}

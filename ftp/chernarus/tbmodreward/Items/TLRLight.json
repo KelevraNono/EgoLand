@@ -1,0 +1,10 @@
+{
+	"uniqueName": "TLRLight",
+	"health": 100.0,
+	"type": "TLRLight",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [
+		"Battery9V"
+	],
+	"isCar": 0
+}

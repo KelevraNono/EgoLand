@@ -1,0 +1,14 @@
+{
+	"uniqueName": "Level_5_Reward_5",
+	"version": "1",
+	"level": 5,
+	"canTakenTimes": -1,
+	"items": [],
+	"uniqueItemNames": [
+		"MediumTent",
+		"AntiChemInjector",
+		"CMCP_Viberator_3",
+		"CMCP_Octopus_10",
+		"GhillieAtt_Tan"
+	]
+}

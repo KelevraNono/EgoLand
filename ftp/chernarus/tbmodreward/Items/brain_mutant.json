@@ -1,0 +1,8 @@
+{
+    "uniqueName": "brain_mutant",
+    "health": 100.0,
+    "type": "brain_mutant",
+    "quantity": 1.0,
+    "attachmentUniqueNames": [],
+    "isCar": 0
+}

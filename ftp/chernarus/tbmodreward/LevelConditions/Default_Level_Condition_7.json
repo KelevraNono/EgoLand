@@ -1,0 +1,19 @@
+{
+    "uniqueName": "Default_Level_Condition_7",
+    "level": 7,
+    "onlineTimeRequiredInMinutes": 370,
+    "playerKillsRequiredCount": -1,
+    "headshotKillsRequiredCount": -1,
+    "distanceTravelledRequiredInMeters": 48000,
+    "canReTakenAfterPeriodOfDaysRealTime": 4,
+    "canTakenOnlyOnce": 0,
+    "animalKills": {
+        "Animal_Brutal_Bear": 4
+    },
+    "infectedKillsRequiredCount": 260,
+    "zombieKills": {},
+    "aiKillsRequiredCount": -1,
+    "aiHeadShotKillsRequiredCount": -1,
+    "version": "6",
+    "displayName": "#Level 7"
+}

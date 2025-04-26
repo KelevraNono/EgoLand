@@ -1,0 +1,10 @@
+{
+	"uniqueName": "P1_Complete",
+	"health": 100.0,
+	"type": "P1",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [
+		"PistolSuppressor",
+		"Mag_P1_8Rnd"
+	]
+}

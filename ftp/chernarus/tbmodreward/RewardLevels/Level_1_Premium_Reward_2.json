@@ -1,0 +1,12 @@
+{
+	"uniqueName": "Level_1_Premium_Reward_2",
+	"version": "1",
+	"level": 1,
+	"canTakenTimes": -1,
+	"items": [],
+	"uniqueItemNames": [
+		"LeatherSewingKit",
+		"SalineBagIV",
+		"CMCP_Octopus_4"
+	]
+}

@@ -1,0 +1,14 @@
+{
+	"uniqueName": "Level_6_Premium_Reward_1",
+	"version": "1",
+	"level": 6,
+	"canTakenTimes": -1,
+	"items": [],
+	"uniqueItemNames": [
+		"MAP3_9_body_3",
+		"PITSTOP2_SOAS1Optic_Black",
+		"MMG_bottle_alpine",
+		"PITSTOP_Katana",
+		"PITSTOP2_GPNVG_Black"
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"uniqueName": "UMP45_Complete",
+	"health": 100.0,
+	"type": "UMP45",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [
+		"Mag_UMP_25Rnd",
+		"ReflexOptic",
+		"PistolSuppressor",
+		"UniversalLight"
+	]
+}

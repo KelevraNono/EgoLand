@@ -1,0 +1,19 @@
+{
+    "uniqueName": "Default_Level_Condition_3",
+    "level": 3,
+    "onlineTimeRequiredInMinutes": 180,
+    "playerKillsRequiredCount": -1,
+    "headshotKillsRequiredCount": -1,
+    "distanceTravelledRequiredInMeters": 25000,
+    "canReTakenAfterPeriodOfDaysRealTime": 1,
+    "canTakenOnlyOnce": 0,
+    "animalKills": {
+        "Animal_OvisAries": 3
+    },
+    "infectedKillsRequiredCount": 100,
+    "zombieKills": {},
+    "aiKillsRequiredCount": -1,
+    "aiHeadShotKillsRequiredCount": -1,
+    "version": "6",
+    "displayName": "#Level 3"
+}

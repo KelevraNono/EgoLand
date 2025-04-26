@@ -1,0 +1,14 @@
+{
+	"uniqueName": "Level_7_Reward_2",
+	"version": "1",
+	"level": 7,
+	"canTakenTimes": -1,
+	"items": [],
+	"uniqueItemNames": [
+		"Iris_gloves",
+		"PITSTOP3_DVL_Magazine",
+		"rag_baseitems_small_pool_yellow",
+		"PITSTOP3_DVL",
+		"PITSTOP3_Ammo_338AP"
+	]
+}

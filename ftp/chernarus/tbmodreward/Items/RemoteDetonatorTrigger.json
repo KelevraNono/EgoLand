@@ -1,0 +1,8 @@
+{
+	"uniqueName": "RemoteDetonatorTrigger",
+	"health": 100.0,
+	"type": "RemoteDetonatorTrigger",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [],
+	"isCar": 0
+}

@@ -1,0 +1,8 @@
+{
+	"uniqueName": "Rangefinder",
+	"health": 100.0,
+	"type": "Rangefinder",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [],
+	"isCar": 0
+}

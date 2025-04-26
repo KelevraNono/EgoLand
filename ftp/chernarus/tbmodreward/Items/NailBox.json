@@ -1,0 +1,8 @@
+{
+	"uniqueName": "NailBox",
+	"health": 100.0,
+	"type": "NailBox",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [],
+	"isCar": 0
+}

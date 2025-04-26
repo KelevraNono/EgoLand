@@ -1,0 +1,14 @@
+{
+	"uniqueName": "Level_3_Reward_5",
+	"version": "1",
+	"level": 3,
+	"canTakenTimes": -1,
+	"items": [],
+	"uniqueItemNames": [
+		"CodeLock",
+		"Msp_LargeAmmoBox",
+		"Msp_MilitaryCrate_Brown",
+		"rag_baseitems_doorbell_kit",
+		"rag_baseitems_lantern_wall_kit"
+	]
+}

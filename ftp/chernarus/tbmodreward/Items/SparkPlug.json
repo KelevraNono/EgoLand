@@ -1,0 +1,8 @@
+{
+	"uniqueName": "SparkPlug",
+	"health": 100.0,
+	"type": "SparkPlug",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [],
+	"isCar": 0
+}

@@ -1,0 +1,12 @@
+{
+    "uniqueName": "Level_1_Premium_Reward_4",
+    "version": "1",
+    "level": 1,
+    "canTakenTimes": -1,
+    "items": [],
+    "uniqueItemNames": [
+        "EGO_Conserve_Licorne",
+        "SodaEgoLand",
+        "SFP_Food_Shawerma"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+	"uniqueName": "Level_3_Premium_Reward_5",
+	"version": "1",
+	"level": 3,
+	"canTakenTimes": -1,
+	"items": [],
+	"uniqueItemNames": [
+		"NBCBootsGray",
+		"NBCGlovesGray",
+		"NBCHoodGray",
+		"NBCPantsGray"
+	]
+}

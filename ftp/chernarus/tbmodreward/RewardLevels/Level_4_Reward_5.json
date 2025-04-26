@@ -1,0 +1,14 @@
+{
+	"uniqueName": "Level_4_Reward_5",
+	"version": "1",
+	"level": 4,
+	"canTakenTimes": -1,
+	"items": [],
+	"uniqueItemNames": [
+		"Hatchet",
+		"Codelock",
+		"WoodenPlank",
+		"NailBox",
+		"Pickaxe"
+	]
+}

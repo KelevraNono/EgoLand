@@ -1,0 +1,8 @@
+{
+	"uniqueName": "SewingKit",
+	"health": 100.0,
+	"type": "SewingKit",
+	"quantity": 100,
+	"attachmentUniqueNames": [],
+	"isCar": 0
+}

@@ -1,0 +1,14 @@
+{
+	"uniqueName": "Level_5_Reward_3",
+	"version": "1",
+	"level": 5,
+	"canTakenTimes": -1,
+	"items": [],
+	"uniqueItemNames": [
+		"ALC_Jack_Daniels",
+		"Pot",
+		"PorkCan",
+		"DuctTape",
+		"Tripod"
+	]
+}

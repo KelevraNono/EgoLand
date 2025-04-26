@@ -1,0 +1,8 @@
+{
+	"uniqueName": "SledgeHammer",
+	"health": 100.0,
+	"type": "SledgeHammer",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [],
+	"isCar": 0
+}

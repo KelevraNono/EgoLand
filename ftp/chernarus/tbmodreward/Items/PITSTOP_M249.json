@@ -1,0 +1,8 @@
+{
+    "uniqueName": "PITSTOP_M249",
+    "health": 100.0,
+    "type": "PITSTOP_M249",
+    "quantity": 1.0,
+    "attachmentUniqueNames": [],
+    "isCar": 0
+}

@@ -1,0 +1,10 @@
+{
+	"uniqueName": "Scout_Chernarus_Complete",
+	"health": 100.0,
+	"type": "Scout_Chernarus",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [
+		"Mag_Scout_5Rnd",
+		"M4_T3NRDSOptic"
+	]
+}

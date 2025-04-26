@@ -1,0 +1,10 @@
+{
+	"uniqueName": "SVD_Complete",
+	"health": 100.0,
+	"type": "SVD",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [
+		"Mag_SVD_10Rnd",
+		"KashtanOptic"
+	]
+}

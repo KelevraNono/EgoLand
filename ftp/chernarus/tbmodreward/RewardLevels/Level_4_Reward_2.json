@@ -1,0 +1,14 @@
+{
+	"uniqueName": "Level_4_Reward_2",
+	"version": "1",
+	"level": 4,
+	"canTakenTimes": -1,
+	"items": [],
+	"uniqueItemNames": [
+		"CMCP_AnalBeads_3",
+		"BurlapSack",
+		"Handcuffs",
+		"HandcuffKeys",
+		"PaydayMask_Wolf"
+	]
+}

@@ -1,0 +1,14 @@
+{
+	"uniqueName": "Level_4_Premium_Reward_1",
+	"version": "1",
+	"level": 4,
+	"canTakenTimes": -1,
+	"items": [],
+	"uniqueItemNames": [
+		"BRTX_supplybag_Camo34A",
+		"GasMask_Filter",
+		"GhillieSuit_Mossy",
+		"RG_Tamagotchi",
+		"BearTrophy_black"
+	]
+}

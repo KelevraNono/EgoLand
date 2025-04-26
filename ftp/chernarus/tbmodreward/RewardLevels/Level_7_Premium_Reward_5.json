@@ -1,0 +1,19 @@
+{
+	"uniqueName": "Level_7_Premium_Reward_5",
+	"version": "1",
+	"level": 7,
+	"canTakenTimes": -1,
+	"items": [],
+	"uniqueItemNames": [
+		"PokemonBoosterPack_Basic1_5x",
+		"PokemonBoosterPack_Basic2_5x",
+		"PokemonBoosterPack_Basic3_5x",
+		"PokemonBoosterPack_Fossil1_5x",
+		"PokemonBoosterPack_Fossil2_5x",
+		"PokemonBoosterPack_Fossil3_5x",
+		"PokemonBoosterPack_Jungle1_5x",
+		"PokemonBoosterPack_Jungle2_5x",
+		"PokemonBoosterPack_Jungle3_5x",
+		"PokemonCard_Box5i"
+	]
+}

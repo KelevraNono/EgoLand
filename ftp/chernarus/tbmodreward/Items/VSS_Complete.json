@@ -1,0 +1,11 @@
+{
+	"uniqueName": "VSS_Complete",
+	"health": 100.0,
+	"type": "VSS",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [
+		"KashtanOptic",
+		"PSO11Optic",
+		"Mag_VSS_10Rnd"
+	]
+}

@@ -1,0 +1,8 @@
+{
+	"uniqueName": "Rice",
+	"health": 100.0,
+	"type": "Rice",
+	"quantity": 100,
+	"attachmentUniqueNames": [],
+	"isCar": 0
+}

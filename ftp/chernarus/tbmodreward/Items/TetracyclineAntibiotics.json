@@ -1,0 +1,8 @@
+{
+	"uniqueName": "TetracyclineAntibiotics",
+	"health": 100.0,
+	"type": "TetracyclineAntibiotics",
+	"quantity": 100,
+	"attachmentUniqueNames": [],
+	"isCar": 0
+}

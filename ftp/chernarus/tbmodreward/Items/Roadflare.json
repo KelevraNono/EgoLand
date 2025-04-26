@@ -1,0 +1,8 @@
+{
+	"uniqueName": "Roadflare",
+	"health": 100.0,
+	"type": "Roadflare",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [],
+	"isCar": 0
+}

@@ -1,0 +1,14 @@
+{
+    "uniqueName": "Level_5_Premium_Reward_1",
+    "version": "1",
+    "level": 5,
+    "canTakenTimes": -1,
+    "items": [],
+    "uniqueItemNames": [
+        "AmmoBox_308Win_20Rnd",
+        "SewingKit",
+        "RG_Tetris",
+        "mmg_tactical_gloves_alpine",
+        "MMG_MK_V_Armor_alpine"
+    ]
+}

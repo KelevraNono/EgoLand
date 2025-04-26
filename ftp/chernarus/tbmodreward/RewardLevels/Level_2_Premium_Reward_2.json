@@ -1,0 +1,13 @@
+{
+    "uniqueName": "Level_2_Premium_Reward_2",
+    "version": "1",
+    "level": 2,
+    "canTakenTimes": -1,
+    "items": [],
+    "uniqueItemNames": [
+        "PITSTOP_K98_complete",
+        "AmmoBox",
+        "WeaponCleaningKit",
+        "AmmoBox_762x54_20Rnd"
+    ]
+}

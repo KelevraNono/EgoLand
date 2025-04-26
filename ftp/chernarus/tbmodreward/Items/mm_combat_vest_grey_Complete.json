@@ -1,0 +1,10 @@
+{
+	"uniqueName": "mm_combat_vest_grey_Complete",
+	"health": 100.0,
+	"type": "mm_combat_vest_grey",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [
+		"PlateCarrierHolster_Camo",
+		"PlateCarrierPouches_Camo"
+	]
+}

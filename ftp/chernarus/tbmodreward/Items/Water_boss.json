@@ -1,0 +1,8 @@
+{
+    "uniqueName": "Water_boss",
+    "health": 100.0,
+    "type": "Water_boss",
+    "quantity": 1.0,
+    "attachmentUniqueNames": [],
+    "isCar": 0
+}

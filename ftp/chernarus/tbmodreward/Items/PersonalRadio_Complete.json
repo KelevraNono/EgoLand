@@ -1,0 +1,9 @@
+{
+	"uniqueName": "PersonalRadio_Complete",
+	"health": 100.0,
+	"type": "PersonalRadio",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [
+		"Battery9V"
+	]
+}

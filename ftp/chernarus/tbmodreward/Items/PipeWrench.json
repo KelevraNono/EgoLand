@@ -1,0 +1,8 @@
+{
+	"uniqueName": "PipeWrench",
+	"health": 100.0,
+	"type": "PipeWrench",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [],
+	"isCar": 0
+}

@@ -1,0 +1,19 @@
+{
+    "uniqueName": "Premium_Level_Condition_6",
+    "level": 6,
+    "onlineTimeRequiredInMinutes": 310,
+    "playerKillsRequiredCount": -1,
+    "headshotKillsRequiredCount": -1,
+    "distanceTravelledRequiredInMeters": 40000,
+    "canReTakenAfterPeriodOfDaysRealTime": 3,
+    "canTakenOnlyOnce": 0,
+    "animalKills": {
+        "Animal_Ancient_Wolf_easy": 2
+    },
+    "infectedKillsRequiredCount": 200,
+    "zombieKills": {},
+    "aiKillsRequiredCount": -1,
+    "aiHeadShotKillsRequiredCount": -1,
+    "version": "6",
+    "displayName": "#Premium 6"
+}

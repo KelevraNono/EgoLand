@@ -1,0 +1,14 @@
+{
+	"uniqueName": "Level_4_Reward_1",
+	"version": "1",
+	"level": 4,
+	"canTakenTimes": -1,
+	"items": [],
+	"uniqueItemNames": [
+		"FAMAS_Complete",
+		"Mag_FAMAS_25Rnd",
+		"Ammo_556x45",
+		"WeaponCleaningKit",
+		"EGO_Conserve_Licorne"
+	]
+}

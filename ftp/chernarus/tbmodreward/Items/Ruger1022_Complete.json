@@ -1,0 +1,10 @@
+{
+	"uniqueName": "Ruger1022_Complete",
+	"health": 100.0,
+	"type": "Ruger1022",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [
+		"HuntingOptic",
+		"Mag_Ruger1022_15Rnd"
+	]
+}

@@ -1,0 +1,8 @@
+{
+    "uniqueName": "SFP_Zombie",
+    "health": 100.0,
+    "type": "SFP_Zombie",
+    "quantity": 1.0,
+    "attachmentUniqueNames": [],
+    "isCar": 0
+}

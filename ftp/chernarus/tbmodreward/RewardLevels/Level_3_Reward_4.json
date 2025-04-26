@@ -1,0 +1,14 @@
+{
+	"uniqueName": "Level_3_Reward_4",
+	"version": "1",
+	"level": 3,
+	"canTakenTimes": -1,
+	"items": [],
+	"uniqueItemNames": [
+		"ElectronicRepairKit",
+		"rag_baseitems_sewing_needle",
+		"DuctTape",
+		"TireRepairKit",
+		"ArrakisRepairLube"
+	]
+}

@@ -1,0 +1,8 @@
+{
+    "uniqueName": "PITSTOP_Ammo_50Cal",
+    "health": 100.0,
+    "type": "PITSTOP_Ammo_50Cal",
+    "quantity": 1.0,
+    "attachmentUniqueNames": [],
+    "isCar": 0
+}

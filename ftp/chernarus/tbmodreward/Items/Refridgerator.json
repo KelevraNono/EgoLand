@@ -1,0 +1,8 @@
+{
+    "uniqueName": "Refridgerator",
+    "health": 100.0,
+    "type": "Refridgerator",
+    "quantity": 1.0,
+    "attachmentUniqueNames": [],
+    "isCar": 0
+}

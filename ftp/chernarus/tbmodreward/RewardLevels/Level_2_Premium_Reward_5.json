@@ -1,0 +1,13 @@
+{
+    "uniqueName": "Level_2_Premium_Reward_5",
+    "version": "1",
+    "level": 2,
+    "canTakenTimes": -1,
+    "items": [],
+    "uniqueItemNames": [
+        "LBmaster_SpawnTicket_1",
+        "Pickaxe",
+        "WoodAxe",
+        "HandSaw"
+    ]
+}

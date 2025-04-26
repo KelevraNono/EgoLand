@@ -1,0 +1,8 @@
+{
+    "uniqueName": "dog_bowl",
+    "health": 100.0,
+    "type": "dog_bowl",
+    "quantity": 1.0,
+    "attachmentUniqueNames": [],
+    "isCar": 0
+}

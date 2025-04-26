@@ -1,0 +1,8 @@
+{
+    "uniqueName": "Starship_Aerdrop_robot",
+    "health": 100.0,
+    "type": "Starship_Aerdrop_robot",
+    "quantity": 1.0,
+    "attachmentUniqueNames": [],
+    "isCar": 0
+}

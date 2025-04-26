@@ -1,0 +1,8 @@
+{
+	"uniqueName": "SpaghettiCan",
+	"health": 100.0,
+	"type": "SpaghettiCan",
+	"quantity": 100,
+	"attachmentUniqueNames": [],
+	"isCar": 0
+}

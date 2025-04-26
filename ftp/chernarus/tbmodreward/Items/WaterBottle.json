@@ -1,0 +1,8 @@
+{
+	"uniqueName": "WaterBottle",
+	"health": 100.0,
+	"type": "WaterBottle",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [],
+	"isCar": 0
+}

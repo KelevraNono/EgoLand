@@ -1,0 +1,8 @@
+{
+	"uniqueName": "Sword",
+	"health": 100.0,
+	"type": "Sword",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [],
+	"isCar": 0
+}

@@ -1,0 +1,8 @@
+{
+	"uniqueName": "PortableGasLamp",
+	"health": 100.0,
+	"type": "PortableGasLamp",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [],
+	"isCar": 0
+}

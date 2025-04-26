@@ -1,0 +1,8 @@
+{
+    "uniqueName": "SodaCan_Empty",
+    "health": 100.0,
+    "type": "SodaCan_Empty",
+    "quantity": 1.0,
+    "attachmentUniqueNames": [],
+    "isCar": 0
+}

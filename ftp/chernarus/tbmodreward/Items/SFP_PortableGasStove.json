@@ -1,0 +1,8 @@
+{
+    "uniqueName": "SFP_PortableGasStove",
+    "health": 100.0,
+    "type": "SFP_PortableGasStove",
+    "quantity": 1.0,
+    "attachmentUniqueNames": [],
+    "isCar": 0
+}

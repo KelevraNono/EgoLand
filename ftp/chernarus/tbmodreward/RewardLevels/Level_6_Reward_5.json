@@ -1,0 +1,14 @@
+{
+	"uniqueName": "Level_6_Reward_5",
+	"version": "1",
+	"level": 6,
+	"canTakenTimes": -1,
+	"items": [],
+	"uniqueItemNames": [
+		"TruckBattery",
+		"FieldShovel",
+		"CP_CannabisSeedsPackStardawg",
+		"rag_baseitems_workbench_blueprint",
+		"Hammer"
+	]
+}

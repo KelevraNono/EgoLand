@@ -1,0 +1,8 @@
+{
+	"uniqueName": "Pipe",
+	"health": 100.0,
+	"type": "Pipe",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [],
+	"isCar": 0
+}

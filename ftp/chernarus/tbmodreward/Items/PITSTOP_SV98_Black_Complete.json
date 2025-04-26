@@ -1,0 +1,11 @@
+{
+	"uniqueName": "PITSTOP_SV98_Black_Complete",
+	"health": 100.0,
+	"type": "PITSTOP_SV98_Black",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [
+		"AD_LeupoldMk4",
+		"Battery9V"
+	],
+	"isCar": 0
+}

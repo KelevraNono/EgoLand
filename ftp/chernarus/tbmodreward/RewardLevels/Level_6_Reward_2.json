@@ -1,0 +1,14 @@
+{
+	"uniqueName": "Level_6_Reward_2",
+	"version": "1",
+	"level": 6,
+	"canTakenTimes": -1,
+	"items": [],
+	"uniqueItemNames": [
+		"CMCP_Dick_4",
+		"PITSTOP3_Ammo_300WM",
+		"PITSTOP2_M110KX",
+		"PITSTOP2_M110KX_Magazine",
+		"FoXyRadio_SoundGrenade_GoatScream"
+	]
+}

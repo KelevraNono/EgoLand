@@ -1,0 +1,14 @@
+{
+	"uniqueName": "Level_3_Reward_1",
+	"version": "1",
+	"level": 3,
+	"canTakenTimes": -1,
+	"items": [],
+	"uniqueItemNames": [
+		"FoXy",
+		"Msp_PolarBear",
+		"CMCP_Octopus_1",
+		"Msp_Bunny",
+		"Bear_Pink"
+	]
+}

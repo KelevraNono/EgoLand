@@ -1,0 +1,10 @@
+{
+    "uniqueName": "PITSTOP_HPNVG_Black",
+    "health": 100.0,
+    "type": "PITSTOP_HPNVG_Black",
+    "quantity": 1.0,
+    "attachmentUniqueNames": [
+        "battery9v"
+    ],
+    "isCar": 0
+}

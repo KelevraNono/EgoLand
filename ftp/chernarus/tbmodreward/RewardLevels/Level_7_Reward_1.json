@@ -1,0 +1,14 @@
+{
+	"uniqueName": "Level_7_Reward_1",
+	"version": "1",
+	"level": 7,
+	"canTakenTimes": -1,
+	"items": [],
+	"uniqueItemNames": [
+		"rag_baseitems_firstaid_cabinet_kit",
+		"Med_capsula_1",
+		"BRTX_NVGs_Camo33",
+		"CP_RollingPapers",
+		"Iris_pants"
+	]
+}

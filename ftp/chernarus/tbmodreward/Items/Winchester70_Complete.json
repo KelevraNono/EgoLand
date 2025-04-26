@@ -1,0 +1,9 @@
+{
+	"uniqueName": "Winchester70_Complete",
+	"health": 100.0,
+	"type": "Winchester70",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [
+		"HuntingOptic"
+	]
+}

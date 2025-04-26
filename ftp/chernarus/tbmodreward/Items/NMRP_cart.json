@@ -1,0 +1,8 @@
+{
+    "uniqueName": "NMRP_cart",
+    "health": 100.0,
+    "type": "NMRP_cart",
+    "quantity": 1.0,
+    "attachmentUniqueNames": [],
+    "isCar": 0
+}

@@ -1,0 +1,8 @@
+{
+	"uniqueName": "Wrench",
+	"health": 100.0,
+	"type": "Wrench",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [],
+	"isCar": 0
+}

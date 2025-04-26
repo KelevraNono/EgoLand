@@ -1,0 +1,8 @@
+{
+	"uniqueName": "TerritoryFlag",
+	"health": 100.0,
+	"type": "TerritoryFlag",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [],
+	"isCar": 0
+}

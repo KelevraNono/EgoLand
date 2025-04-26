@@ -1,0 +1,14 @@
+{
+	"uniqueName": "Level_6_Premium_Reward_2",
+	"version": "1",
+	"level": 6,
+	"canTakenTimes": -1,
+	"items": [],
+	"uniqueItemNames": [
+		"CP_CannabisBrickBlackFrost",
+		"MAP3_9_boots_3",
+		"CMCP_ButtPlug_2",
+		"CMCP_Snowman_2",
+		"PITSTOP3_AS50_Magazine"
+	]
+}

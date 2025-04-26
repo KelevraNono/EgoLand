@@ -1,0 +1,14 @@
+{
+	"uniqueName": "Level_6_Premium_Reward_3",
+	"version": "1",
+	"level": 6,
+	"canTakenTimes": -1,
+	"items": [],
+	"uniqueItemNames": [
+		"MAP3_9_gloves_3",
+		"PITSTOP3_AR308_Magazine",
+		"PITSTOP2_ASH12_Black_complete",
+		"PITSTOP2_Ammo_127x55",
+		"WolfTrophy"
+	]
+}

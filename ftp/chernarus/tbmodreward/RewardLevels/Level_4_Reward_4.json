@@ -1,0 +1,14 @@
+{
+	"uniqueName": "Level_4_Reward_4",
+	"version": "1",
+	"level": 4,
+	"canTakenTimes": -1,
+	"items": [],
+	"uniqueItemNames": [
+		"MMG_JPC_Vest_alpine_Complete",
+		"MMG_striker_helmet_alpine_Complete",
+		"mmg_tactical_gloves_alpine",
+		"MMG_camelback_alpine",
+		"MMG_tactical_shirt_alpine"
+	]
+}

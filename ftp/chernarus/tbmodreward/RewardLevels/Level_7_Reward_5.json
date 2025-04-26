@@ -1,0 +1,19 @@
+{
+	"uniqueName": "Level_7_Reward_5",
+	"version": "1",
+	"level": 7,
+	"canTakenTimes": -1,
+	"items": [],
+	"uniqueItemNames": [
+		"PokemonBoosterPack_Basic1_3x",
+		"PokemonBoosterPack_Basic2_3x",
+		"PokemonBoosterPack_Basic3_3x",
+		"PokemonBoosterPack_Fossil1_3x",
+		"PokemonBoosterPack_Fossil2_3x",
+		"PokemonBoosterPack_Fossil3_3x",
+		"PokemonBoosterPack_Jungle1_3x",
+		"PokemonBoosterPack_Jungle2_3x",
+		"PokemonBoosterPack_Jungle3_3x",
+		"PokemonCard_Box1i"
+	]
+}

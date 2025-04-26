@@ -1,0 +1,8 @@
+{
+	"uniqueName": "Shovel",
+	"health": 100.0,
+	"type": "Shovel",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [],
+	"isCar": 0
+}

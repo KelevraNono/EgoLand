@@ -1,0 +1,8 @@
+{
+	"uniqueName": "PlantMaterial",
+	"health": 100.0,
+	"type": "PlantMaterial",
+	"quantity": 100,
+	"attachmentUniqueNames": [],
+	"isCar": 0
+}

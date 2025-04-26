@@ -1,0 +1,8 @@
+{
+    "uniqueName": "Msp_WaterBarrel_Stand",
+    "health": 100.0,
+    "type": "Msp_WaterBarrel_Stand",
+    "quantity": 1.0,
+    "attachmentUniqueNames": [],
+    "isCar": 0
+}

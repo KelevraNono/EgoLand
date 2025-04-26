@@ -1,0 +1,14 @@
+{
+	"uniqueName": "Level_3_Reward_2",
+	"version": "1",
+	"level": 3,
+	"canTakenTimes": -1,
+	"items": [],
+	"uniqueItemNames": [
+		"Shovel",
+		"WoodAxe",
+		"Hammer",
+		"SledgeHammer",
+		"Pickaxe"
+	]
+}

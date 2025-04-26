@@ -1,0 +1,15 @@
+{
+	"uniqueName": "PITSTOP_M16_complete",
+	"health": 100.0,
+	"type": "PITSTOP_M16",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [
+		"PITSTOP_UniversalSuppressor_Black",
+		"GhillieAtt_Woodland",
+		"AD_ACOG_RMR",
+		"Mag_STANAG_60Rnd",
+		"PITSTOP3_Bipod",
+		"UniversalLight"
+	],
+	"isCar": 0
+}

@@ -1,0 +1,8 @@
+{
+	"uniqueName": "PistolSuppressor",
+	"health": 100.0,
+	"type": "PistolSuppressor",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [],
+	"isCar": 0
+}

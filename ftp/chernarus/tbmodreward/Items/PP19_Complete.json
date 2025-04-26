@@ -1,0 +1,12 @@
+{
+	"uniqueName": "PP19_Complete",
+	"health": 100.0,
+	"type": "PP19",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [
+		"PistolSuppressor",
+		"PP19_Bttstck",
+		"PSO1Optic",
+		"Mag_PP19_64Rnd"
+	]
+}

@@ -1,0 +1,8 @@
+{
+	"uniqueName": "Watchtower",
+	"health": 100.0,
+	"type": "Watchtower",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [],
+	"isCar": 0
+}

@@ -1,0 +1,13 @@
+{
+	"uniqueName": "Level_2_Reward_2",
+	"version": "1",
+	"level": 2,
+	"canTakenTimes": -1,
+	"items": [],
+	"uniqueItemNames": [
+		"FoXyRadio_SoundGrenade_GoatScream",
+		"FoXyRadio_Walkman_Simple_9V_Pink",
+		"EgoRadio_playlist_communaute_Playlist",
+		"FoXyRadio_EarPhones"
+	]
+}

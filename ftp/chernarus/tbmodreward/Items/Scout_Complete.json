@@ -1,0 +1,10 @@
+{
+	"uniqueName": "Scout_Complete",
+	"health": 100.0,
+	"type": "Scout",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [
+		"Mag_Scout_5Rnd",
+		"M68Optic"
+	]
+}

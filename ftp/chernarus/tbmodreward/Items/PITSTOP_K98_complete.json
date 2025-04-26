@@ -1,0 +1,10 @@
+{
+    "uniqueName": "PITSTOP_K98_complete",
+    "health": 100.0,
+    "type": "PITSTOP_K98",
+    "quantity": 1.0,
+    "attachmentUniqueNames": [
+	"PITSTOP_K98Scope"
+	],
+    "isCar": 0
+}

@@ -1,0 +1,8 @@
+{
+    "uniqueName": "Starship_Beacon_loot",
+    "health": 100.0,
+    "type": "Starship_Beacon_loot",
+    "quantity": 1.0,
+    "attachmentUniqueNames": [],
+    "isCar": 0
+}

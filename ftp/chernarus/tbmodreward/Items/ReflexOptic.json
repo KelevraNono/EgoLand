@@ -1,0 +1,10 @@
+{
+	"uniqueName": "ReflexOptic",
+	"health": 100.0,
+	"type": "ReflexOptic",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [
+		"Battery9V"
+	],
+	"isCar": 0
+}

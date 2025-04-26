@@ -1,0 +1,8 @@
+{
+	"uniqueName": "PersonalRadio",
+	"health": 100.0,
+	"type": "PersonalRadio",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [],
+	"isCar": 0
+}

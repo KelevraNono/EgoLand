@@ -1,0 +1,12 @@
+{
+	"uniqueName": "Level_1_Reward_2",
+	"version": "1",
+	"level": 1,
+	"canTakenTimes": -1,
+	"items": [],
+	"uniqueItemNames": [
+		"FirstAidKit",
+		"BloodTestKit",
+		"BandageDressing"
+	]
+}

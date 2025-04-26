@@ -1,0 +1,8 @@
+{
+    "uniqueName": "StunBaton",
+    "health": 100.0,
+    "type": "StunBaton",
+    "quantity": 1.0,
+    "attachmentUniqueNames": [],
+    "isCar": 0
+}

@@ -1,0 +1,8 @@
+{
+	"uniqueName": "RabbitSnareTrap",
+	"health": 100.0,
+	"type": "RabbitSnareTrap",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [],
+	"isCar": 0
+}

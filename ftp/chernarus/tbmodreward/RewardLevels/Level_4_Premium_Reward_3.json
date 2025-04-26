@@ -1,0 +1,14 @@
+{
+	"uniqueName": "Level_4_Premium_Reward_3",
+	"version": "1",
+	"level": 4,
+	"canTakenTimes": -1,
+	"items": [],
+	"uniqueItemNames": [
+		"BRTX_HeavyVest_Camo16",
+		"Med_capsula_2",
+		"GhillieHood_Mossy",
+		"Whetstone",
+		"BRTX_combatpants_Camo34A"
+	]
+}

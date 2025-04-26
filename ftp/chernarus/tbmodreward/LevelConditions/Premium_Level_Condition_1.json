@@ -1,0 +1,19 @@
+{
+    "uniqueName": "Premium_Level_Condition_1",
+    "level": 1,
+    "onlineTimeRequiredInMinutes": 60,
+    "playerKillsRequiredCount": -1,
+    "headshotKillsRequiredCount": -1,
+    "distanceTravelledRequiredInMeters": 7000,
+    "canReTakenAfterPeriodOfDaysRealTime": 1,
+    "canTakenOnlyOnce": 0,
+    "animalKills": {
+        "Animal_SusDomesticus": 1
+    },
+    "infectedKillsRequiredCount": 40,
+    "zombieKills": {},
+    "aiKillsRequiredCount": -1,
+    "aiHeadShotKillsRequiredCount": -1,
+    "version": "6",
+    "displayName": "#premium 1"
+}

@@ -1,0 +1,10 @@
+{
+	"uniqueName": "PlateCarrierVest_Camo_Complete",
+	"health": 100.0,
+	"type": "PlateCarrierVest_Camo",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [
+		"PlateCarrierHolster_Camo",
+		"PlateCarrierPouches_Camo"
+	]
+}

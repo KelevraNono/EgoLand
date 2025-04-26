@@ -1,0 +1,8 @@
+{
+    "uniqueName": "Raycaster",
+    "health": 100.0,
+    "type": "Raycaster",
+    "quantity": 1.0,
+    "attachmentUniqueNames": [],
+    "isCar": 0
+}

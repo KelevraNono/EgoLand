@@ -1,0 +1,12 @@
+{
+	"uniqueName": "PITSTOP_PKP_Camo2_complete",
+	"health": 100.0,
+	"type": "PITSTOP_PKP_Camo2",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [
+		"PITSTOP_UniversalSuppressor_V2_Camo",
+		"PITSTOP_PKP_Magazine",
+		"PITSTOP_PKP_Buttstock_FDE"
+	],
+	"isCar": 0
+}

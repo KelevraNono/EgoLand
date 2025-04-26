@@ -1,0 +1,8 @@
+{
+	"uniqueName": "SFP_DrinkCan_Cola",
+	"health": 100.0,
+	"type": "SFP_DrinkCan_Cola",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [],
+	"isCar": 0
+}

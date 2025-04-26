@@ -1,0 +1,8 @@
+{
+	"uniqueName": "SurgicalMask",
+	"health": 100.0,
+	"type": "SurgicalMask",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [],
+	"isCar": 0
+}
