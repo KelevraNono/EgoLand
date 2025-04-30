@@ -7,9 +7,7 @@
     "distanceTravelledRequiredInMeters": 49000,
     "canReTakenAfterPeriodOfDaysRealTime": 4,
     "canTakenOnlyOnce": 0,
-    "animalKills": {},
-    "infectedKillsRequiredCount": 350,
-    "zombieKills": {
+    "animalKills": {
         "Zombi_XZ_Civ_Trup1": 5,
         "Zombi_XZ_Civ_Trup2": 5,
         "Zombi_XZ_Civ_Trup3": 5,
@@ -23,6 +21,8 @@
         "Zombi_XZ_Novice6": 5,
         "Zombi_XZ_Novice7": 5
     },
+    "infectedKillsRequiredCount": 350,
+    "zombieKills": {},
     "aiKillsRequiredCount": -1,
     "aiHeadShotKillsRequiredCount": -1,
     "version": "6",

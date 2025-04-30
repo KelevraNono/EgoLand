@@ -12,7 +12,8 @@
         "Animal_Brutal_Wolf_easy": 2,
         "Animal_Ancient_Wolf_easy": 2,
         "Animal_Ancient_Wolf": 2,
-        "Animal_Ancient_Wolf_Med": 2
+        "Animal_Ancient_Wolf_Med": 2,
+        "PITSTOP_Monsters_Reaper": 1
     },
     "infectedKillsRequiredCount": 450,
     "zombieKills": {},

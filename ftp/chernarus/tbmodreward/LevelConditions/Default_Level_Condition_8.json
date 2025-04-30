@@ -7,9 +7,7 @@
     "distanceTravelledRequiredInMeters": 56000,
     "canReTakenAfterPeriodOfDaysRealTime": 4,
     "canTakenOnlyOnce": 0,
-    "animalKills": {},
-    "infectedKillsRequiredCount": 400,
-    "zombieKills": {
+    "animalKills": {
         "SFP_Bloodsucker_original": 5,
         "SFP_Bloodsucker_Blue": 5,
         "SFP_Bloodsucker_black": 5,
@@ -17,6 +15,8 @@
         "SFP_Bloodsucker_green": 5,
         "SFP_Bloodsucker_Hameleon": 5
     },
+    "infectedKillsRequiredCount": 400,
+    "zombieKills": {},
     "aiKillsRequiredCount": -1,
     "aiHeadShotKillsRequiredCount": -1,
     "version": "6",

@@ -7,15 +7,15 @@
     "distanceTravelledRequiredInMeters": 42000,
     "canReTakenAfterPeriodOfDaysRealTime": 3,
     "canTakenOnlyOnce": 0,
-    "animalKills": {},
-    "infectedKillsRequiredCount": 300,
-    "zombieKills": {
+    "animalKills": {
         "Mutant_ZX_Snork1": 5,
         "Mutant_ZX_Snork2": 5,
         "Mutant_XZ_Izlom1": 5,
         "Mutant_XZ_Izlom2": 5,
         "Mutant_XZ_Izlom3": 5
     },
+    "infectedKillsRequiredCount": 300,
+    "zombieKills": {},
     "aiKillsRequiredCount": -1,
     "aiHeadShotKillsRequiredCount": -1,
     "version": "6",
