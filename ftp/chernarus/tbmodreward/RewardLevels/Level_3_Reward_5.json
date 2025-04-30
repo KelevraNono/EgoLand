@@ -5,10 +5,8 @@
 	"canTakenTimes": -1,
 	"items": [],
 	"uniqueItemNames": [
-		"CodeLock",
-		"Msp_LargeAmmoBox",
-		"Msp_MilitaryCrate_Brown",
-		"rag_baseitems_doorbell_kit",
-		"rag_baseitems_lantern_wall_kit"
+		"Pickaxe",
+		"SledgeHammer",
+		"WoodAxe"
 	]
 }

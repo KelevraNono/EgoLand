@@ -1,0 +1,12 @@
+{
+	"uniqueName": "Glock18_Complete",
+	"health": 100.0,
+	"type": "Glock18",
+	"quantity": 1.0,
+	"attachmentUniqueNames": [
+		"PistolSuppressor",
+		"TLRLight",
+		"PITSTOP_Glock18_Magazine",
+		"FNP45_MRDSOptic"
+	]
+}

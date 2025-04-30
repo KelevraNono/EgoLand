@@ -5,10 +5,10 @@
 	"canTakenTimes": -1,
 	"items": [],
 	"uniqueItemNames": [
-		"WoodenCrate",
-		"codelock",
-		"AntiChemInjector",
-		"MMG_striker_helmet_alpine",
-		"MMG_balaclava_alpine"
+		"rag_baseitems_ammo_cleaner",
+		"rag_baseitems_magpump_kit",
+		"Nail",
+		"BBP_Gang_Plug",
+		"DNA_Workbench_Kit"
 	]
 }

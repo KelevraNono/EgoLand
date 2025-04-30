@@ -1,0 +1,23 @@
+{
+    "uniqueName": "Default_Level_Condition_9",
+    "level": 9,
+    "onlineTimeRequiredInMinutes": 540,
+    "playerKillsRequiredCount": -1,
+    "headshotKillsRequiredCount": -1,
+    "distanceTravelledRequiredInMeters": 63000,
+    "canReTakenAfterPeriodOfDaysRealTime": 4,
+    "canTakenOnlyOnce": 0,
+    "animalKills": {
+        "Animal_Brutal_Wolf": 2,
+        "Animal_Brutal_Wolf_easy": 2,
+        "Animal_Ancient_Wolf_easy": 2,
+        "Animal_Ancient_Wolf": 2,
+        "Animal_Ancient_Wolf_Med": 2
+    },
+    "infectedKillsRequiredCount": 450,
+    "zombieKills": {},
+    "aiKillsRequiredCount": -1,
+    "aiHeadShotKillsRequiredCount": -1,
+    "version": "6",
+    "displayName": "#Level 9"
+}

@@ -5,10 +5,8 @@
 	"canTakenTimes": -1,
 	"items": [],
 	"uniqueItemNames": [
-		"Shovel",
-		"WoodAxe",
-		"Hammer",
-		"SledgeHammer",
-		"Pickaxe"
+		"PITSTOP_AEK971",
+		"Ammo_545x39",
+		"DNA_KeyCard_BlisterPackChip_Yellow"
 	]
 }

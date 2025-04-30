@@ -5,10 +5,9 @@
 	"canTakenTimes": -1,
 	"items": [],
 	"uniqueItemNames": [
-		"CMCP_AnalBeads_3",
-		"BurlapSack",
-		"Handcuffs",
-		"HandcuffKeys",
-		"PaydayMask_Wolf"
+		"M4A1",
+		"Ammo_556x45",
+		"DNA_KeyCard_BlisterPackChip_Green",
+		"Lockpick"
 	]
 }

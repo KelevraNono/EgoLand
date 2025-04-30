@@ -1,0 +1,18 @@
+{
+	"uniqueName": "Level_10_Premium_Reward_2",
+	"version": "1",
+	"level": 10,
+	"canTakenTimes": -1,
+	"items": [],
+	"uniqueItemNames": [
+		"PITSTOP3_AS50_Black",
+		"PITSTOP3_AS50_Magazine",
+		"PITSTOP3_AS50_Magazine",
+		"PITSTOP_HPNVG_Black",
+		"PITSTOP_M200_Suppressor",
+		"PITSTOP3_Ammo_50CalHE",
+		"DNA_KeyCard_Red_Inactive",
+		"Lockpick",
+		"ML_Death_Sword"
+	]
+}

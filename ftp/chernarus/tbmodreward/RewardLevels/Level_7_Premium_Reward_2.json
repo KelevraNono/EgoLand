@@ -5,10 +5,12 @@
 	"canTakenTimes": -1,
 	"items": [],
 	"uniqueItemNames": [
-		"SFP_Tarelka_KolbasaOgurecTomat",
-		"MoreCassettes_LaCompagnieCreole_CaFaitRireLesOiseaux",
-		"Exo_skelet_V2",
-		"SFP_F1Grenade",
-		"SantasHat"
+		"M79",
+		"Ammo_40mm_Explosive",
+		"Ammo_40mm_ChemGas",
+		"DNA_KeyCard_Purple_Inactive",
+		"Lockpick",
+		"LandMineTrap",
+		"ClaymoreMine"
 	]
 }

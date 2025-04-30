@@ -1,17 +1,21 @@
 {
     "uniqueName": "Premium_Level_Condition_5",
     "level": 5,
-    "onlineTimeRequiredInMinutes": 270,
+    "onlineTimeRequiredInMinutes": 300,
     "playerKillsRequiredCount": -1,
     "headshotKillsRequiredCount": -1,
     "distanceTravelledRequiredInMeters": 35000,
     "canReTakenAfterPeriodOfDaysRealTime": 2,
     "canTakenOnlyOnce": 0,
     "animalKills": {
-        "Animal_CanisLupus_White": 5,
-        "Animal_CanisLupus_Grey": 5
+        "Animal_BosTaurus_Brown": 2,
+        "Animal_BosTaurus_White": 2,
+        "Animal_BosTaurus_Spotted": 2,
+        "Animal_BosTaurusF_Brown": 2,
+        "Animal_BosTaurusF_White": 2,
+        "Animal_BosTaurusF_Spotted": 2
     },
-    "infectedKillsRequiredCount": 170,
+    "infectedKillsRequiredCount": 250,
     "zombieKills": {},
     "aiKillsRequiredCount": -1,
     "aiHeadShotKillsRequiredCount": -1,

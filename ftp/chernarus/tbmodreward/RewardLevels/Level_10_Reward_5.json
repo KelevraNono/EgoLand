@@ -1,0 +1,19 @@
+{
+	"uniqueName": "Level_10_Reward_5",
+	"version": "1",
+	"level": 10,
+	"canTakenTimes": -1,
+	"items": [],
+	"uniqueItemNames": [
+		"rag_baseitems_greenhouse_kit",
+		"rag_baseitems_plant_rack_kit",
+		"rag_baseitems_planterbox_high_kit",
+		"rag_baseitems_planterbox_low_kit",
+		"GardenLime",
+		"GardenLime",
+		"PITSTOP_GardenPot_Kit",
+		"rag_baseitems_watering_can",
+		"Shovel",
+		"DNA_Laptop"
+	]
+}

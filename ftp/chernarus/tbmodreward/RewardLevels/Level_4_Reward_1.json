@@ -5,10 +5,9 @@
 	"canTakenTimes": -1,
 	"items": [],
 	"uniqueItemNames": [
-		"FAMAS_Complete",
-		"Mag_FAMAS_25Rnd",
-		"Ammo_556x45",
-		"WeaponCleaningKit",
-		"EGO_Conserve_Licorne"
+		"ArmyPouch_Black",
+		"GorkaEJacket_Summer",
+		"GorkaPants_Summer",
+		"MilitaryBeret_ChDKZ"
 	]
 }

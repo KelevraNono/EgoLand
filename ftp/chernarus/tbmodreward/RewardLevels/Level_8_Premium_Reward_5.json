@@ -1,0 +1,17 @@
+{
+	"uniqueName": "Level_8_Premium_Reward_5",
+	"version": "1",
+	"level": 8,
+	"canTakenTimes": -1,
+	"items": [],
+	"uniqueItemNames": [
+		"rag_baseitems_sewing_machine_kit",
+		"rag_baseitems_sewing_needle",
+		"rag_baseitems_sewing_thread",
+		"rag_baseitems_sewing_thread",
+		"rag_baseitems_sewing_cushion",
+		"rag_baseitems_sewing_case",
+		"rag_baseitems_oil_bottle",
+		"DNA_Bolts"
+	]
+}

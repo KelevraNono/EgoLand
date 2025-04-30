@@ -5,9 +5,8 @@
 	"canTakenTimes": -1,
 	"items": [],
 	"uniqueItemNames": [
-		"NBCBootsGray",
-		"NBCGlovesGray",
-		"NBCHoodGray",
-		"NBCPantsGray"
+		"rag_baseitems_table_saw_kit",
+		"rag_baseitems_sawblade",
+		"HandSaw"
 	]
 }

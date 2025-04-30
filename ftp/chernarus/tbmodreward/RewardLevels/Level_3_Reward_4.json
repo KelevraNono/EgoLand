@@ -5,10 +5,8 @@
 	"canTakenTimes": -1,
 	"items": [],
 	"uniqueItemNames": [
-		"ElectronicRepairKit",
-		"rag_baseitems_sewing_needle",
-		"DuctTape",
-		"TireRepairKit",
-		"ArrakisRepairLube"
+		"FreezeGem_FancyColourDiamond_Perfect",
+		"FreezeGem_Aquamarine_Perfect",
+		"FreezeGem_Turquoise_Perfect"
 	]
 }

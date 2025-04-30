@@ -5,10 +5,9 @@
 	"canTakenTimes": -1,
 	"items": [],
 	"uniqueItemNames": [
-		"Hatchet",
-		"Codelock",
-		"WoodenPlank",
-		"NailBox",
-		"Pickaxe"
+		"rag_baseitems_manikin_kit",
+		"rag_baseitems_single_locker_kit",
+		"Nail",
+		"rag_baseitems_lantern_wall_kit"
 	]
 }

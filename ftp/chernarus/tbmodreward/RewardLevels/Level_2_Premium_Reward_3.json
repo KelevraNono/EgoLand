@@ -5,9 +5,7 @@
     "canTakenTimes": -1,
     "items": [],
     "uniqueItemNames": [
-        "TetracyclineAntibiotics",
-        "Morphine",
-        "IodineTincture",
-        "PainkillerTablets"
+        "Med_capsula_3",
+        "SFP_AI2_medkit_standart"
     ]
 }

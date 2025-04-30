@@ -5,10 +5,12 @@
 	"canTakenTimes": -1,
 	"items": [],
 	"uniqueItemNames": [
-		"CP_JointStardawg",
-		"rag_baseitems_bookshelf_kit",
-		"Med_capsula_4",
-		"DNA_KeyCard_Green_Inactive",
-		"Iris_boots"
+		"IodineTincture",
+		"BandageDressing",
+		"FirstAideKit",
+		"PainkillerTablets",
+		"CharcoalTablets",
+		"VitaminBottle",
+		"TetracyclineAntibiotics"
 	]
 }

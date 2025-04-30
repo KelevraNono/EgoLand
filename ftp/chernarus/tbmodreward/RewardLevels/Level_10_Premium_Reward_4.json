@@ -1,0 +1,19 @@
+{
+	"uniqueName": "Level_10_Premium_Reward_4",
+	"version": "1",
+	"level": 10,
+	"canTakenTimes": -1,
+	"items": [],
+	"uniqueItemNames": [
+		"CP_CannabisBrickSkunk",
+		"CP_CannabisBrickBlue",
+		"CP_CannabisBrickKush",
+		"CP_CannabisBrickStardawg",
+		"CP_CannabisBrickFuture",
+		"CP_CannabisBrickS1",
+		"CP_CannabisBrickNomad",
+		"CP_CannabisBrickBlackFrost",
+		"DP_CocaBrick",
+		"EgoLore_Multiverse_Cassette"
+	]
+}

@@ -5,9 +5,7 @@
 	"canTakenTimes": -1,
 	"items": [],
 	"uniqueItemNames": [
-		"SFP_BootleWaterPack6",
-		"EGO_Conserve_Licorne",
-		"EGO_Salade_De_Fruit",
-		"EGO_Ravioli"
+		"IodineTincture",
+		"BandageDressing"
 	]
 }

@@ -5,9 +5,7 @@
 	"canTakenTimes": -1,
 	"items": [],
 	"uniqueItemNames": [
-		"AmmoBox_9x19_25rnd",
-		"AmmoBox_308Win_20Rnd",
-		"AmmoBox_556x45_20Rnd",
-		"AmmoBox_762x39_20Rnd"
+		"Loftd_twocrown",
+		"Loftd_skullring"
 	]
 }

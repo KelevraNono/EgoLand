@@ -5,10 +5,10 @@
 	"canTakenTimes": -1,
 	"items": [],
 	"uniqueItemNames": [
-		"MediumTent",
-		"AntiChemInjector",
-		"CMCP_Viberator_3",
-		"CMCP_Octopus_10",
-		"GhillieAtt_Tan"
+		"rag_baseitems_firstaid_cabinet_big_kit",
+		"rag_baseitems_firstaid_cabinet_kit",
+		"Nail",
+		"rag_baseitems_lantern",
+		"CodeLock"
 	]
 }

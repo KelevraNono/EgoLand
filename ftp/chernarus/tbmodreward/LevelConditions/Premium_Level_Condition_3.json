@@ -4,13 +4,16 @@
     "onlineTimeRequiredInMinutes": 180,
     "playerKillsRequiredCount": -1,
     "headshotKillsRequiredCount": -1,
-    "distanceTravelledRequiredInMeters": 25000,
+    "distanceTravelledRequiredInMeters": 21000,
     "canReTakenAfterPeriodOfDaysRealTime": 1,
     "canTakenOnlyOnce": 0,
     "animalKills": {
-        "Animal_OvisAries": 3
+        "Animal_CapreolusCapreolus": 2,
+        "Animal_CapreolusCapreolusF": 2,
+        "Animal_CervusElaphus": 2,
+        "Animal_CervusElaphusF": 2
     },
-    "infectedKillsRequiredCount": 100,
+    "infectedKillsRequiredCount": 150,
     "zombieKills": {},
     "aiKillsRequiredCount": -1,
     "aiHeadShotKillsRequiredCount": -1,

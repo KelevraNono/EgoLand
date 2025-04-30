@@ -5,8 +5,6 @@
 	"canTakenTimes": -1,
 	"items": [],
 	"uniqueItemNames": [
-		"WeaponCleaningKit",
-		"SewingKit",
-		"LeatherSewingKit"
+		"LBS_SleepingPacked_New_Camo"
 	]
 }

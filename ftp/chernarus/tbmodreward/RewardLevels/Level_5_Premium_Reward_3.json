@@ -5,10 +5,10 @@
     "canTakenTimes": -1,
     "items": [],
     "uniqueItemNames": [
-        "PITSTOP_HPNVG_Black",
-        "MMG_falcon_b1_belt_alpine",
-        "mmg_tactical_pants_alpine",
-        "ElectronicRepairKit",
-        "rag_baseitems_medic_box_kit"
+        "Med_capsula_1",
+        "Med_capsula_2",
+        "Med_capsula_4",
+        "Med_capsula_3",
+        "SFP_AI2_medkit_standart"
     ]
 }

@@ -5,10 +5,11 @@
 	"canTakenTimes": -1,
 	"items": [],
 	"uniqueItemNames": [
-		"MAP3_9_helm_3",
-		"ArrakisSoap",
-		"PITSTOP3_Ammo_300WM",
-		"PITSTOP3_AX50_Suppressor",
-		"CP_CannabisBrickS1"
+		"FreezeAnvil_Kit",
+		"Hammer",
+		"SledgeHammer",
+		"Pickaxe",
+		"Crowbar",
+		"Whetstone"
 	]
 }

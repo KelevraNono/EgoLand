@@ -5,9 +5,7 @@
 	"canTakenTimes": -1,
 	"items": [],
 	"uniqueItemNames": [
-		"FoXyRadio_SoundGrenade_GoatScream",
-		"FoXyRadio_Walkman_Simple_9V_Pink",
-		"EgoRadio_playlist_communaute_Playlist",
-		"FoXyRadio_EarPhones"
+		"UMP45",
+		"Ammo_45ACP"
 	]
 }

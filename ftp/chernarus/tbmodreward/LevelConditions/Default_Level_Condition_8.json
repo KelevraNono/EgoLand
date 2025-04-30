@@ -1,0 +1,24 @@
+{
+    "uniqueName": "Default_Level_Condition_8",
+    "level": 8,
+    "onlineTimeRequiredInMinutes": 480,
+    "playerKillsRequiredCount": -1,
+    "headshotKillsRequiredCount": -1,
+    "distanceTravelledRequiredInMeters": 56000,
+    "canReTakenAfterPeriodOfDaysRealTime": 4,
+    "canTakenOnlyOnce": 0,
+    "animalKills": {},
+    "infectedKillsRequiredCount": 400,
+    "zombieKills": {
+        "SFP_Bloodsucker_original": 5,
+        "SFP_Bloodsucker_Blue": 5,
+        "SFP_Bloodsucker_black": 5,
+        "SFP_Bloodsucker_red": 5,
+        "SFP_Bloodsucker_green": 5,
+        "SFP_Bloodsucker_Hameleon": 5
+    },
+    "aiKillsRequiredCount": -1,
+    "aiHeadShotKillsRequiredCount": -1,
+    "version": "6",
+    "displayName": "#Level 8"
+}

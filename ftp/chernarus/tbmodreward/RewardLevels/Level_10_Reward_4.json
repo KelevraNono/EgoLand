@@ -1,0 +1,19 @@
+{
+	"uniqueName": "Level_10_Reward_4",
+	"version": "1",
+	"level": 10,
+	"canTakenTimes": -1,
+	"items": [],
+	"uniqueItemNames": [
+		"CP_CannabisSeedsPackSkunk",
+		"CP_CannabisSeedsPackBlue",
+		"CP_CannabisSeedsPackKush",
+		"CP_CannabisSeedsPackStardawg",
+		"CP_CannabisSeedsPackFuture",
+		"CP_CannabisSeedsPackS1",
+		"CP_CannabisSeedsPackNomad",
+		"CP_CannabisSeedsPackBlackFrost",
+		"DP_CocaSeedsPack",
+		"DP_CocaSeedsPack"
+	]
+}

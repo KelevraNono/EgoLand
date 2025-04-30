@@ -1,0 +1,18 @@
+{
+	"uniqueName": "Level_9_Premium_Reward_5",
+	"version": "1",
+	"level": 9,
+	"canTakenTimes": -1,
+	"items": [],
+	"uniqueItemNames": [
+		"rag_baseitems_repair_station_kit",
+		"rag_baseitems_grindstone",
+		"Whetstone",
+		"EpoxyPutty",
+		"LeatherSewingKit",
+		"SewingKit",
+		"EletronicRepairKit",
+		"WeaponCleaningKit",
+		"DNA_CardReader"
+	]
+}

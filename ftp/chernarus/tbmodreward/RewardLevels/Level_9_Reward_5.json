@@ -1,0 +1,18 @@
+{
+	"uniqueName": "Level_9_Reward_5",
+	"version": "1",
+	"level": 9,
+	"canTakenTimes": -1,
+	"items": [],
+	"uniqueItemNames": [
+		"rag_baseitems_big_safe_kit",
+		"rag_baseitems_metal_ammo_box_black",
+		"rag_baseitems_metal_ammo_box_black",
+		"rag_baseitems_metal_ammo_box_black",
+		"CarTent",
+		"SeaChest",
+		"rag_baseitems_medieval_fireplace_kit",
+		"rag_baseitems_log_holder_kit",
+		"DNA_CardReader"
+	]
+}

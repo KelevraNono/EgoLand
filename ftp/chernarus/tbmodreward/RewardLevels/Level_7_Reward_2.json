@@ -5,10 +5,12 @@
 	"canTakenTimes": -1,
 	"items": [],
 	"uniqueItemNames": [
-		"Iris_gloves",
-		"PITSTOP3_DVL_Magazine",
-		"rag_baseitems_small_pool_yellow",
-		"PITSTOP3_DVL",
-		"PITSTOP3_Ammo_338AP"
+		"PITSTOP_M249",
+		"PITSTOP_M249_Magazine",
+		"PITSTOP2_HKG28Optic_Black",
+		"M4_Suppressor",
+		"Ammo_556x45",
+		"DNA_KeyCard_BlisterPackChip_Purple",
+		"Lockpick"
 	]
 }

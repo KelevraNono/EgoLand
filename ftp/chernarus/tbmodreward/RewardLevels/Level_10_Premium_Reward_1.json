@@ -1,0 +1,19 @@
+{
+	"uniqueName": "Level_10_Premium_Reward_1",
+	"version": "1",
+	"level": 10,
+	"canTakenTimes": -1,
+	"items": [],
+	"uniqueItemNames": [
+		"MAP3_9_helm_3",
+		"MAP3_9_body_3",
+		"MAP3_9_gloves_3",
+		"MAP3_9_pants_3",
+		"MAP3_9_boots_3",
+		"Exo_skelet_V2",
+		"JuggernautVest_Black",
+		"Loftd_FairyEarrings",
+		"Loftd_CHRSAT_mask",
+		"Loftd_cloak_grey"
+	]
+}

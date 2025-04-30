@@ -1,0 +1,19 @@
+{
+	"uniqueName": "Level_10_Reward_2",
+	"version": "1",
+	"level": 10,
+	"canTakenTimes": -1,
+	"items": [],
+	"uniqueItemNames": [
+		"PITSTOP_AX50_Black",
+		"PITSTOP_AX50_Magazine",
+		"PITSTOP_AX50_Magazine",
+		"PITSTOP2_HKG28Optic_Black",
+		"PITSTOP3_AX50_Suppressor",
+		"PITSTOP_Ammo_50Cal",
+		"PITSTOP3_Ammo_50CalAP",
+		"Lockpick",
+		"DNA_KeyCard_BlisterPackChip_Red",
+		"ML_Demon_Rebellion_Sword"
+	]
+}

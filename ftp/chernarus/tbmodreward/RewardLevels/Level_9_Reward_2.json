@@ -1,0 +1,18 @@
+{
+	"uniqueName": "Level_9_Reward_2",
+	"version": "1",
+	"level": 9,
+	"canTakenTimes": -1,
+	"items": [],
+	"uniqueItemNames": [
+		"PITSTOP_M10_Black",
+		"PITSTOP_M10_Magazine",
+		"PITSTOP_M10_Magazine",
+		"PITSTOP2_HKG28Optic_Black",
+		"PITSTOP_M200_Suppressor",
+		"PITSTOP_Ammo_408",
+		"DNA_KeyCard_BlisterPackChip_Red",
+		"Lockpick",
+		"ML_Samurai_Katana"
+	]
+}

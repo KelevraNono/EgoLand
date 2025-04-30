@@ -5,10 +5,11 @@
 	"canTakenTimes": -1,
 	"items": [],
 	"uniqueItemNames": [
-		"MAP3_9_body_3",
-		"PITSTOP2_SOAS1Optic_Black",
-		"MMG_bottle_alpine",
-		"PITSTOP_Katana",
-		"PITSTOP2_GPNVG_Black"
+		"GhillieAtt_Mossy",
+		"GhillieHood_Mossy",
+		"PITSTOP3_Ghillie_Top",
+		"PITSTOP3_Ghillie_Pants",
+		"INK_CamoNetPoncho",
+		"GhillieSuit_Mossy"
 	]
 }

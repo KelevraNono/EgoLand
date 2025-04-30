@@ -4,13 +4,16 @@
     "onlineTimeRequiredInMinutes": 120,
     "playerKillsRequiredCount": -1,
     "headshotKillsRequiredCount": -1,
-    "distanceTravelledRequiredInMeters": 15000,
+    "distanceTravelledRequiredInMeters": 14000,
     "canReTakenAfterPeriodOfDaysRealTime": 1,
     "canTakenOnlyOnce": 0,
     "animalKills": {
-        "Animal_VulpesVulpes": 2
+        "Animal_GallusGallusDomesticus": 2,
+        "Animal_GallusGallusDomesticusF_Brown": 2,
+        "Animal_GallusGallusDomesticusF_Spotted": 2,
+        "Animal_GallusGallusDomesticusF_White": 2
     },
-    "infectedKillsRequiredCount": 70,
+    "infectedKillsRequiredCount": 100,
     "zombieKills": {},
     "aiKillsRequiredCount": -1,
     "aiHeadShotKillsRequiredCount": -1,

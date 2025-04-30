@@ -5,10 +5,11 @@
 	"canTakenTimes": -1,
 	"items": [],
 	"uniqueItemNames": [
-		"MMG_supplybag_tan",
-		"MMG_tactical_helmet_tan_Complete",
-		"Mag_AKM_Drum75Rnd_Green",
-		"PITSTOP_AK15_Red",
-		"BK_BookHentai10"
+		"Chainmail_Coif",
+		"Chainmail_Leggings",
+		"Chainmail",
+		"NorseHelm",
+		"GreatHelm",
+		"Chestplate"
 	]
 }

@@ -5,9 +5,8 @@
 	"canTakenTimes": -1,
 	"items": [],
 	"uniqueItemNames": [
-		"HuntingBag_Hannah",
-		"HuntingJacket_Summer",
-		"HuntingVest",
-		"HunterPants_Summer"
+		"Med_capsula_4",
+		"Med_capsula_3",
+		"SFP_AI2_medkit_standart"
 	]
 }

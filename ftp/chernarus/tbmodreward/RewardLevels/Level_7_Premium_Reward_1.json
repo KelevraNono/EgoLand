@@ -5,10 +5,12 @@
 	"canTakenTimes": -1,
 	"items": [],
 	"uniqueItemNames": [
-		"PITSTOP_AX50_Black_complete",
-		"LandMineTrap",
-		"BandageDressing",
-		"FoXyRadio_SoundGrenade_GoatScream",
-		"BK_BookHentai46"
+		"Lost_hunters_NBCjacket",
+		"Lost_hunters_NBCpants",
+		"Lost_hunters_NBCHood",
+		"Lost_Hunters_NBCGloves",
+		"Lost_Hunters_NBCBoots",
+		"SFP_SevaMark2_UpModule_scienceGrey",
+		"NVGoggles"
 	]
 }

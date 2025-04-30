@@ -5,10 +5,11 @@
 	"canTakenTimes": -1,
 	"items": [],
 	"uniqueItemNames": [
-		"TruckBattery",
-		"FieldShovel",
-		"CP_CannabisSeedsPackStardawg",
-		"rag_baseitems_workbench_blueprint",
-		"Hammer"
+		"rag_baseitems_jd_fridge_kit",
+		"rag_baseitems_bookshelf_kit",
+		"rag_baseitems_teddyshelf_kit",
+		"Nail",
+		"rag_baseitems_gascanister",
+		"DNA_Workbench_Kit"
 	]
 }

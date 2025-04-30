@@ -1,0 +1,17 @@
+{
+	"uniqueName": "Level_8_Reward_2",
+	"version": "1",
+	"level": 8,
+	"canTakenTimes": -1,
+	"items": [],
+	"uniqueItemNames": [
+		"PITSTOP2_ASH12_Black",
+		"PITSTOP2_ASH12_Magazine",
+		"PITSTOP2_HKG28Optic_Black",
+		"PITSTOP2_ASH12_Suppressor",
+		"PITSTOP2_Ammo_127x55",
+		"DNA_KeyCard_BlisterPackChip_Purple",
+		"Lockpick",
+		"ML_Futuristic_Battle_Axe"
+	]
+}

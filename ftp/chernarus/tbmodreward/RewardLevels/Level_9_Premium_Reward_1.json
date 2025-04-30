@@ -1,0 +1,18 @@
+{
+	"uniqueName": "Level_9_Premium_Reward_1",
+	"version": "1",
+	"level": 9,
+	"canTakenTimes": -1,
+	"items": [],
+	"uniqueItemNames": [
+		"MAP3_3_helm_3",
+		"MAP3_3_body_3",
+		"MAP3_3_gloves_3",
+		"MAP3_3_pants_3",
+		"MAP3_3_boots_3",
+		"MMG_mmps_bag_black",
+		"MMG_MK_V_armore_black",
+		"MMG_mk5_grenade_pouch_black",
+		"MMG_mk5_utility_pouch_black"
+	]
+}

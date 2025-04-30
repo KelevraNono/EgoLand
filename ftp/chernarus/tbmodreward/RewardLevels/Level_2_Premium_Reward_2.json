@@ -5,9 +5,7 @@
     "canTakenTimes": -1,
     "items": [],
     "uniqueItemNames": [
-        "PITSTOP_K98_complete",
-        "AmmoBox",
-        "WeaponCleaningKit",
-        "AmmoBox_762x54_20Rnd"
+        "VSS",
+        "Ammo_9x39AP"
     ]
 }

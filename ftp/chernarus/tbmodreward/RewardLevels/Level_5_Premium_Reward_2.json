@@ -5,10 +5,10 @@
 	"canTakenTimes": -1,
 	"items": [],
 	"uniqueItemNames": [
-		"PITSTOP_PKP_Camo2_complete",
-		"MMG_supplybag_alpine",
-		"CT_Card_Yu_Gi_Oh39",
+		"PITSTOP_PKP",
 		"PITSTOP_PKP_Magazine",
-		"rag_baseitems_gunrack_kit"
+		"PITSTOP3_Ammo_762x54SNB",
+		"DNA_KeyCard_Blue_Inactive",
+		"Lockpick"
 	]
 }

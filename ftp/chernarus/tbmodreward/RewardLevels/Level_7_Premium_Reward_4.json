@@ -5,10 +5,12 @@
 	"canTakenTimes": -1,
 	"items": [],
 	"uniqueItemNames": [
+		"RG_GameNWatch",
+		"RG_GameBoyColor",
+		"PokemonBoosterPack_Jungle3_5x",
+		"SFP_xFiles_Floppy",
+		"FreezeBar_Crimant",
 		"Box_CROFT_Yu_Gi_Oh",
-		"CT_Card_Yu_Gi_Oh37",
-		"PITSTOP2_VKS_Magazine",
-		"PITSTOP_SCARH_Black_Magazine",
-		"Msp_GunCabinet_Kit"
+		"EgoLore_VIRUS_Part1_Cassette"
 	]
 }

@@ -1,0 +1,17 @@
+{
+	"uniqueName": "Level_8_Reward_5",
+	"version": "1",
+	"level": 8,
+	"canTakenTimes": -1,
+	"items": [],
+	"uniqueItemNames": [
+		"rag_baseitems_military_locker_threedoor_kit",
+		"rag_baseitems_wooden_ammo_box",
+		"rag_baseitems_small_gun_box",
+		"rag_baseitems_hand_grenade_box",
+		"rag_baseitems_smoke_grenade_box",
+		"rag_baseitems_metal_ammo_box_black",
+		"rag_baseitems_metal_ammo_box_black",
+		"DNA_Bolts"
+	]
+}

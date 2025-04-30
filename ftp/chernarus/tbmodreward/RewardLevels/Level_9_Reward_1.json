@@ -1,0 +1,18 @@
+{
+	"uniqueName": "Level_9_Reward_1",
+	"version": "1",
+	"level": 9,
+	"canTakenTimes": -1,
+	"items": [],
+	"uniqueItemNames": [
+		"MMG_striker_helmet_black",
+		"MMG_boots_black",
+		"mmg_tac_goggles_clear_black",
+		"MMG_operatorshirt_black",
+		"MMG_MK_III_Armor_black",
+		"MMG_supplybag_black",
+		"mmg_cargobelt_black",
+		"mmg_tactical_gloves_black",
+		"mmg_tactical_pants_black"
+	]
+}

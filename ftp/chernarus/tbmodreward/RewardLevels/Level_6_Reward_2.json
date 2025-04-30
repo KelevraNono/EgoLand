@@ -5,10 +5,11 @@
 	"canTakenTimes": -1,
 	"items": [],
 	"uniqueItemNames": [
-		"CMCP_Dick_4",
-		"PITSTOP3_Ammo_300WM",
-		"PITSTOP2_M110KX",
-		"PITSTOP2_M110KX_Magazine",
-		"FoXyRadio_SoundGrenade_GoatScream"
+		"PITSTOP3_OMEN_Watchman_Black",
+		"PITSTOP3_OMEN_Watchman_Bttstck",
+		"PITSTOP3_OMEN_Watchman_Hndgrd_Black",
+		"PITSTOP3_OMEN_Watchman_Suppressor",
+		"PITSTOP3_OMEN_Watchman_Scope",
+		"PITSTOP3_OMEN_Magazine"
 	]
 }

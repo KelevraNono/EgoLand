@@ -1,0 +1,18 @@
+{
+	"uniqueName": "Level_9_Reward_3",
+	"version": "1",
+	"level": 9,
+	"canTakenTimes": -1,
+	"items": [],
+	"uniqueItemNames": [
+		"IodineTincture",
+		"BandageDressing",
+		"FirstAideKit",
+		"PainkillerTablets",
+		"CharcoalTablets",
+		"VitaminBottle",
+		"TetracyclineAntibiotics",
+		"RLF_Health_Injector_Cure",
+		"AntiChemInjector"
+	]
+}

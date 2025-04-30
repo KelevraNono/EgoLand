@@ -5,10 +5,10 @@
 	"canTakenTimes": -1,
 	"items": [],
 	"uniqueItemNames": [
-		"ALC_Jack_Daniels",
-		"Pot",
-		"PorkCan",
-		"DuctTape",
-		"Tripod"
+		"IodineTincture",
+		"BandageDressing",
+		"FirstAideKit",
+		"PainkillerTablets",
+		"CharcoalTablets"
 	]
 }

@@ -5,10 +5,12 @@
 	"canTakenTimes": -1,
 	"items": [],
 	"uniqueItemNames": [
-		"FoXy",
-		"HM_Auto_Storage_Kit_2_Grey",
-		"DNA_KeyCard_Red_Inactive",
-		"My_CODM_Weapons_Melee_Katana_GuardianSpirit",
-		"rag_baseitems_bookshelf_kit"
+		"SFP_Ingalator_Morphine",
+		"SFP_Ingalator_Tetracycline",
+		"Med_capsula_1",
+		"Med_capsula_2",
+		"Med_capsula_4",
+		"Med_capsula_3",
+		"SFP_AI2_medkit_standart"
 	]
 }

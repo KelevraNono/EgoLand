@@ -5,9 +5,7 @@
 	"canTakenTimes": -1,
 	"items": [],
 	"uniqueItemNames": [
-		"CP_CannabisSeedsPackSkunk",
-		"CP_CannabisSeedsPackBlue",
-		"CP_CannabisSeedsPackKush",
-		"CP_CannabisSeedsPackStardawg"
+		"rag_baseitems_gun_cabinet_kit",
+		"rag_baseitems_metal_ammo_box_black"
 	]
 }

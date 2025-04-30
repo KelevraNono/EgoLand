@@ -8,9 +8,10 @@
     "canReTakenAfterPeriodOfDaysRealTime": 1,
     "canTakenOnlyOnce": 0,
     "animalKills": {
-        "Animal_SusDomesticus": 1
+        "Animal_SusDomesticus": 2,
+        "Animal_SusScrofa": 2
     },
-    "infectedKillsRequiredCount": 40,
+    "infectedKillsRequiredCount": 50,
     "zombieKills": {},
     "aiKillsRequiredCount": -1,
     "aiHeadShotKillsRequiredCount": -1,

@@ -5,8 +5,6 @@
     "canTakenTimes": -1,
     "items": [],
     "uniqueItemNames": [
-        "ElectronicRepairKit",
-        "SewingKit",
-        "DuctTape"
+        "Garage_Sign_PlayerKit"
     ]
 }

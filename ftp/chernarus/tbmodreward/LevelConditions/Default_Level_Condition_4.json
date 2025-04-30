@@ -1,16 +1,24 @@
 {
     "uniqueName": "Default_Level_Condition_4",
     "level": 4,
-    "onlineTimeRequiredInMinutes": 210,
+    "onlineTimeRequiredInMinutes": 240,
     "playerKillsRequiredCount": -1,
     "headshotKillsRequiredCount": -1,
-    "distanceTravelledRequiredInMeters": 30000,
+    "distanceTravelledRequiredInMeters": 28000,
     "canReTakenAfterPeriodOfDaysRealTime": 1,
     "canTakenOnlyOnce": 0,
     "animalKills": {
-        "Animal_CervusElaphus": 4
+        "Animal_CapraHircus_Brown": 2,
+        "Animal_CapraHircus_Black": 2,
+        "Animal_CapraHircus_White": 2,
+        "Animal_CapraHircus_Spooky": 2,
+        "Animal_CapraHircusF": 2,
+        "Animal_CapraHircusF_Brown": 2,
+        "Animal_CapraHircusF_Black": 2,
+        "Animal_CapraHircusF_White": 2,
+        "Animal_CapraHircusF_Spotted": 2
     },
-    "infectedKillsRequiredCount": 140,
+    "infectedKillsRequiredCount": 200,
     "zombieKills": {},
     "aiKillsRequiredCount": -1,
     "aiHeadShotKillsRequiredCount": -1,

@@ -5,9 +5,7 @@
     "canTakenTimes": -1,
     "items": [],
     "uniqueItemNames": [
-        "LBmaster_SpawnTicket_1",
-        "Pickaxe",
-        "WoodAxe",
-        "HandSaw"
+        "rag_baseitems_workbench_kit",
+        "rag_baseitems_workbench_blueprint"
     ]
 }

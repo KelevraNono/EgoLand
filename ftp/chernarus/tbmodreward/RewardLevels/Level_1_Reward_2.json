@@ -5,8 +5,6 @@
 	"canTakenTimes": -1,
 	"items": [],
 	"uniqueItemNames": [
-		"FirstAidKit",
-		"BloodTestKit",
-		"BandageDressing"
+		"Glock19_Complete"
 	]
 }

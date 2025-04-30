@@ -1,17 +1,21 @@
 {
     "uniqueName": "Default_Level_Condition_6",
     "level": 6,
-    "onlineTimeRequiredInMinutes": 310,
+    "onlineTimeRequiredInMinutes": 360,
     "playerKillsRequiredCount": -1,
     "headshotKillsRequiredCount": -1,
-    "distanceTravelledRequiredInMeters": 40000,
+    "distanceTravelledRequiredInMeters": 42000,
     "canReTakenAfterPeriodOfDaysRealTime": 3,
     "canTakenOnlyOnce": 0,
-    "animalKills": {
-        "Animal_Ancient_Wolf_easy": 2
+    "animalKills": {},
+    "infectedKillsRequiredCount": 300,
+    "zombieKills": {
+        "Mutant_ZX_Snork1": 5,
+        "Mutant_ZX_Snork2": 5,
+        "Mutant_XZ_Izlom1": 5,
+        "Mutant_XZ_Izlom2": 5,
+        "Mutant_XZ_Izlom3": 5
     },
-    "infectedKillsRequiredCount": 200,
-    "zombieKills": {},
     "aiKillsRequiredCount": -1,
     "aiHeadShotKillsRequiredCount": -1,
     "version": "6",

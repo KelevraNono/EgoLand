@@ -1,0 +1,17 @@
+{
+	"uniqueName": "Level_8_Premium_Reward_1",
+	"version": "1",
+	"level": 8,
+	"canTakenTimes": -1,
+	"items": [],
+	"uniqueItemNames": [
+		"BRTX_striker_helmet_Camo258",
+		"BRTX_NVGs_Camo258",
+		"BRTX_supplybag_Camo258",
+		"BRTX_Operatorshirt_Camo258",
+		"BRTX_HeavyVest_Camo258",
+		"BRTX_CargoBelt_Camo258",
+		"BRTX_combatpants_Camo258",
+		"MilitaryBoots_Black"
+	]
+}

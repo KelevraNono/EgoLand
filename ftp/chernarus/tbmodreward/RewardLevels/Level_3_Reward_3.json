@@ -5,10 +5,8 @@
 	"canTakenTimes": -1,
 	"items": [],
 	"uniqueItemNames": [
-		"Candy_Gatling_complete",
-		"Candy_Gatling_mag_20Rnd",
-		"MMG_falcon_b1_belt_multicamblack",
-		"MMG_operatorshirt_multicamblack",
-		"mmg_tactical_gloves_multicamblack"
+		"IodineTincture",
+		"BandageDressing",
+		"FirstAideKit"
 	]
 }

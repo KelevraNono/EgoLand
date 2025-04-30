@@ -5,10 +5,9 @@
 	"canTakenTimes": -1,
 	"items": [],
 	"uniqueItemNames": [
-		"NBCJacketGray",
-		"CharcoalTablets",
-		"Med_capsula_4",
-		"AirborneMask",
-		"BRTX_striker_helmet_Camo52B"
+		"PITSTOP_M249",
+		"PITSTOP3_Ammo_556x45M995",
+		"DNA_KeyCard_Blue_Inactive",
+		"Lockpick"
 	]
 }

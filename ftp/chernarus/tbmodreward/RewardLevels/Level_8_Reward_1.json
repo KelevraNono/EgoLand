@@ -1,0 +1,17 @@
+{
+	"uniqueName": "Level_8_Reward_1",
+	"version": "1",
+	"level": 8,
+	"canTakenTimes": -1,
+	"items": [],
+	"uniqueItemNames": [
+		"NBCHoodGray",
+		"NBCJacketGray",
+		"NBCGlovesGray",
+		"NBCPantsGray",
+		"NBCBootsGray",
+		"AirborneMask",
+		"PITSTOP3_TakedownBackpack_Black",
+		"GasMask_Filter"
+	]
+}

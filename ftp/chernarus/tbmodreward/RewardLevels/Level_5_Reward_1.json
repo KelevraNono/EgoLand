@@ -5,10 +5,10 @@
 	"canTakenTimes": -1,
 	"items": [],
 	"uniqueItemNames": [
-		"PITSTOP_SV98_Black_Complete",
-		"PITSTOP_SV98_Magazine",
-		"AmmoBox_762x54Tracer_20Rnd",
-		"mmg_boonie_multicamblack",
-		"MMG_operatorshirt_multicamblack"
+		"GorkaHelmet",
+		"GorkaHelmetVisor",
+		"TacticalGloves_Black",
+		"MilitaryBoots_Black",
+		"PITSTOP2_MilitaryVisor_Black"
 	]
 }

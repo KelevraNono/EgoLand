@@ -5,10 +5,11 @@
 	"canTakenTimes": -1,
 	"items": [],
 	"uniqueItemNames": [
-		"MAP3_9_gloves_3",
-		"PITSTOP3_AR308_Magazine",
-		"PITSTOP2_ASH12_Black_complete",
-		"PITSTOP2_Ammo_127x55",
-		"WolfTrophy"
+		"SFP_Ingalator_Tetracycline",
+		"Med_capsula_1",
+		"Med_capsula_2",
+		"Med_capsula_4",
+		"Med_capsula_3",
+		"SFP_AI2_medkit_standart"
 	]
 }
