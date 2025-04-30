@@ -8,18 +8,10 @@
     "canReTakenAfterPeriodOfDaysRealTime": 4,
     "canTakenOnlyOnce": 0,
     "animalKills": {
-        "Zombi_XZ_Civ_Trup1": 5,
-        "Zombi_XZ_Civ_Trup2": 5,
-        "Zombi_XZ_Civ_Trup3": 5,
-        "Zombi_XZ_Civ_Trup4": 5,
-        "Zombi_XZ_Civ_Trup5": 5,
-        "Zombi_XZ_Novice1": 5,
-        "Zombi_XZ_Novice2": 5,
-        "Zombi_XZ_Novice3": 5,
-        "Zombi_XZ_Novice4": 5,
-        "Zombi_XZ_Novice5": 5,
-        "Zombi_XZ_Novice6": 5,
-        "Zombi_XZ_Novice7": 5
+        "Animal_Brutal_Wolf": 2,
+        "Animal_Brutal_Wolf_easy": 2,
+        "Animal_Ancient_Wolf_easy": 2,
+        "Animal_Ancient_Wolf_Med": 2
     },
     "infectedKillsRequiredCount": 350,
     "zombieKills": {},

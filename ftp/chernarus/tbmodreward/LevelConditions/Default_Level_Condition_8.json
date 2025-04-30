@@ -5,15 +5,13 @@
     "playerKillsRequiredCount": -1,
     "headshotKillsRequiredCount": -1,
     "distanceTravelledRequiredInMeters": 56000,
-    "canReTakenAfterPeriodOfDaysRealTime": 4,
+    "canReTakenAfterPeriodOfDaysRealTime": 5,
     "canTakenOnlyOnce": 0,
     "animalKills": {
-        "SFP_Bloodsucker_original": 5,
-        "SFP_Bloodsucker_Blue": 5,
-        "SFP_Bloodsucker_black": 5,
-        "SFP_Bloodsucker_red": 5,
-        "SFP_Bloodsucker_green": 5,
-        "SFP_Bloodsucker_Hameleon": 5
+        "Animal_Brutal_Wolf": 3,
+        "Animal_Brutal_Wolf_easy": 3,
+        "Animal_Ancient_Wolf_easy": 3,
+        "Animal_Ancient_Wolf_Med": 3
     },
     "infectedKillsRequiredCount": 400,
     "zombieKills": {},

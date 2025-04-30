@@ -8,11 +8,8 @@
     "canReTakenAfterPeriodOfDaysRealTime": 3,
     "canTakenOnlyOnce": 0,
     "animalKills": {
-        "Mutant_ZX_Snork1": 5,
-        "Mutant_ZX_Snork2": 5,
-        "Mutant_XZ_Izlom1": 5,
-        "Mutant_XZ_Izlom2": 5,
-        "Mutant_XZ_Izlom3": 5
+        "Animal_CanisLupus_Grey": 3,
+        "Animal_CanisLupus_White": 3
     },
     "infectedKillsRequiredCount": 300,
     "zombieKills": {},

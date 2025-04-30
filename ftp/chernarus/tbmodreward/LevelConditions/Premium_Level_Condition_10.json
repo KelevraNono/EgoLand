@@ -5,16 +5,15 @@
     "playerKillsRequiredCount": -1,
     "headshotKillsRequiredCount": -1,
     "distanceTravelledRequiredInMeters": 70000,
-    "canReTakenAfterPeriodOfDaysRealTime": 4,
+    "canReTakenAfterPeriodOfDaysRealTime": 7,
     "canTakenOnlyOnce": 0,
     "animalKills": {
-        "Animal_Brutal_Bear_easy": 2,
-        "Animal_Brutal_Bear": 2,
-        "Animal_Brutal_Polar_Bear": 2,
-        "Animal_Alpha_Bear": 2,
-        "Animal_Ancient_Bear_easy": 2,
-        "Animal_Ancient_Bear_Med": 2,
-        "PITSTOP_Monsters_FireDemon": 1
+        "Animal_Brutal_Bear_easy": 3,
+        "Animal_Brutal_Bear": 3,
+        "Animal_Brutal_Polar_Bear": 3,
+        "Animal_Alpha_Bear": 3,
+        "Animal_Ancient_Bear_easy": 3,
+        "Animal_Ancient_Bear_Med": 3
     },
     "infectedKillsRequiredCount": 500,
     "zombieKills": {},
