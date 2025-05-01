@@ -12,7 +12,8 @@
         "Animal_Brutal_Bear": 2,
         "Animal_Brutal_Polar_Bear": 2,
         "Animal_Alpha_Bear": 2,
-        "Animal_Ancient_Bear_easy": 2
+        "Animal_Ancient_Bear_easy": 2,
+        "Animal_Ancient_Bear_Med": 2
     },
     "infectedKillsRequiredCount": 450,
     "zombieKills": {},
