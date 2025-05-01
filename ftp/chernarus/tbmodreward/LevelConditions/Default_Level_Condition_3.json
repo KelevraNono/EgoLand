@@ -8,10 +8,8 @@
     "canReTakenAfterPeriodOfDaysRealTime": 1,
     "canTakenOnlyOnce": 0,
     "animalKills": {
-        "Animal_CapreolusCapreolus": 2,
-        "Animal_CapreolusCapreolusF": 2,
-        "Animal_CervusElaphus": 2,
-        "Animal_CervusElaphusF": 2
+        "Animal_CapraHircus_White": 2,
+        "Animal_CapraHircusF": 2
     },
     "infectedKillsRequiredCount": 150,
     "zombieKills": {},

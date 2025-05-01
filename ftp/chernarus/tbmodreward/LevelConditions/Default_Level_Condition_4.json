@@ -8,15 +8,10 @@
     "canReTakenAfterPeriodOfDaysRealTime": 1,
     "canTakenOnlyOnce": 0,
     "animalKills": {
-        "Animal_CapraHircus_Brown": 2,
-        "Animal_CapraHircus_Black": 2,
-        "Animal_CapraHircus_White": 2,
-        "Animal_CapraHircus_Spooky": 2,
-        "Animal_CapraHircusF": 2,
-        "Animal_CapraHircusF_Brown": 2,
-        "Animal_CapraHircusF_Black": 2,
-        "Animal_CapraHircusF_White": 2,
-        "Animal_CapraHircusF_Spotted": 2
+        "Animal_CapreolusCapreolus": 2,
+        "Animal_CapreolusCapreolusF": 2,
+        "Animal_CervusElaphus": 2,
+        "Animal_CervusElaphusF": 2
     },
     "infectedKillsRequiredCount": 200,
     "zombieKills": {},

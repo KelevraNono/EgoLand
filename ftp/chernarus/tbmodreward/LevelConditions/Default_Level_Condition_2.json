@@ -8,10 +8,8 @@
     "canReTakenAfterPeriodOfDaysRealTime": 1,
     "canTakenOnlyOnce": 0,
     "animalKills": {
-        "Animal_GallusGallusDomesticus": 2,
-        "Animal_GallusGallusDomesticusF_Brown": 2,
-        "Animal_GallusGallusDomesticusF_Spotted": 2,
-        "Animal_GallusGallusDomesticusF_White": 2
+        "Animal_SusDomesticus": 2,
+        "Animal_SusScrofa": 2
     },
     "infectedKillsRequiredCount": 100,
     "zombieKills": {},

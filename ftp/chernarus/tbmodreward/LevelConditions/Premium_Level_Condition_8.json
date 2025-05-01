@@ -10,8 +10,7 @@
     "animalKills": {
         "Animal_Brutal_Wolf": 3,
         "Animal_Brutal_Wolf_easy": 3,
-        "Animal_Ancient_Wolf_easy": 3,
-        "Animal_Ancient_Wolf_Med": 3
+        "Animal_Ancient_Wolf_easy": 3
     },
     "infectedKillsRequiredCount": 400,
     "zombieKills": {},
