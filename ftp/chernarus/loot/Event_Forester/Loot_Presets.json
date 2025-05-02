@@ -1,0 +1,70 @@
+{
+    "ConfigVersion": "1",
+    "TITLE": "[Azrael Event Foresters]",
+    "AUTHOR": "Al-Azrael",
+    "DISCORD": "Discord: https://discord.gg/nTdfMS6bJF",
+    "text1": "====== LOOT PRESETS",
+    "EventLootPresetsList": [
+        {
+            "PresetName": "FOR_EXAMPLE_DONT_USE",
+            "LootList": [
+                "Classname|Quantity(-1 / 99 / 50%)|Attachments And Cargo items|Att & cargo|and more...",
+                "Canteen|100",
+                "Apple|50%",
+                "AKM|-1|AK_WoodBttstck"
+            ]
+        },
+        {
+            "PresetName": "hunting",
+            "LootList": [
+                "SFP_GitaraMYZ|-1",
+                "AP_alazrael_dice|-1",
+                "Crossbow_Black|-1|ACOGOptic_6x",
+                "PsilocybeMushroom|100%",
+                "lockpick|-1",
+                "My_CODM_Weapons_Rifle_AK47_Wrath_Gold_Mag|-1",
+                "My_CODM_Weapons_Rifle_AK47_Wrath_Gold|ACOGOptic|*My_CODM_Weapons_Rifle_AK47_Wrath_Gold_Mag"
+            ]
+        },
+        {
+            "PresetName": "military",
+            "LootList": [
+                "Canteen|50%",
+                "TacticalBaconCan_Opened|80%",
+                "Candy_DKS501_mag_5Rnd|100%",
+                "Candy_DKS501_mag_5Rnd|100%",
+                "Candy_DKS501|-1|Candy_DKS501_Optic|GhillieAtt_Woodland|UniversalLight|Battery9V|*Candy_DKS501_mag_5Rnd",
+                "FirstAidKit|-1|Morphine|Epinephrine|AntiChemInjector",
+                "BRTX_CargoBelt_Camo258|-1",
+                "BRTX_Operatorshirt_Camo258A|-1",
+                "BRTX_combatpants_Camo258A|-1",
+                "BRTX_HeavyVest_XCamo258A|-1|BRTX_AmmoPouch_Camo258|BRTX_MedPouch_Camo258",
+                "BRTX_striker_helmet_Camo258B|-1|BRTX_NVGs_BasicCamo258|Battery9V|",
+                "BRTX_supplybag_Camo258|-1|Chemlight_Green|PersonalRadio",
+                "BRTX_Sheath_Camo258|-1"
+            ]
+        },
+        {
+            "PresetName": "custom",
+            "LootList": [
+                "PokemonBoosterPack_Basic1_1x|-1",
+                "PokemonBoosterPack_Basic2_1x|-1",
+                "PokemonBoosterPack_Basic3_1x|-1",
+                "PokemonBoosterPack_Fossil1_1x|-1",
+                "PokemonBoosterPack_Fossil2_1x|-1",
+                "PokemonBoosterPack_Fossil3_1x|-1",
+                "PokemonBoosterPack_Jungle1_1x|-1",
+                "PokemonBoosterPack_Jungle2_1x|-1",
+                "PokemonBoosterPack_Jungle3_1x|-1",
+                "Bear_Pink|-1|PetrolLighter|Rag",
+                "DNA_Solder|-1",
+                "DNA_KeyCard_Blue_Inactive|-1",
+                "CP_CannabisBrickBlue|-1",
+                "Candy_PKP_mag_200Rnd|50%",
+                "Candy_PKP|-1|GhillieAtt_Woodland|UniversalLight|KobraOptic|Battery9V|Battery9V|*Candy_PKP_mag_200Rnd",
+                "SFP_Collection_Lor_Jural_6|-1",
+                "SFP_Collection_Jural_20|-1"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,70 @@
+{
+    "ConfigVersion": "3",
+    "TITLE": "[Azrael Event Foresters]",
+    "AUTHOR": "Al-Azrael",
+    "DISCORD": "Discord: https://discord.gg/nTdfMS6bJF",
+    "text1": "====== MAIN CONFIG",
+    "EnableDebugPrint": 1,
+    "EnableForesterCampEvent": 1,
+    "SpawnAllCampsMode": 0,
+    "EnableSignalAfterFinish": 1,
+    "DisableEventAnimalCarDamage": 1,
+    "DisableEventZombieCarDamage": 1,
+    "CampCountMin": 6,
+    "CampCountMax": 8,
+    "text2": "====== REMOVE NEAR ITEMS CONFIG",
+    "DeleteDumpLootInArea": 1,
+    "DeleteDumpLootInAreaRadius_meter": 10,
+    "DontRemoveObjectsList": [
+        "YourItemClassname1",
+        "YourItemClassname2"
+    ],
+    "text3": "====== CAMP LIST",
+    "EventForesterCampList": [
+        {
+            "CampName": "CampTest1",
+            "IsActive": 1,
+            "TriggerActivateRadius": 50,
+            "CombineLootPresets": 1,
+            "SpawnAllLoot": 0,
+            "EnableBonfire": 1,
+            "EnableZombie": 1,
+            "EnableEscortCage": 1,
+            "EnableSpawnTraps": 1,
+            "RadiusCageSpawnMax": 12,
+            "RadiusCageOpen": 20,
+            "MinCageCount": 2,
+            "MaxCageCount": 3,
+            "RadiusTrapsSpawnMin": 8,
+            "RadiusTrapsSpawnMax": 40,
+            "MinTrapsCount": 15,
+            "MaxTrapsCount": 30,
+            "MinZombieCount": 5,
+            "MaxZombieCount": 10,
+            "MinLootItemCount": 10,
+            "MaxLootItemCount": 15,
+            "TimeToZombieRefill": 10,
+            "TimeToDeleteCampAfterActivate": 10,
+            "TentClassname": "AP_forester_camp_camo",
+            "CageWolfClassname": [
+                "Animal_Brutal_Wolf_easy",
+                "Animal_Brutal_Wolf"
+            ],
+            "CoordPresets": [
+                "coord1",
+                "coord2"
+            ],
+            "LootPresets": [
+                "custom",
+                "military",
+                "hunting"
+            ],
+            "ZombieList": [
+                "AP_zmb_forester",
+                "ZmbM_HunterOld_Autumn",
+                "ZmbM_HunterOld_Spring",
+                "ZmbM_HunterOld_Summer"
+            ]
+        }
+    ]
+}
