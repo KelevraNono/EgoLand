@@ -5,7 +5,7 @@
     "playerKillsRequiredCount": -1,
     "headshotKillsRequiredCount": -1,
     "distanceTravelledRequiredInMeters": 56000,
-    "canReTakenAfterPeriodOfDaysRealTime": 5,
+    "canReTakenAfterPeriodOfDaysRealTime": 1,
     "canTakenOnlyOnce": 0,
     "animalKills": {
         "Animal_Brutal_Wolf": 3,

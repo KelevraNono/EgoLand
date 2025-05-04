@@ -5,7 +5,7 @@
     "playerKillsRequiredCount": -1,
     "headshotKillsRequiredCount": -1,
     "distanceTravelledRequiredInMeters": 70000,
-    "canReTakenAfterPeriodOfDaysRealTime": 7,
+    "canReTakenAfterPeriodOfDaysRealTime": 1,
     "canTakenOnlyOnce": 0,
     "animalKills": {
         "Animal_Brutal_Bear_easy": 3,

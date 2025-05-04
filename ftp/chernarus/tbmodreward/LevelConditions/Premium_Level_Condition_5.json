@@ -5,7 +5,7 @@
     "playerKillsRequiredCount": -1,
     "headshotKillsRequiredCount": -1,
     "distanceTravelledRequiredInMeters": 35000,
-    "canReTakenAfterPeriodOfDaysRealTime": 2,
+    "canReTakenAfterPeriodOfDaysRealTime": 1,
     "canTakenOnlyOnce": 0,
     "animalKills": {
         "Animal_BosTaurus_Brown": 2,

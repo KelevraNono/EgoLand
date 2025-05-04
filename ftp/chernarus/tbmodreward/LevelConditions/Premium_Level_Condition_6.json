@@ -5,7 +5,7 @@
     "playerKillsRequiredCount": -1,
     "headshotKillsRequiredCount": -1,
     "distanceTravelledRequiredInMeters": 42000,
-    "canReTakenAfterPeriodOfDaysRealTime": 3,
+    "canReTakenAfterPeriodOfDaysRealTime": 1,
     "canTakenOnlyOnce": 0,
     "animalKills": {
         "Animal_CanisLupus_Grey": 3,
